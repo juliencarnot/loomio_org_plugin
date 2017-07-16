@@ -1,0 +1,158 @@
+fr:
+  pricing_page:
+    header: Formules de groupe
+    gift: Gratuit
+    plus: Pro
+    per_month: /mois
+    get_started_for_free: Commencez gratuitement
+    discussions: Discussions
+    decisions: Décisions
+    subgroups: Sous-groupes
+    community_support: Soutien de la communauté
+    slack_integration_html: |
+      Intégration à <strong>Slack</strong>
+    standard_price_html: '<strong>$19</strong>/mois'
+    gift_price_html: '<strong>$0</strong>'
+    standard_features: 'Tout le gratuit, plus :'
+    help_with_setup: Aide pour la configuration initiale
+    prices_in_us_dollars: Les prix sont en Dollars US, plus les taxes de vente là où elles s'appliquent.
+    lets_talk: Parlons!
+    usage_statistics: statistiques d’utilisation
+    plus_price_html: '<strong>$99</strong>/mois'
+    select: Sélectionner
+  navigation:
+    blog: Blog
+    resources: Ressources
+    resources_dropdown: Liste des ressources
+    resources_submenu: Sous-menu des ressources
+    header_menu_label: Menu en-tête
+    case_studies: Études de cas
+    help: Aide
+    guides_and_tips: "Guides & Conseils"
+    developers: Développeurs
+    coop_handbook: Manuel coopératif
+    about: À propos
+    pricing: Conditions tarifaires
+    contact: Contact
+    login: Connexion
+    start_group: Créer un groupe
+    home: Accueil
+    terms_of_service: Conditions d'utilisation
+    privacy: Données personnelles
+    translation: Traduction
+    newsletter: Newsletter
+    twitter: Twitter
+    facebook: Facebook
+    trademark_statement: © 2017 Loomio Cooperative Limited. Tous droits réservés. "Loomio" est une marque déposée de Loomio Cooperative Limited.
+    not_slack: Loomio n''est pas créé par, affilié à, ou soutenu par Slack Technologies, Inc.
+    loomio_school: école Loomio
+    company_handbook: Manuel d'entreprise
+  marketing:
+    make_a_decision: Prendre une décision
+    start_a_group: Créer un groupe
+    too_many_group_emails: Trop d'e-mails collectifs?
+    tedious_meetings: Réunions inefficaces?
+    off_track_discussions: Discussions hors-sujet?
+    loomio_is_the_answer: Loomio vous fait gagner du temps, vous aide à obtenir des résultats clairs et garde tout à portée de main.
+    loomio_helps: Loomio vous aide
+    boards_and_committees: Conseils et comités
+    make_decisions_between_meetings: N'attendez plus la prochaine réunion pour prendre une décision
+    approve_resolutions: Approuvez la formulation des décisions et le compte-rendu
+    everything_in_one_place: Gardez vos dossiers et l'historique de vos décisions à portée de main
+    working_teams: Groupes de travail
+    increase_transparency: Améliorez la transparence
+    more_effecient_meetings: Des réunions plus efficientes
+    clear_decisions: Des décisions claires
+    government_and_community: Collectivités et groupes locaux
+    give_people_a_voice: Donnez la parole
+    increase_accessibility: Améliorez l'accès à vos travaux et la diversité des participants
+    build_empathy: Cultivez l'empathie et la compréhension
+    ben_quote: "« Nos échanges sont plus efficaces et efficients, et tout est consultable dans un espace commun »"
+    ben_attribution: Ben Gleisner, Conscious Consumers
+    teddy_quote: "« Les participants apprennent à mieux travailler ensemble, et cela se poursuit quand nous nous retrouvons en personne »"
+    teddy_attribution: Theodore Taptiklis, Human Methods Lab
+    tom_quote: "« Nous avons pu toucher des personnes qui n'auraient pas contribué à la discussion, comme des personnes exclues et des jeunes »"
+    tom_attribution: Tom MacDiarmid, Statistics New Zealand
+    a_suite_of_decision_tools: Une suite d'outils d'aide à la décision
+    choose_the_tool: Choisissez l'outil adapté à votre besoin.
+    reach_clear_outcomes: Atteignez un résultat clair
+    proposals_bring_conclusion_html: Les <strong>décisions</strong>sont un moyen efficace de conclure un débat.
+    hear_from_everyone: Entendez tout le monde - même les plus discrets, et faites ressortir les enjeux au premier coup d'œil.
+    start_a_proposal: Démarrer une proposition
+    try_demo: Tester un exemple
+    start_a_time_poll: Commencer un sondage réunion
+    press:
+      fast_company: La beauté de Loomio réside dans sa simplicité. Il fait exactement ce qu'il doit faire, et pas plus.
+      boingboing: "Loomio semble être un bon mélange de politique, de savoir-faire technique et de design."
+      bbc: Loomio est fait pour être le Facebook du web citoyen.
+    about_us: À propos de nous
+  about:
+    heading: À propos de nous
+    introduction:
+      first_paragraph: "Loomio est un logiciel open source, conçu par une entreprise coopérative sociale de travailleurs. Nous sommes installés à Aotearoa en Nouvelle-Zélande, et nous faisons partie de"
+      second_paragraph: "Nous pensons que d'avantage de groupes pratiquant une prise de décision efficace et inclusive peut changer la dynamique des organisations à l'échelle mondiale. Loomio existe pour faciliter la participation de n'importe qui, n'importe où aux décisions qui affectent leurs vies."
+    story:
+      heading: Histoire
+      first_paragraph: |
+        Loomio a commencé en 2011, lorsque des activistes d'Occupy Wall Street et des entrepreneurs sociaux du Réseau Enspiral ont réalisé qu'ils avaient besoin de résoudre le même problème : une prise de décision rapide, inclusive et efficace sans réunions.
+        En 2012, nous avons formé notre coopérative et publié un prototype (Loomio Beta). Nous avons constaté que beaucoup d'autres autour du monde avaient besoin de la même solution.
+      second_paragraph: |
+        En 2013, nous avons mené une campagne internationale de financement participatif réussie, nous permettant de travailler sur une nouvelle version du logiciel, Loomio 1.0, qui a été publié l'année suivante.
+        En 2015, nous avons soulevé une ronde de capitaux éthiques et nous travaillons à apporter la prise de décisions en collaboration à des millions de personnes à travers le monde.
+    people:
+      heading: Les personnes
+      introduction: "Nous sommes une équipe passionnée ayant une expertise approfondie dans la facilitation des processus de groupe, le changement social, l'entrepreneuriat d'affaires et le développement de la technologie ouverte."
+      alanna: "Cofondatrice, facilitatrice, passionnée de leadership sans chef, directrice de la Fondation Enspiral, amie des chats"
+      babs: "Secrétaire d'entreprise, gestionnaire, activiste, amoureuse de la nature"
+      ben: "Co-fondateur et directeur, organisateur de communauté, chercheur en intelligence collective"
+      hannah: "Développeuse, support utilisateurs, illustratrice, activiste créative"
+      james: "Développeur senior, coordinateur de communauté open source, bretteur intrépide "
+      mary: "Bidouilleuse d'organisation, collaboratrice, coach d'équipe, hôte de repas partagé, observatrice d'étoile"
+      matthew: "Prendre soin des clients, des nombres et de la conception"
+      michael: "Directeur, développement d'affaire et de clientèle, coordinateur, coach de startup, motard"
+      mj: "Directrice, stratégiste basée aux USA, relieuse de points, coach, mère fière"
+      natalia: "Coordinatrice des traductions, support utilisateur, activiste"
+      richard: "Co-fondateur et développeur logiciel, activiste, hacker de matériel open source"
+      robert: "Développeur sénior, DevOps, architecture. Invente des idées et les écrit dans le code."
+      vivien: "Co-fondatrice, présidente du Conseil de Loomio, directrice exécutive d'UNICEF Nouvelle-Zélande"
+    advisors:
+      heading: Conseillers
+      introduction: Nous sommes épaulés par un Comité de Conseil constitués de quelques-unes des plus grandes sommités internationales en matière démocratie et de technologie.
+      sascha: "Fondateur de X-Lab & Open Technology Institute"
+      katherine: "Ancienne vice-présidente senior d'AOL, Vice Chair de Root Capital"
+      joi: "Directeur du MIT Media Lab, Co-fondateur des Creative Commons, membre du Board de la Mozilla Foundation"
+      douglas: "Auteur d'ouvrages à succès, commentateur pour CNN, théoricien des médias"
+      matthew_and_brian: "Co-fondateurs d'Inflection, Namaste Foundation"
+    purpose_and_values:
+      heading: "Objectifs et valeurs"
+      mission_statement: La coopérative Loomio existe pour créer un monde où il est facile pour quiconque de participer dans les décisions qui les concernent.
+      introduction: |
+        Avec le bon processus collectif, les groupes génèrent de meilleures idées, décisions et actions que n'importe quelle personne toute seule.
+        La coopérative Loomio vise à casser les barrières à la participation à la décision à tous les niveaux : dans les quartiers, les organisations communautaires, les entreprises, les mouvements sociaux, et dans la gouvernance locale et nationale.
+      coop_heading: Entreprise sociale coopérative
+      coop_body: |
+        Loomio est une entreprise sociale possédée collectivement par les gens qui la construisent. À la différence d'une entreprise traditionnelle qui maximise le profit, le bénéfice n'est pas une fin en soi, mais un moyen permettant d'atteindre un but social fondamental.
+        Une structure de type coopérative possédée par ses travailleurs est une manière puissante de vivre nos valeurs de collaboration et de propriété collective.
+      independent_heading: Indépendant et neutre
+      independent_body: Loomio s'engage à rester indépendant pour fournir un endroit neutre pour que n'importe quel groupe puisse se rassembler.
+      open_source_heading: Collaboration open-source
+      open_source_body: Loomio vise à développer des outils open source qui rendent la collaboration accessible à tout le monde.
+      adaptive_heading: "Adaptatif, réflexif, centré utilisateur"
+      adaptive_body: "Loomio vise à développer des outils qui sont itératifs, auto-réflexifs et adaptatifs, poussés par la sagesse collective de la communauté d'utilisateurs."
+      transparent_heading: Transparence
+      transparent_body: |
+        La coopérative Loomio sera entourée d'une précieuse communauté d'utilisateurs et de contributeurs. Cette communauté doit avoir confiance que la coopérative Loomio fait ce qu'elle dit faire.
+        Nous nous engageons à des standards de haut niveau en ce qui concerne le partage d'information.
+    postal_address: "Adresse postale:"
+    physical_address: "Adresse physique:"
+  titles:
+    new_tab: S'ouvre dans un nouvel onglet
+    start_group: Formulaire de création de groupe
+    about_us: Page à propos de nous
+    pricing: Page des tarifs
+    contact: Formulaire de contact
+    sign_in: Formulaire de connexion
+    terms_of_service: Page sur les conditions d'utilisation
+    privacy: Page sur la vie privée
+    translation: Guide de traduction
+    home: Page d'accueil
