@@ -3,13 +3,16 @@ class Subscription < ActiveRecord::Base
   validates :kind, presence: true
   validates :group, presence: true
 
+  GOLD_NAMES =      %w(standard-loomio-plan standard-plan-yearly)
+  PRO_NAMES =       %w(pro-loomio-plan pro-plan-yearly)
+  PLUS_NAMES =      %w(plus-plan plus-plan-yearly)
+  PLAN_NAMES =      GOLD_NAMES + PRO_NAMES + PLUS_NAMES
+  PAYMENT_METHODS = ['chargify', 'manual', 'paypal', 'barter']
+  KINDS =           ['gift', 'paid']
 
-  # trial is what groups start off with. It gives them 30 days to evaluate loomio
-  # gift means that groups will see "gift mode" stuff asking for donations
-  # paid means they have paid us for a subscription.. either online or manually
-  validates_inclusion_of :kind, in: ['trial', 'gift', 'paid']
-
-  validates_inclusion_of :payment_method, in: ['chargify', 'manual', 'paypal']
+  # gift means free
+  validates_inclusion_of :kind, in: KINDS
+  validates_inclusion_of :payment_method, in: PAYMENT_METHODS, allow_nil: true
 
   # plan is a text field to detail the subscription type further
   # plan could be manual
@@ -24,5 +27,19 @@ class Subscription < ActiveRecord::Base
 
   def is_paid?
     self.kind.to_s == 'paid'
+  end
+
+  def level
+    if kind == 'paid'
+      if PRO_NAMES.include?(plan)
+        'pro'
+      elsif PLUS_NAMES.include?(plan)
+        'plus'
+      else
+        'gold'
+      end
+    else
+      'free'
+    end
   end
 end

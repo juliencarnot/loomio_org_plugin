@@ -1,4 +1,10 @@
 en:
+  current_plan_button:
+    upgrade: Upgrade
+    gold: Gold
+    pro: Pro
+    plus: Plus
+
   subscription_success_modal:
     heading: Thanks for upgrading!
     receipt: You'll receive an email with a link to the billing portal, where you can change, upgrade or cancel your subscription, and access statement history.

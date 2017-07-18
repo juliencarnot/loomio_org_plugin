@@ -42,6 +42,7 @@ module Plugins
         plugin.use_asset 'components/services/chargify_service.coffee'
         plugin.use_asset_directory 'components/decorators'
 
+        plugin.use_component :current_plan_button, outlet: :group_theme_member_actions
         plugin.use_component :choose_plan_modal
         plugin.use_component :subscription_success_modal
         plugin.use_component :manage_group_subscription_link, outlet: :after_group_actions_manage_memberships
@@ -79,7 +80,8 @@ module Plugins
           attributes :subscription_kind,
                      :subscription_plan,
                      :subscription_payment_method,
-                     :subscription_expires_at
+                     :subscription_expires_at,
+                     :subscription_level
           def subscription_kind
             subscription&.kind
           end
@@ -98,6 +100,10 @@ module Plugins
 
           def subscription
             @subscription ||= object.subscription
+          end
+
+          def subscription_level
+            subscription&.level
           end
         end
 
