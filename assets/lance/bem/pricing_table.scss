@@ -3,9 +3,13 @@
 }
 
 .pricing-table__your-groups-table {
+  width: 100%;
   tr {
     height: 2.5em;
   }
+}
+.pricing-table__your-groups-buttons {
+  text-align: right;
 }
 
 .modal-dialog.modal-choose-plan-modal {
