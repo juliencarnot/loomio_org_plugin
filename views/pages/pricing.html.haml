@@ -45,7 +45,7 @@
     %table.pricing-table__your-groups-table
       - current_user.groups.published.parents_only.each do |group|
         %tr.pricing-table__your-groups-row
-          %td=group.name
+          %td.pricing-table__your-groups-name=group.name
           %td
             - if group.subscription&.kind == 'paid'
               %i.material-icons.loomio-orange star
