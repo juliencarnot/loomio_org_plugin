@@ -5,6 +5,7 @@ angular.module('loomioApp').config ($provide) ->
       if _.get(arguments, '[1].$router.name') == 'groupPage'
 
         ctrl.addLauncher(=>
+          ctrl.group.subscriptionLevel = 'gold'
           ctrl.group.subscriptionKind = 'paid'
           $location.search 'chargify_success', null
           ctrl.openModal SubscriptionSuccessModal

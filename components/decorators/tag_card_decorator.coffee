@@ -5,7 +5,7 @@ angular.module('loomioApp').config ($provide) ->
       controller($scope)
       openTagForm = $scope.openTagForm
       $scope.openTagForm = ->
-        if $scope.group.parentOrSelf().subscriptionKind == 'paid'
+        if $scope.group.parentOrSelf().subscriptionLevel != 'free'
           openTagForm()
         else
           ModalService.open ChoosePlanModal, group: -> $scope.group.parentOrSelf()

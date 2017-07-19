@@ -5,7 +5,7 @@ angular.module('loomioApp').config ($provide) ->
       controller($scope)
       startSubgroup = $scope.startSubgroup
       $scope.startSubgroup = ->
-        if $scope.group.parentOrSelf().subscriptionKind == 'paid'
+        if $scope.group.parentOrSelf().subscriptionLevel != 'free'
           startSubgroup()
         else
           ModalService.open ChoosePlanModal, group: -> $scope.group.parentOrSelf()

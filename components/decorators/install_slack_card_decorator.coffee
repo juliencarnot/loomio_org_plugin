@@ -5,7 +5,7 @@ angular.module('loomioApp').config ($provide) ->
       controller($scope)
       install = $scope.install
       $scope.install = ->
-        if $scope.group.parentOrSelf().subscriptionKind == 'paid'
+        if $scope.group.parentOrSelf().subscriptionLevel != 'free'
           install()
         else
           ModalService.open ChoosePlanModal, group: -> $scope.group.parentOrSelf()
