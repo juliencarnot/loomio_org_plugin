@@ -3,14 +3,18 @@ angular.module('loomioApp').directive 'currentPlanButton', (ChoosePlanModal, Sub
   restrict: 'E'
   templateUrl: 'generated/components/current_plan_button/current_plan_button.html'
   controller: ($scope) ->
+    
+    $scope.parentGroup = ->
+      $scope.group.parentOrSelf()
+
     $scope.click = ->
-      if $scope.group.subscriptionLevel == 'free'
-        ModalService.open ChoosePlanModal, group: -> $scope.group
+      if $scope.parentGroup().subscriptionLevel == 'free'
+        ModalService.open ChoosePlanModal, group: -> $scope.parentGroup()
       else
-        ModalService.open SubscriptionSuccessModal, group: -> $scope.group
+        ModalService.open SubscriptionSuccessModal, group: -> $scope.parentGroup()
 
     $scope.buttonText = ->
-      if $scope.group.subscriptionLevel == 'free'
+      if $scope.parentGroup().subscriptionLevel == 'free'
         'upgrade'
       else
-        $scope.group.subscriptionLevel
+        $scope.parentGroup().subscriptionLevel
