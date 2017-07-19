@@ -39,8 +39,26 @@
         %li= t :"pricing_page.analytics_report"
         %li= t :"pricing_page.premium_support"
         %li= t :"pricing_page.ldap_coming_soon"
-  %p.pricing-table__get-started
-    %a.marketing__button{href: '/start_group', class: 'btn'}= t :start_group
+
+  - if current_user.is_logged_in?
+    %h2= t(:"pricing_page.your_groups_and_plans")
+    %table.pricing-table__your-groups-table
+      - current_user.groups.published.parents_only.each do |group|
+        %tr.pricing-table__your-groups-row
+          %td=group.name
+          %td
+            - if group.subscription.kind == 'paid'
+              %i.material-icons.loomio-orange star
+          %td
+            = t 'subscription_levels.'+group.subscription.level
+          %td
+            - if group.subscription.kind != 'paid'
+              %a.btn--primary{href: ChargifyService.standard_plan_url(group, current_user)}= t :'pricing_page.upgrade_to_gold'
+              %a.btn--gray{href: ChargifyService.plus_plan_url(group, current_user)}= t :'pricing_page.upgrade_to_pro'
+  - else
+    %p.pricing-table__get-started
+      %a.btn--accent--raised{href: '/start_group', class: 'btn'}= t :"pricing_page.start_group"
+
   .pricing-table__contact-us
     %p= t :"pricing_page.prices_in_us_dollars"
     %p= t :"pricing_page.free_is_for_community_and_evaluation_html"

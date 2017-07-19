@@ -1,4 +1,10 @@
 en:
+  subscription_levels:
+    free: Free
+    gold: Gold
+    pro: Pro
+    plus: Plus
+
   current_plan_button:
     upgrade: Upgrade
     gold: Gold
@@ -68,8 +74,11 @@ en:
       Custom subdomain (<strong>yourgroup</strong>.loomio.org)
     usage_statistics: usage statistics
     plus_price_html: '<strong>$99</strong>/month'
-    start_group: Start a free group
+    start_group: Start a group
     select: Select
+    your_groups_and_plans: Your groups and plans
+    upgrade_to_gold: Upgrade to Gold
+    upgrade_to_pro: Upgrade to Pro
   navigation:
     blog: Blog
     resources: Resources
