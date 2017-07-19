@@ -47,12 +47,12 @@
         %tr.pricing-table__your-groups-row
           %td=group.name
           %td
-            - if group.subscription.kind == 'paid'
+            - if group.subscription&.kind == 'paid'
               %i.material-icons.loomio-orange star
           %td
-            = t 'subscription_levels.'+group.subscription.level
+            = t 'subscription_levels.'+(group.subscription&.level || 'free')
           %td
-            - if group.subscription.kind != 'paid'
+            - if group.subscription&.kind != 'paid'
               %a.btn--primary{href: ChargifyService.standard_plan_url(group, current_user)}= t :'pricing_page.upgrade_to_gold'
               %a.btn--gray{href: ChargifyService.plus_plan_url(group, current_user)}= t :'pricing_page.upgrade_to_pro'
   - else

@@ -25,7 +25,6 @@ module Plugins
         plugin.use_page :terms_of_service, 'https://loomio.gitbooks.io/manual/content/en/terms_of_service.html',     redirect: true
         plugin.use_page :third_parties,    'https://loomio.gitbooks.io/manual/content/en/third_party_services.html', redirect: true
         plugin.use_page :newsletter,       'http://eepurl.com/b51x_b',                                               redirect: true
-        plugin.use_page :upgrade,          'https://www.loomio.org/pricing',                                         redirect: true
 
         plugin.extend_class ApplicationHelper do
           def hosted_by_loomio?
@@ -34,6 +33,8 @@ module Plugins
         end
 
         plugin.use_page('/', 'pages#index')
+
+        plugin.use_client_route '/upgrade', :upgrade_page
 
         plugin.use_static_asset :assets, 'lance/index.scss', standalone: true
         plugin.use_static_asset :assets, 'lance/ahoy.coffee', standalone: true
@@ -83,6 +84,7 @@ module Plugins
                      :subscription_payment_method,
                      :subscription_expires_at,
                      :subscription_level
+
           def subscription_kind
             subscription&.kind
           end
