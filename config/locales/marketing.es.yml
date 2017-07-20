@@ -1,4 +1,14 @@
 es:
+  subscription_levels:
+    free: 'Gratis '
+    gold: Dorada
+    pro: Pro
+    plus: Plus
+  current_plan_button:
+    upgrade: Actualizar el plan
+    gold: 'Dorada '
+    pro: 'Pro '
+    plus: 'Plus '
   subscription_success_modal:
     heading: Gracias por actualizar tu plan!
     receipt: 'Recibirás un correo electrónico con un enlace de acceso al portal de recibos, desde donde podrás cambiar o cancelar tu suscripción y acceder al historial de pago.  '
@@ -58,8 +68,11 @@ es:
       Subdominio personalizado (<strong>tugrupo</strong>.loomio.org)
     usage_statistics: Estadísticas de uso
     plus_price_html: '<strong>$99</strong>/al mes'
-    start_group: Inicia un grupo gratis
+    start_group: Inicia un grupo
     select: 'Selecciona '
+    your_groups_and_plans: Tus grupos y planes
+    upgrade_to_gold: Actualizar al plan Dorado
+    upgrade_to_pro: Actualizar al plan Pro
   navigation:
     blog: Blog
     resources: 'Recursos '

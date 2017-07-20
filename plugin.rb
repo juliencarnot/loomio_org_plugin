@@ -86,27 +86,27 @@ module Plugins
                      :subscription_level
 
           def subscription_kind
-            subscription&.kind
+            subscription.kind
           end
 
           def subscription_plan
-            subscription&.plan
+            subscription.plan
           end
 
           def subscription_payment_method
-            subscription&.payment_method
+            subscription.payment_method
           end
 
           def subscription_expires_at
-            subscription&.expires_at
+            subscription.expires_at
           end
 
           def subscription
-            @subscription ||= object.subscription
+            @subscription ||= object.subscription || object.build_subscription
           end
 
           def subscription_level
-            subscription&.level
+            subscription.level
           end
         end
 
