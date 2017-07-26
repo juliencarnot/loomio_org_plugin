@@ -110,16 +110,6 @@ module Plugins
           end
         end
 
-        plugin.extend_class Queries::GroupAnalytics do
-          module SubscriptionStats
-            def stats
-              super.merge(is_trial:   @group.subscription&.kind == 'trial',
-                          expires_at: @group.subscription&.expires_at,)
-            end
-          end
-          prepend SubscriptionStats
-        end
-
         plugin.use_events do |event_bus|
           event_bus.listen('group_create')  { |group| SubscriptionService.new(group).start_gift! if group.is_parent? }
           event_bus.listen('group_archive') { |group| SubscriptionService.new(group).end_subscription! if group.is_parent? }
