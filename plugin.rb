@@ -114,7 +114,7 @@ module Plugins
           event_bus.listen('group_create')  do |group, actor|
             SubscriptionService.new(group, actor).start_gift! if group.is_parent?
           end
-          
+
           event_bus.listen('group_archive') do |group, actor|
             SubscriptionService.new(group, actor).end_subscription! if group.is_parent?
           end
@@ -136,7 +136,7 @@ module Plugins
         end
 
         plugin.use_test_route :setup_group_on_free_plan do
-          group = Group.new(name: 'Ghostbusters', is_visible_to_public: true)
+          group = FormalGroup.new(name: 'Ghostbusters', is_visible_to_public: true)
           GroupService.create(group: group, actor: patrick)
           group.add_member! jennifer
           sign_in patrick
