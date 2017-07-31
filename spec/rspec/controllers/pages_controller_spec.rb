@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 describe PagesController, type: :controller do
-  let(:usuario) { create(:user, selected_locale: :es) }
+  let(:spanish_user) { create(:user, selected_locale: :es) }
 
   describe 'marketing' do
     it 'takes you to the marketing page when logged out' do
@@ -26,7 +26,7 @@ describe PagesController, type: :controller do
     end
 
     it 'sets the help links correctly' do
-      sign_in usuario
+      sign_in spanish_user
       get :about
       expect(assigns(:help_link)).to eq 'https://loomio.gitbooks.io/manual/content/es/index.html'
     end

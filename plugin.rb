@@ -73,7 +73,7 @@ module Plugins
           end
         end
 
-        plugin.extend_class Group do
+        plugin.extend_class FormalGroup do
           belongs_to :subscription, dependent: :destroy
           validates :subscription, absence: true, if: :is_subgroup?
         end
@@ -111,12 +111,17 @@ module Plugins
         end
 
         plugin.use_events do |event_bus|
-          event_bus.listen('group_create')  { |group| SubscriptionService.new(group).start_gift! if group.is_parent? }
-          event_bus.listen('group_archive') { |group| SubscriptionService.new(group).end_subscription! if group.is_parent? }
+          event_bus.listen('group_create')  do |group, actor|
+            SubscriptionService.new(group, actor).start_gift! if group.is_parent?
+          end
+          
+          event_bus.listen('group_archive') do |group, actor|
+            SubscriptionService.new(group, actor).end_subscription! if group.is_parent?
+          end
         end
 
         plugin.use_factory :subscription do
-          kind :trial
+          kind :gift
           expires_at 1.month.from_now
         end
 
