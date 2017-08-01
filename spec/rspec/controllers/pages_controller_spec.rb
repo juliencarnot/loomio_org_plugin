@@ -18,6 +18,29 @@ describe PagesController, type: :controller do
     end
   end
 
+  describe 'pages' do
+    Plugins::LoomioOrg::Plugin::LOOMIO_ORG_PAGES.each do |page|
+      let(:user) { create :user }
+      let(:group) { create :formal_group }
+      let(:guest_group) { create :guest_group }
+
+      it "renders /#{page} for logged out users" do
+        get page
+        expect(response.status).to eq 200
+        expect(response).to render_template page
+      end
+
+      it "renders /#{page} for logged in users" do
+        group.add_member! user
+        guest_group.add_member! user
+        sign_in user
+        get page
+        expect(response.status).to eq 200
+        expect(response).to render_template page
+      end
+    end
+  end
+
   describe 'about' do
     it 'takes you to the about page' do
       get :about
