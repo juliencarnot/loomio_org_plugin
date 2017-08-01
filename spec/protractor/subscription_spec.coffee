@@ -5,7 +5,7 @@ describe 'Subscription flow', ->
     it 'allows members to modify their plan', ->
       page.loadPath('setup_group_on_free_plan')
       page.click '.current-plan-button'
-      page.expectText '.md-toolbar-tools', 'Please upgrade for premium features'
+      page.expectText '.pricing-table__modal', 'Please upgrade for premium features'
 
   describe 'group after subscription success', ->
     it 'shows the subscription success modal', ->
