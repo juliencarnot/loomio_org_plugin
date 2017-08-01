@@ -160,6 +160,14 @@ module Plugins
           redirect_to group_url(create_group)
         end
 
+        plugin.use_test_route :setup_group_on_paid_plan_as_non_coordinator do
+          GroupService.create(group: create_group, actor: patrick)
+          subscription = create_group.subscription
+          subscription.update_attribute :kind, 'paid'
+          sign_in jennifer
+          redirect_to group_url(create_group)
+        end
+
         plugin.use_test_route :setup_group_after_chargify_success do
           create_group.save
           sign_in patrick
