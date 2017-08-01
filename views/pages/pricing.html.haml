@@ -43,7 +43,7 @@
   - if current_user.is_logged_in?
     %h2= t(:"pricing_page.your_groups_and_plans")
     %table.pricing-table__your-groups-table
-      - current_user.groups.published.parents_only.each do |group|
+      - current_user.formal_groups.published.parents_only.each do |group|
         %tr.pricing-table__your-groups-row
           %td.pricing-table__your-groups-name=group.name
           %td
