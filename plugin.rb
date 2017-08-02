@@ -79,11 +79,11 @@ module Plugins
         end
 
         plugin.extend_class GroupSerializer do
-          attributes :subscription_kind,
-                     :subscription_plan,
-                     :subscription_payment_method,
-                     :subscription_expires_at,
-                     :subscription_level
+          attributes_for_formal :subscription_kind,
+                                :subscription_plan,
+                                :subscription_payment_method,
+                                :subscription_expires_at,
+                                :subscription_level
 
           def subscription_kind
             subscription.kind
