@@ -73,17 +73,17 @@ module Plugins
           end
         end
 
-        plugin.extend_class Group do
+        plugin.extend_class FormalGroup do
           belongs_to :subscription, dependent: :destroy
           validates :subscription, absence: true, if: :is_subgroup?
         end
 
         plugin.extend_class GroupSerializer do
-          attributes :subscription_kind,
-                     :subscription_plan,
-                     :subscription_payment_method,
-                     :subscription_expires_at,
-                     :subscription_level
+          attributes_for_formal :subscription_kind,
+                                :subscription_plan,
+                                :subscription_payment_method,
+                                :subscription_expires_at,
+                                :subscription_level
 
           def subscription_kind
             subscription.kind
@@ -111,12 +111,17 @@ module Plugins
         end
 
         plugin.use_events do |event_bus|
-          event_bus.listen('group_create')  { |group| SubscriptionService.new(group).start_gift! if group.is_parent? }
-          event_bus.listen('group_archive') { |group| SubscriptionService.new(group).end_subscription! if group.is_parent? }
+          event_bus.listen('group_create')  do |group, actor|
+            SubscriptionService.new(group, actor).start_gift! if group.is_parent?
+          end
+
+          event_bus.listen('group_archive') do |group, actor|
+            SubscriptionService.new(group, actor).end_subscription! if group.is_parent?
+          end
         end
 
         plugin.use_factory :subscription do
-          kind :trial
+          kind :gift
           expires_at 1.month.from_now
         end
 
@@ -131,7 +136,7 @@ module Plugins
         end
 
         plugin.use_test_route :setup_group_on_free_plan do
-          group = Group.new(name: 'Ghostbusters', is_visible_to_public: true)
+          group = FormalGroup.new(name: 'Ghostbusters', is_visible_to_public: true)
           GroupService.create(group: group, actor: patrick)
           group.add_member! jennifer
           sign_in patrick
@@ -152,6 +157,14 @@ module Plugins
           subscription = create_group.subscription
           subscription.update_attribute :kind, 'paid'
           sign_in patrick
+          redirect_to group_url(create_group)
+        end
+
+        plugin.use_test_route :setup_group_on_paid_plan_as_non_coordinator do
+          GroupService.create(group: create_group, actor: patrick)
+          subscription = create_group.subscription
+          subscription.update_attribute :kind, 'paid'
+          sign_in jennifer
           redirect_to group_url(create_group)
         end
 

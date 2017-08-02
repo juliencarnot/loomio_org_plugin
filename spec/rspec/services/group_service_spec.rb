@@ -2,10 +2,9 @@ require 'rails_helper'
 
 describe 'GroupService' do
   let(:user) { create(:user) }
-  let(:group) { build(:group) }
+  let(:group) { build(:formal_group) }
 
   describe 'create' do
-
     it 'creates a new gift subscription' do
       GroupService.create(group: group, actor: user)
       subscription = group.reload.subscription

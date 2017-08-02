@@ -4,10 +4,11 @@ class SubscriptionService
     ENV['CHARGIFY_APP_NAME'] && ENV['CHARGIFY_API_KEY']
   end
 
-  def initialize(group, actor = nil)
+  def initialize(group, actor = LoggedOutUser.new)
     raise 'Chargify ENV variables are not correctly set! Please set CHARGIFY_APP_NAME and CHARGIFY_API_KEY.' unless self.class.available?
-    actor.ability.authorize!(:choose_subscription_plan, group) if actor
-    @subscription = group.subscription || group.build_subscription if group.is_parent?
+    actor.ability.authorize!(:choose_subscription_plan, group)
+    @subscription = group.subscription || group.build_subscription
+    @subscription.assign_attributes(group_id: group.id)
   end
 
   def start_gift!

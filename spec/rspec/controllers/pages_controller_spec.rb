@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 describe PagesController, type: :controller do
-  let(:usuario) { create(:user, selected_locale: :es) }
+  let(:spanish_user) { create(:user, selected_locale: :es) }
 
   describe 'marketing' do
     it 'takes you to the marketing page when logged out' do
@@ -18,6 +18,29 @@ describe PagesController, type: :controller do
     end
   end
 
+  describe 'pages' do
+    Plugins::LoomioOrg::Plugin::LOOMIO_ORG_PAGES.each do |page|
+      let(:user) { create :user }
+      let(:group) { create :formal_group }
+      let(:guest_group) { create :guest_group }
+
+      it "renders /#{page} for logged out users" do
+        get page
+        expect(response.status).to eq 200
+        expect(response).to render_template page
+      end
+
+      it "renders /#{page} for logged in users" do
+        group.add_member! user
+        guest_group.add_member! user
+        sign_in user
+        get page
+        expect(response.status).to eq 200
+        expect(response).to render_template page
+      end
+    end
+  end
+
   describe 'about' do
     it 'takes you to the about page' do
       get :about
@@ -26,7 +49,7 @@ describe PagesController, type: :controller do
     end
 
     it 'sets the help links correctly' do
-      sign_in usuario
+      sign_in spanish_user
       get :about
       expect(assigns(:help_link)).to eq 'https://loomio.gitbooks.io/manual/content/es/index.html'
     end

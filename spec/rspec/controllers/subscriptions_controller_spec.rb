@@ -2,7 +2,8 @@ require 'rails_helper'
 
 describe SubscriptionsController do
 
-  let(:group) { create :group, subscription: build(:subscription) }
+  let(:user) { create :user }
+  let(:group) { create :formal_group }
   let(:subscription_params) { {
     subscription: {
       id: group.subscription.id,
@@ -11,9 +12,10 @@ describe SubscriptionsController do
     }
   }.with_indifferent_access }
 
+  before { GroupService.create(group: group, actor: user) }
+
   describe 'select_gift_plan' do
     it 'puts groups onto free plan'  do
-
       post :select_gift_plan, group_key: group.key
       expect(group.subscription.reload.kind).to eq 'gift'
     end
