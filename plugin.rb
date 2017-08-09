@@ -73,6 +73,19 @@ module Plugins
           end
         end
 
+        plugin.extend_class GroupsController do
+          before_action :ensure_paid_group, only: :export
+
+          private
+
+          def ensure_paid_group
+            return if current_user.is_admin? ||
+                      load_and_authorize(:group, :export).parent_or_self.subscription.is_paid?
+            raise CanCan::AccessDenied.new
+          end
+
+        end
+
         plugin.extend_class FormalGroup do
           belongs_to :subscription, dependent: :destroy
           validates :subscription, absence: true, if: :is_subgroup?

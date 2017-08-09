@@ -1,19 +1,42 @@
 require 'rails_helper'
-describe API::GroupsController do
+describe GroupsController do
 
   let(:user) { create :user }
-  let(:group) { create :formal_group, subscription: build(:subscription) }
+  let(:group) { create :formal_group }
 
   before do
-    group.admins << user
     sign_in user
+    group.create_subscription(kind: :paid, group: group)
   end
 
-  describe 'use_gift_subscription' do
-    it 'creates a gift subscription for the group' do
-      post :use_gift_subscription, id: group.key
-      group_json = JSON.parse(response.body)['groups'][0]
-      expect(group_json['subscription_kind']).to eq 'gift'
+  describe 'export' do
+    it 'exports paid groups' do
+      group.add_admin! user
+      get :export, key: group.key
+      expect(response.status).to eq 200
+      expect(response).to render_template :export
+    end
+
+    it 'exports free groups for site admins' do
+      user.update(is_admin: true)
+      get :export, key: group.key
+      expect(response.status).to eq 200
+      expect(response).to render_template :export
+    end
+
+    it 'does not export free groups' do
+      group.subscription.update(kind: :gift)
+      group.add_admin! user
+      get :export, key: group.key
+      expect(response).to redirect_to dashboard_path
+      expect(flash[:error]).to be_present
+    end
+
+    it 'does not export for group members' do
+      group.add_member! user
+      get :export, key: group.key
+      expect(response).to redirect_to dashboard_path
+      expect(flash[:error]).to be_present
     end
   end
 end
