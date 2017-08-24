@@ -9,7 +9,6 @@ module Plugins
                               crowdfunding_celebration
                               index
                               pricing
-                              translation
                               wallets)
         LOOMIO_ORG_PAGES.each { |page| plugin.use_page page, "pages##{page}" }
         plugin.use_class 'controllers/pages_controller'
@@ -27,7 +26,7 @@ module Plugins
         plugin.use_page :newsletter,       'http://eepurl.com/b51x_b',                                               redirect: true
         plugin.use_page :translation,      'https://www.transifex.com/rdbartlett/loomio-1/',                         redirect: true
 
-        plugin.extend_class ApplicationHelper do
+        plugin.extend_class ApplicationController do
           def hosted_by_loomio?
             true
           end
