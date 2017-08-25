@@ -1,4 +1,14 @@
 zh_TW:
+  subscription_levels:
+    free: 免費
+    gold: 黃金
+    pro: 專業
+    plus: 增強
+  current_plan_button:
+    upgrade: 升級
+    gold: 黃金
+    pro: 專業
+    plus: 增強
   subscription_success_modal:
     heading: 感謝升級！
     receipt: 您將會收到一封帶有付費入口連結的電子郵件，您可以在那裡變更、升級或是取消您的訂閱，以及存取帳單歷史。
@@ -59,7 +69,11 @@ zh_TW:
       自訂子網域 (<strong>yourgroup</strong>.loomio.org)
     usage_statistics: 使用統計
     plus_price_html: '<strong>$99</strong>／月'
+    start_group: 啟動群組
     select: 選取
+    your_groups_and_plans: 您的群組與計畫
+    upgrade_to_gold: 升級至黃金
+    upgrade_to_pro: 升級至專業
   navigation:
     blog: 部落格
     resources: 資源
