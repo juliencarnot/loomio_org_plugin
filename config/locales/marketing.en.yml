@@ -25,6 +25,9 @@ en:
   export_group_data_link:
     download_group_data_export: Export group data
 
+  slack_page:
+    header: Loomio and Slack work great together!
+
   pricing_page:
     header: Group plans
     upgrade_for_premium_features: Please upgrade for premium features

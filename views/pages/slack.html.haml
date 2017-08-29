@@ -1,0 +1,33 @@
+.wrapper.pricing-table__wrapper
+  %h1= t :"slack_page.header"
+
+  %p= t :"slack_page"
+
+  - if current_user.is_logged_in?
+    %h2= t(:"slack_page.your_groups_and_plans")
+    %table.pricing-table__your-groups-table
+      - current_user.formal_groups.published.parents_only.each do |group|
+        - level = group.subscription&.level || 'free'
+        %tr.pricing-table__your-groups-row
+          %td.pricing-table__your-groups-name=group.name
+          %td
+            - if level != 'free'
+              %i.material-icons.loomio-orange star
+          %td
+            = t :"subscription_levels.#{level}"
+          %td.pricing-table__your-groups-buttons
+            %a.btn--primary{href: group_url(group, install_slack: true)}
+              - if level == 'free'
+                = t(:"pricing_page.upgrade_to_gold")
+              - else
+                = t(:"slack_page.install_slack_now")
+      %tr.pricing-table__your-groups-table
+        %td
+        %td
+        %td
+        %td.pricing-table__your-groups-buttons
+          %a.btn--accent--raised{href: '/start_group', class: 'btn'}= t :"pricing_page.start_group"
+
+  - else
+    %p.pricing-table__get-started
+      %a.btn--accent--raised{href: '/start_group', class: 'btn'}= t :"pricing_page.start_group"
