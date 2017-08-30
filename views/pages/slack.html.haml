@@ -1,10 +1,37 @@
 .wrapper.pricing-table__wrapper
   %h1= t :"slack_page.header"
 
-  %p= t :"slack_page"
+  .txt--center
+    %p= t :"slack_page.intro"
+
+    %img{src: "/img/mascot.png"}
+
+    %p= t :"slack_page.description"
+
+  %hr.break__long-orange
+
+  %h2.txt--center= t :"marketing.how_it_works"
+
+  %ul
+    %li
+      %h3= t :"slack_page.grant_access"
+      %p=  t :"slack_page.grant_access_subtext"
+    %li
+      %h3= t :"slack_page.start_poll"
+      %p=  t :"slack_page.start_poll_subtext"
+    %li
+      %h3= t :"slack_page.receive_updates"
+      %p=  t :"slack_page.receive_updates_subtext"
+    %li
+      %h3= t :"slack_page.vote_instantly"
+      %p=  t :"slack_page.vote_instantly_subtext"
+
+  .txt--center= t :"marketing.slack_integration_in_standard_plan"
+
+  %hr.break__long-orange
 
   - if current_user.is_logged_in?
-    %h2= t(:"slack_page.your_groups_and_plans")
+    %h2= t(:"slack_page.connect_a_group_to_slack")
     %table.pricing-table__your-groups-table
       - current_user.formal_groups.published.parents_only.each do |group|
         - level = group.subscription&.level || 'free'
@@ -29,5 +56,5 @@
           %a.btn--accent--raised{href: '/start_group', class: 'btn'}= t :"pricing_page.start_group"
 
   - else
-    %p.pricing-table__get-started
-      %a.btn--accent--raised{href: '/start_group', class: 'btn'}= t :"pricing_page.start_group"
+    %p= t :"slack.get_started"
+    %a.btn--accent--raised{href: '/start_group', class: 'btn'}= t :"pricing_page.start_group"
