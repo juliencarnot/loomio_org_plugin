@@ -1,10 +1,13 @@
-.wrapper.pricing-table__wrapper
+.wrapper.slack__wrapper
   %h1= t :"slack_page.header"
 
   .txt--center
     %p= t :"slack_page.intro"
 
-    %img{src: "/img/mascot.png"}
+    .slack__icons
+      .slack__icon= image_tag "/img/mascot.png", class: "slack__mascot"
+      .slack__plug= image_tag "/img/plug.png", class: "slack__plug"
+      .slack__icon= image_tag "/img/slack-icon-color.svg", class: "slack__brand-icon"
 
     %p= t :"slack_page.description"
 

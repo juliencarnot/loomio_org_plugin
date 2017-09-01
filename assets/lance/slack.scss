@@ -1,0 +1,32 @@
+.slack__icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.slack__icon {
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  background: white;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #ccc;
+  overflow: hidden;
+}
+
+.slack__plug {
+  position: relative;
+  top: 10px;
+  margin: 0 -5px;
+  z-index: -1;
+}
+
+.slack__mascot {
+  position: relative;
+  bottom: 16px;
+}
+
+.slack__brand-icon {
+  position: relative;
+  bottom: 4px;
+}
