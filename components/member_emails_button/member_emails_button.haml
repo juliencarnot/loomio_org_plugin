@@ -1,0 +1,4 @@
+.member-emails-button{ng-if: "group.subscriptionLevel == 'free'"}
+  %md-tooltip.group-privacy-button__tooltip{md-direction: "top"}
+    %span{translate: "member_emails_button.helptext"}
+  %md-button.md-accent{ng-click: "showMemberEmails()", translate: "member_emails_button.show_member_emails"}
