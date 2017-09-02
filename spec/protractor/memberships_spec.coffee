@@ -10,5 +10,5 @@ describe 'Memberships page', ->
     page.loadPath 'setup_group_on_free_plan'
     page.click '.members-card__manage-members'
     page.expectNoText '.memberships-panel', 'jennifer_grey@example.com'
-    page.click '.show-member-emails__submit'
+    page.click '.member-emails-button__submit'
     page.expectText '.md-dialog-container', 'Please upgrade'
