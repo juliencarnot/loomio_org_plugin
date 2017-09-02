@@ -78,11 +78,17 @@ module Plugins
           private
 
           def default_scope
-            if action_name.to_sym == :index && @group.subscription.is_paid?
+            if include_emails?
               super.merge emails: collection.map(&:user).map { |m| [m.id, m.email] }.to_h
             else
               super
             end
+          end
+
+          def include_emails?
+            action_name.to_sym == :index &&
+            current_user.can?(::email_members, @group) &&
+            @group.subscription.is_paid?
           end
         end
 
