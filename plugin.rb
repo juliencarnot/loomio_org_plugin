@@ -4,12 +4,15 @@ module Plugins
       setup! :loomio_org_plugin do |plugin|
         plugin.enabled = true
 
-        LOOMIO_ORG_PAGES = %w(about
-                              browser_not_supported
-                              crowdfunding_celebration
-                              index
-                              pricing
-                              wallets)
+        LOOMIO_ORG_PAGES = %w(
+          about
+          browser_not_supported
+          crowdfunding_celebration
+          index
+          pricing
+          wallets
+          slack
+        )
         LOOMIO_ORG_PAGES.each { |page| plugin.use_page page, "pages##{page}" }
         plugin.use_class 'controllers/pages_controller'
 
@@ -17,7 +20,6 @@ module Plugins
         plugin.use_page :blog,             'http://blog.loomio.org',                                                 redirect: true
         plugin.use_page :press,            'http://blog.loomio.org/press-pack',                                      redirect: true
         plugin.use_page :"press-pack",     'http://blog.loomio.org/press-pack',                                      redirect: true
-        plugin.use_page :roadmap,          'https://trello.com/b/tM6QGCLH/loomio-roadmap',                           redirect: true
         plugin.use_page :community,        'https://www.loomio.org/g/WmPCB3IR/loomio-community',                     redirect: true
         plugin.use_page :timeline,         'http://www.tiki-toki.com/timeline/entry/313361/Loomio',                  redirect: true
         plugin.use_page :privacy,          'https://loomio.gitbooks.io/manual/content/en/privacy_policy.html',       redirect: true
@@ -26,11 +28,11 @@ module Plugins
         plugin.use_page :newsletter,       'http://eepurl.com/b51x_b',                                               redirect: true
         plugin.use_page :translation,      'https://www.transifex.com/rdbartlett/loomio-1/',                         redirect: true
 
-        plugin.extend_class ApplicationController do
-          def hosted_by_loomio?
-            true
-          end
-        end
+        # plugin.extend_class ApplicationController do
+        #   def hosted_by_loomio?
+        #     true
+        #   end
+        # end
 
         plugin.use_page('/', 'pages#index')
 
@@ -41,7 +43,7 @@ module Plugins
         plugin.use_static_asset_directory :"assets/lance/images", standalone: true
 
         # bx stuff
-        plugin.use_asset 'components/services/chargify_service.coffee'
+        plugin.use_asset_directory 'components/services'
         plugin.use_asset_directory 'components/decorators'
 
         plugin.use_component :current_plan_button, outlet: :group_theme_member_actions

@@ -1,6 +1,7 @@
 @import "furtive/all";
 @import "cutestrap/components/grid";
 @import "footer";
+@import "slack";
 @import "about";
 @import "bem/all";
 
@@ -22,12 +23,3 @@ section {
   height:100%;
   min-height:100%;
 }
-
-// @import "cutestrap/cutestrap";
-// @import "pricing_table";
-// @import "header";
-// @import "about";
-// @import "footer";
-// @import "marketing";
-// @import "layout";
-// @import "crowdfunding_celebration";
