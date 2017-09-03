@@ -1,0 +1,67 @@
+.wrapper.slack__wrapper
+  %h1= t :"slack_page.header"
+
+  .txt--center
+    %p= t :"slack_page.intro"
+
+    .slack__icons
+      .slack__icon= image_tag "/img/mascot.png", class: "slack__mascot"
+      .slack__plug= image_tag "/img/plug.png", class: "slack__plug"
+      .slack__icon= image_tag "/img/slack-icon-color.svg", class: "slack__brand-icon"
+
+    %p= t :"slack_page.description"
+
+  %hr.break__long-orange
+
+  %h2.txt--center= t :"marketing.how_it_works"
+
+  %ul
+    %li
+      %h3= t :"slack_page.grant_access"
+      %p=  t :"slack_page.grant_access_subtext"
+      %p.align-center= image_tag "lance/images/slack_invite.gif"
+    %li
+      %h3= t :"slack_page.start_poll"
+      %p=  t :"slack_page.start_poll_subtext"
+      %p.align-center= image_tag "lance/images/slack_initiate.gif"
+    %li
+      %h3= t :"slack_page.vote_instantly"
+      %p=  t :"slack_page.vote_instantly_subtext"
+      %p.align-center= image_tag "lance/images/slack_participate.gif"
+    %li
+      %h3= t :"slack_page.receive_updates"
+      %p=  t :"slack_page.receive_updates_subtext"
+      %p.align-center= image_tag "lance/images/slack_update.png"
+
+  .txt--center= t :"marketing.slack_integration_in_standard_plan"
+
+  %hr.break__long-orange
+
+  - if current_user.is_logged_in?
+    %h2= t(:"slack_page.connect_a_group_to_slack")
+    %table.pricing-table__your-groups-table
+      - current_user.formal_groups.published.parents_only.each do |group|
+        - level = group.subscription&.level || 'free'
+        %tr.pricing-table__your-groups-row
+          %td.pricing-table__your-groups-name=group.name
+          %td
+            - if level != 'free'
+              %i.material-icons.loomio-orange star
+          %td
+            = t :"subscription_levels.#{level}"
+          %td.pricing-table__your-groups-buttons
+            %a.btn--primary{href: group_url(group, install_slack: true)}
+              - if level == 'free'
+                = t(:"pricing_page.upgrade_to_gold")
+              - else
+                = t(:"slack_page.install_slack_now")
+      %tr.pricing-table__your-groups-table
+        %td
+        %td
+        %td
+        %td.pricing-table__your-groups-buttons
+          %a.btn--accent--raised{href: '/start_group', class: 'btn'}= t :"pricing_page.start_group"
+
+  - else
+    %p= t :"slack.get_started"
+    %a.btn--accent--raised{href: '/start_group', class: 'btn'}= t :"pricing_page.start_group"
