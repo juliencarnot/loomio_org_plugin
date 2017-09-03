@@ -51,7 +51,9 @@ module Plugins
         plugin.use_component :subscription_success_modal
         plugin.use_component :manage_group_subscription_link, outlet: :after_group_actions_manage_memberships
         plugin.use_component :export_group_data_link, outlet: :after_group_actions_manage_memberships_2
-        plugin.use_component :premium_feature, outlet: [:subgroup_card_footer, :tag_card_footer, :install_slack_card_footer]
+        plugin.use_component :member_emails_button, outlet: :after_memberships_panel
+        plugin.use_component :member_email, outlet: :after_membership_user
+        plugin.use_component :premium_feature, outlet: [:subgroup_card_footer, :tag_card_footer, :install_slack_card_footer, :after_memberships_panel]
 
         plugin.use_translations 'config/locales', :marketing
 
@@ -74,6 +76,24 @@ module Plugins
           end
         end
 
+        plugin.extend_class API::MembershipsController do
+          private
+
+          def default_scope
+            if include_emails?
+              super.merge emails: collection.map(&:user).map { |m| [m.id, m.email] }.to_h
+            else
+              super
+            end
+          end
+
+          def include_emails?
+            action_name.to_sym == :index &&
+            current_user.can?(:email_members, @group) &&
+            @group.subscription.is_paid?
+          end
+        end
+
         plugin.extend_class GroupsController do
           before_action :ensure_paid_group, only: :export
 
@@ -90,6 +110,18 @@ module Plugins
         plugin.extend_class FormalGroup do
           belongs_to :subscription, dependent: :destroy
           validates :subscription, absence: true, if: :is_subgroup?
+        end
+
+        plugin.extend_class UserSerializer do
+          attribute :email
+
+          def email
+            scope.dig(:emails, object.id)
+          end
+
+          def include_email?
+            email.present?
+          end
         end
 
         plugin.extend_class GroupSerializer do

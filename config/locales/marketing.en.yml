@@ -25,6 +25,10 @@ en:
   export_group_data_link:
     download_group_data_export: Export group data
 
+  member_emails_button:
+    show_member_emails: Show member emails
+    helptext: Administrators on groups of a gold plan or above may view the email addresses of their group's members
+
   slack_page:
     header: "Loomio and Slack work great together!"
     intro: "We're proud to introduce LoomioBot, a friendly helper for use with Slack."
