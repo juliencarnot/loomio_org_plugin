@@ -90,7 +90,7 @@ module Plugins
           def include_emails?
             action_name.to_sym == :index &&
             current_user.can?(:email_members, @group) &&
-            @group.subscription.is_paid?
+            @group.subscription&.is_paid?
           end
         end
 
