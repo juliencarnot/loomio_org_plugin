@@ -53,8 +53,8 @@
             = t 'subscription_levels.'+(group.subscription&.level || 'free')
           %td.pricing-table__your-groups-buttons
             - if group.subscription&.kind != 'paid'
-              %a.btn--primary{href: ChargifyService.standard_plan_url(group, current_user)}= t :'pricing_page.upgrade_to_gold'
-              %a.btn--gray{href: ChargifyService.plus_plan_url(group, current_user)}= t :'pricing_page.upgrade_to_pro'
+              %a.btn--primary.pricing-page-btn-gold{href: ChargifyService.standard_plan_url(group, current_user)}= t :'pricing_page.upgrade_to_gold'
+              %a.btn--gray.pricing-page-btn-pro{href: ChargifyService.plus_plan_url(group, current_user)}= t :'pricing_page.upgrade_to_pro'
   - else
     %p.pricing-table__get-started
       %a.btn--accent--raised{href: '/start_group', class: 'btn'}= t :"pricing_page.start_group"
