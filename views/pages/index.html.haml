@@ -146,7 +146,8 @@
       = image_tag 'lance/images/slack_proposal.gif', class: 'feature__image', alt: t(:'marketing.loomio_in_slack')
 
   .txt--center.m1
-    %p= t(:'marketing.slack_integration_in_standard_plan')
+    %p= link_to t(:'marketing.find_out_more_about_slack_integration'), '/slack'
+    
     -# %a.slack__button{href: "/slack/install", title: "Add to slack"}
     -#   = image_tag 'lance/images/add-to-slack-button.png'
 

@@ -9,6 +9,7 @@ en:
     upgrade: Upgrade
     gold: Gold
     pro: Pro
+
     plus: Plus
 
   subscription_success_modal:
@@ -34,6 +35,12 @@ en:
     intro: "We're proud to introduce LoomioBot, a friendly helper for use with Slack."
     description: "LoomioBot can help you supercharge your team's decisionmaking by combining Slack’s lightning-fast realtime communication, with the robust, simple tools in Loomio."
     features: "Features:"
+    from_chat_to_discussion: |
+      Slack's realtime chat is great for keeping in touch and getting quick responses.
+      Loomio's threads are the online equivilent of a meeting.
+      Keep everything about a topic in one place,
+      let people participate in their own time,
+      and get clear outcomes with Loomio's decision making tools.
     grant_access: "Grant access to your group"
     grant_access_subtext: "No need to sync contact lists, or invite people to tools they're not familiar with. LoomioBot seamlessly authenticates anyone in your slack channel to your Loomio group."
     start_poll: "Raise proposals directly in Slack"
@@ -187,7 +194,8 @@ en:
     your_group_will_be_included_automatically: Start a decision, your group will be included automatically.
     watch_the_video_to_see_it: Watch the video to see it in action!
     make_decisions_in_slack: Make decisions in Slack!
-    slack_integration_in_standard_plan:  Slack integration is included in our standard group plan.
+    find_out_more_about_slack_integration: Find out more about our Slack integration
+    slack_integration_in_standard_plan:  Slack integration is included in our gold plan.
     works_on_all_devices: Works on all devices and platforms.
     loomio_is_a_web_app: Loomio is a web app with great desktop and mobile support.
     no_passwords_required: No passwords required
