@@ -28,11 +28,11 @@ module Plugins
         plugin.use_page :newsletter,       'http://eepurl.com/b51x_b',                                               redirect: true
         plugin.use_page :translation,      'https://www.transifex.com/rdbartlett/loomio-1/',                         redirect: true
 
-        # plugin.extend_class ApplicationController do
-        #   def hosted_by_loomio?
-        #     true
-        #   end
-        # end
+        plugin.extend_class ApplicationController do
+          def hosted_by_loomio?
+            true
+          end
+        end
 
         plugin.use_page('/', 'pages#index')
 
@@ -121,6 +121,12 @@ module Plugins
 
           def include_email?
             email.present?
+          end
+        end
+
+        plugin.extend_class Full::UserSerializer do
+          def email
+            object.email
           end
         end
 
