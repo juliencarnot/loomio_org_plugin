@@ -8,7 +8,9 @@ angular.module('loomioApp').config ($provide) ->
 
     open = $delegate.open
     $delegate.open = (modal, resolve = {}) ->
-      if requirePaidPlan(modal, resolve) and (Session.currentGroup or {}).subscriptionLevel == 'free'
+      if requirePaidPlan(modal, resolve) and
+         Session.currentGroup and
+         Session.currentGroup.parentOrSelf().subscriptionLevel == 'free'
         open ChoosePlanModal, group: -> Session.currentGroup.parentOrSelf()
       else
         open modal, resolve
