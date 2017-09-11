@@ -20,6 +20,29 @@ zh_TW:
     premium_feature: 黃金功能
   export_group_data_link:
     download_group_data_export: 匯出群組資料
+  member_emails_button:
+    show_member_emails: 顯示成員電子郵件
+    helptext: 黃金計畫或是更高階的群組管理員可以看到他們群組成員的電子郵件
+  slack_page:
+    header: "Loomio 與 Slack 合作無間！"
+    intro: "我們很高興介紹 LoomioBot，這是一個友善的 Slack 協助機器人。"
+    description: "LoomioBot 可以協助您的團隊透過閃電般迅速的 Slack 即時通訊與 Loomio 簡單可靠的工具相結合獲得極大的助益。"
+    features: "功能："
+    from_chat_to_discussion: |
+      Slack 的即時聊天非常易於保持聯繫並得到快速的回覆。
+      Loomio 的討論串則是線上版的會議。
+      讓每樣與主題相關的東西都在同一個地方，
+      讓夥伴們都能在他們有空的時間參與，
+      並使用 Loomio 的決策工具來得到清晰的結果。
+    grant_access: "授予您群組的存取權限"
+    grant_access_subtext: "群組不需要同步聯絡人清單，或是邀請夥伴使用他們不熟悉的工具。LoomioBot 無縫驗證您 Slack 頻道中的任何人到您的 Loomio 群組中。"
+    start_poll: "直接在 Slack 上提出建議"
+    start_poll_subtext: "想要取得房間裡的夥伴們的快速熱情程度檢查嗎？輸入簡單的指令，我們就會為您準備一個決策並立刻與您的團隊分享"
+    receive_updates: "即時收到關於決策的更新"
+    receive_updates_subtext: "接觸任何地方的夥伴。每個在 Slack 的人都會收到關於重要事件發生的更新。"
+    vote_instantly: "從 Slack 快速投票"
+    vote_instantly_subtext: "不需要離開您的聊天視窗就可以讓您的聲音被聽到；僅需點選一個按鈕然後就完成了！"
+    on_paid_plan: "LoomioBot 整合提供給黃金計畫或更高的群組使用"
   pricing_page:
     header: 群組計畫
     upgrade_for_premium_features: 請升級至專業功能
@@ -28,8 +51,8 @@ zh_TW:
     plus: 專業
     per_month: ／月
     get_started_for_free: 免費開始
-    gift_body: 適用於臨時使用者與社群組織。
-    standard_body_html: 適用於一般使用者與企業。
+    gift_body: '適用於臨時使用者與社群組織。 '
+    standard_body_html: 給工作小組與公司。
     plus_body_html: 適用於有多個群組的組織。
     gift_features: "功能包含了："
     one_group: 一個群組
@@ -59,10 +82,13 @@ zh_TW:
     help_with_setup: 初始設定協助
     ldap_coming_soon: ActiveDirectory/LDAP 即將到來
     custom_subdomain: 自訂子網域
-    free_is_for_community_and_evaluation_html: 我們的免費計畫是供臨時使用者、社群與想要評估 Loomio 在組織內使用效果的使用者。我們仰賴付費方案來維護並強化 Loomio。若您在非營利組織裡面，請聯絡我們以取得折扣。
+    free_is_for_community_and_evaluation_html: |
+      我們的免費方案是給臨時使用者與社群組織使用的，您也可以用來評估您的組織是否適合使用 Loomio。
+      想要讓您的社群或非營利組織使用黃金方案？請使用 NFP5USD 來取得每月 5 美元的價格。
     privacy_respected: 我們尊重您的隱私，所以永遠不會將您的資料賣給第三方，或是在 Loomio 上放廣告。
-    prices_in_us_dollars: 價格是以美元計費，再加上營業稅。
-    need_something_else_html: 想要私人主機、諮詢與培訓、自訂功能或是其他東西？
+    prices_in_us_dollars: 價格是每個群組以美元計價，再加上銷售稅（若適用）。
+    need_something_else_html: |
+      需要私人託管、諮詢與培訓、自訂品牌或是其他東西？
     lets_talk_html: <a href="/contact">我們來談談吧！</a>
     lets_talk: 讓我們說說話！
     custom_subdomain_html: |
@@ -105,6 +131,10 @@ zh_TW:
     cooperative_groups: 合作群組
     make_a_decision: 作出決策
     start_a_group: 啟動群組
+    too_many_emails_and_meetings: 電子郵件和繁瑣的會議太多了嗎？
+    make_decisions_without_meetings: 不需要開會就可以做出決策。
+    how_it_works: 如何運作
+    inclusive_clear_and_effecient_tools: 設計為包容、清晰且有效率。
     too_many_group_emails: 太多群組電子郵件了？
     tedious_meetings: 繁複的會議？
     off_track_discussions: 偏離主題的討論？
@@ -157,7 +187,8 @@ zh_TW:
     your_group_will_be_included_automatically: 啟動討論，您的群組將會自動被包含在內。
     watch_the_video_to_see_it: 觀看影片來看看它在行動中的作用！
     make_decisions_in_slack: 在 Slack 中做決策！
-    slack_integration_in_standard_plan: Slack 整合包含在我們的標準群組計畫中。
+    find_out_more_about_slack_integration: 了解更多關於我們的 Slack 整合的資訊
+    slack_integration_in_standard_plan: Slack 整合已包含在我們的黃金方案中。
     works_on_all_devices: 在所有的裝置與平臺上工作。
     loomio_is_a_web_app: Loomio 是一個對桌面與行動裝置有良好支援的 Web App。
     no_passwords_required: 不需要密碼

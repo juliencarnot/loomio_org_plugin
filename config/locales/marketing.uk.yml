@@ -20,7 +20,6 @@ uk:
     standard_features: 'Все що в плані Безкоштовний, плюс:'
     help_with_setup: допомога з початковим налаштуванням
     ldap_coming_soon: ActiveDirectory / LDAP найближчим часом
-    prices_in_us_dollars: Ціни вказані в доларах США; додатково нараховується податок з продажів у випадках, де він має бути застосованим.
     lets_talk: Звертайтесь!
     usage_statistics: статистика використання
     plus_price_html: '<strong>$99</strong>/на місяць'
@@ -108,7 +107,6 @@ uk:
     your_group_will_be_included_automatically: Запропонуйте рішення; ваша група буде підключена автоматично.
     watch_the_video_to_see_it: Перегляньте відео, щоб побачити це в дії!
     make_decisions_in_slack: Приймайте рішення у Slack!
-    slack_integration_in_standard_plan: Інтеграція зі Slack включена в наш стандартний план.
     works_on_all_devices: Працює на всіх пристроях і платформах.
     loomio_is_a_web_app: Loomio - це веб-сервіс що працює на настільних комп'ютерах та мобільних пристроях.
     no_passwords_required: Пароль не потрібен

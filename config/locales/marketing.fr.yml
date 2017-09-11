@@ -15,7 +15,6 @@ fr:
     gift_price_html: '<strong>$0</strong>'
     standard_features: 'Tout le gratuit, plus :'
     help_with_setup: Aide pour la configuration initiale
-    prices_in_us_dollars: Les prix sont en Dollars US, plus les taxes de vente là où elles s'appliquent.
     lets_talk: Parlons!
     usage_statistics: statistiques d’utilisation
     plus_price_html: '<strong>$99</strong>/mois'

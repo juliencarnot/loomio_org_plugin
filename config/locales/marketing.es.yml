@@ -20,6 +20,11 @@ es:
     premium_feature: funcionalidad Dorada
   export_group_data_link:
     download_group_data_export: Exportar la data grupal
+  member_emails_button:
+    show_member_emails: Loomio y Slack trabajan agredablemente  justos
+  slack_page:
+    features: "Características:"
+    receive_updates: "Recibir actualizaciones sobre decisiones en tiempo real"
   pricing_page:
     header: 'Planes grupales '
     upgrade_for_premium_features: 'Por favor actualiza tu plan para acceder a las funcionalidades premium '
@@ -28,8 +33,6 @@ es:
     plus: Pro
     per_month: /al mes
     get_started_for_free: 'Comienza gratis '
-    gift_body: 'Para usuarios casuales y grupos comunitarios. '
-    standard_body_html: 'Para usuarios regulares y negocios. '
     plus_body_html: Para organizaciones con múltiples grupos.
     gift_features: "Funcionalidades incluidas: "
     one_group: Un grupo
@@ -58,10 +61,7 @@ es:
     help_with_setup: Ayuda con la configuración inicial
     ldap_coming_soon: 'Próximamente ActiveDirectory/LDAP '
     custom_subdomain: 'Subdominio personalizado '
-    free_is_for_community_and_evaluation_html: 'Nuestro plan Gratis es para usuarios casuales, comunidades y cualquier persona que quiere evaluar Loomio para el uso en su organización. Dependemos de los planes pagos para mantener y mejorar Loomio. Si eres una organización sin fines de lucro, contactanos por un descuento.  '
     privacy_respected: Respetamos tu privacidad y nunca venderemos tu información a otras empresas, o pondremos publicidad en Loomio.
-    prices_in_us_dollars: 'Precios en dolares US, más impuestos en la venta donde aplique  '
-    need_something_else_html: Quieres una instancia privada, consultoría y entrenamiento, funcionalidades personalizadas, o alguna otra cosa?
     lets_talk_html: <a href="/contact">Hablemos!</a>
     lets_talk: 'Hablemos! '
     custom_subdomain_html: |
@@ -107,7 +107,6 @@ es:
     too_many_emails_and_meetings: ¿Demasiados emails y reuniones tediosas?
     make_decisions_without_meetings: 'Toma decisiones sin reuniones. '
     how_it_works: Cómo funciona
-    inclusive_clear_and_effecient_tools: 'Cuidadosamente diseñado para ser inclusivo, claro y eficiente. '
     too_many_group_emails: ¿Demasiados correos grupales?
     tedious_meetings: ¿Reuniones tediosas?
     off_track_discussions: ¿Discusiones fuera de tema?
@@ -160,7 +159,6 @@ es:
     your_group_will_be_included_automatically: 'Inicia una decisión, tu grupo será incluido automáticamente. '
     watch_the_video_to_see_it: Mira el video para verlo en acción
     make_decisions_in_slack: Toma decisiones en Slack
-    slack_integration_in_standard_plan: La integración con Slack esta incluida en nuestra suscripción al plan Estándar.
     works_on_all_devices: Funciona en todos los dispositivos y plataformas.
     loomio_is_a_web_app: 'Loomio es una plataforma online con gran soporte para ordenadores y móviles. '
     no_passwords_required: No se necesita una contraseña.
