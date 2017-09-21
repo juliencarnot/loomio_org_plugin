@@ -8,7 +8,6 @@ module Plugins
           about
           browser_not_supported
           crowdfunding_celebration
-          index
           pricing
           wallets
           slack

@@ -4,6 +4,10 @@ class PagesController < ApplicationController
 
   before_action :set_locale_specific_links
 
+  def index
+    redirect_to "/dashboard" if current_user.is_logged_in?
+  end
+
   private
 
   def set_locale_specific_links
