@@ -13,8 +13,7 @@ describe PagesController, type: :controller do
     it 'takes you to the marketing page when logged in' do
       sign_in create(:user)
       get :index
-      expect(response.status).to eq 200
-      expect(response).to render_template :index
+      expect(response).to redirect_to dashboard_path
     end
   end
 
