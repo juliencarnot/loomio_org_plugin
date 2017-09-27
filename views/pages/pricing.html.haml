@@ -47,7 +47,7 @@
           %td.pricing-table__your-groups-name=group.name
           %td
             - if group.subscription&.kind == 'paid'
-              %i.material-icons.loomio-orange star
+              %i.mdi.mdi-star.mdi-24px.loomio-orange
           %td
             = t 'subscription_levels.'+(group.subscription&.level || 'free')
           %td.pricing-table__your-groups-buttons
