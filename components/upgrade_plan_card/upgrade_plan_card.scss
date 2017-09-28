@@ -1,10 +1,8 @@
 .upgrade-plan-card {
   @include card;
-  @include displayFlex;
+  display: flex;
   flex-direction: column;
-  -webkit-flex-direction: column;
   justify-content: space-between;
-  -webkit-justify-content: space-between;
   color: $grey-on-white;
 }
 
@@ -14,7 +12,7 @@
   padding: 0;
   color: $grey-on-grey;
   i {
-    @include displayFlex;
+    display: flex;
     margin: 2px 8px 0 0;
     color: #bbb;
     font-size: 36px;
@@ -24,7 +22,7 @@
   }
 
   li {
-    @include displayFlex;
+    display: flex;
     margin-bottom: 8px;
   }
 }

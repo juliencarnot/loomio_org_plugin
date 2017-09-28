@@ -3,7 +3,7 @@
 }
 
 .subscription-success-modal .modal-body {
-  @include displayFlex;
+  display: flex;
 }
 
 .subscription-success-modal__mascot {
