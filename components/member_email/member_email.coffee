@@ -4,4 +4,4 @@ angular.module('loomioApp').directive 'memberEmail', (AbilityService) ->
   controller: ($scope) ->
     $scope.canSeeEmail = ->
       AbilityService.canAdministerGroup($scope.membership.group()) and
-      $scope.membership.group().subscriptionKind == 'paid'
+      $scope.membership.group().parentOrSelf().subscriptionKind == 'paid'
