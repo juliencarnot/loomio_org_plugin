@@ -1,0 +1,134 @@
+pt_BR:
+  subscription_levels:
+    free: Grátis
+    gold: Ouro
+  current_plan_button:
+    gold: Ouro
+  pricing_page:
+    header: Planos do grupo
+    gift: Gratuito
+    standard: Ouro
+    plus: Profissional
+    per_month: /mês
+    get_started_for_free: Comece de graça
+    discussions: Discussões
+    decisions: Decisões
+    subgroups: Subgrupos
+    community_support: Suporte comunitário
+    slack_integration_html: |+
+      integração <strong>Slack</strong>
+
+    standard_price_html: '<strong>US$19</strong>/mês'
+    gift_price_html: '<strong>US$0</strong>'
+    standard_features: 'Tudo do Gratuito, mais:'
+    help_with_setup: ajuda com configurações iniciais
+    lets_talk: Vamos conversar!
+    usage_statistics: estatísticas de uso
+    plus_price_html: '<strong>US$99</strong>/mês'
+    select: Selecione
+  navigation:
+    blog: Blog
+    resources: Recursos
+    resources_dropdown: Lista de recursos
+    resources_submenu: Submenu de recursos
+    header_menu_label: Menu cabeçalho
+    case_studies: Estudos de caso
+    help: Ajuda
+    guides_and_tips: "Guias e dicas"
+    developers: Desenvolvedores
+    coop_handbook: Manual colaborativo
+    about: Sobre
+    pricing: Preço
+    contact: Contato
+    login: Login
+    start_group: Iniciar grupo
+    home: Início
+    terms_of_service: Termos de Serviço
+    privacy: Privacidade
+    translation: Tradução
+    newsletter: Boletim informativo
+    twitter: Twitter
+    facebook: Facebook
+  marketing:
+    make_a_decision: Tomar uma decisão
+    start_a_group: Iniciar um grupo
+    start_a_proposal: Iniciar uma proposta
+    press:
+      fast_company: A beleza do Loomio é a sua simplicidade. Ele faz exatamente o que precisa fazer e nada mais.
+      boingboing: "O Loomio parece ter uma boa mistura de conhecimento político, conhecimento técnico e senso de design."
+      bbc: O Loomio foi criado para ser o Facebook da rede cidadã.
+    about_us: Sobre nós
+  about:
+    heading: Sobre nós
+    introduction:
+      first_paragraph: "O Loomio é um software livre, construído por uma empresa social cooperativa de propriedade dos trabalhadores. Estamos sediadas em Aotearoa na Nova Zelândia e fazemos parte da"
+      second_paragraph: "Acreditamos que mais grupos praticando tomadas de decisão efetivas e inclusivas podem mudar a dinâmica organizacional em escala global. O Loomio existe para tornar mais fácil para qualquer pessoa, em qualquer lugar, participar de decisões que afetam suas vidas."
+    story:
+      heading: Estória
+      first_paragraph: |
+        Loomio começou em 2011, quando ativistas da Occupy Wall Street e empresários sociais da Rede Enspiral perceberam que precisavam resolver o mesmo problema: tomada de decisão rápida, inclusiva e eficaz sem reuniões.
+        Em 2012, formamos nossa cooperativa e lançamos um protótipo (Loomio Beta). Descobrimos que muitos outros ao redor do mundo precisavam da mesma solução.
+      second_paragraph: |
+        Em 2013, realizamos uma campanha de crowdfunding internacional bem-sucedida, que nos permitiu trabalhar em uma nova versão do software, Loomio 1.0, que foi lançado no ano seguinte.
+
+        Em 2015, criamos uma rodada de capital ético, e estamos trabalhando para trazer decisões colaborativas para milhões de pessoas em todo o mundo.
+    people:
+      heading: Pessoas
+      introduction: "Somos uma equipe apaixonada com profunda experiência em facilitação de processos em grupo, impacto social, empreendedorismo e desenvolvimento de tecnologia livre."
+      alanna: "Co-fundador, facilitador, líder de liderança sem chefe, diretor da Fundação Enspiral, amante de gato"
+      babs: "Secretário, operador, ativista, amante da natureza"
+      ben: "Co-fundador e diretor, organizador de comunidade, pesquisador de inteligência coletiva"
+      hannah: "Desenvolvedora de software, suporte ao usuário, ilustrador e ativista criativo"
+      james: "Desenvolvedor de software senior, coordenador de comunidade de software livre e espadachim ousado"
+      mary: "Explorador organizacional, colaborador, técnico de equipe, cozinhador de galo, assistidor de estrelas"
+      matthew: "Cuidando de clientes, números e design"
+      michael: "Diretor, desenvolvimento de negócios e clientes, coordenador, conselheiro de startup, motociclista"
+      mj: "Diretor, estrategista com base nos EUA, conector de pontos, conselheiro, mãe orgulhosa"
+      natalia: "Coordenador de traduções, suporte ao usuário, ativista"
+      richard: "Co-fundador e desenvolvedor de software, ativista, hacker de hardware de software livre"
+      robert: "Desenvolvedor sênior, DevOps, arquitetura. Pensa em idéias e as transforma em software"
+      vivien: "Co-fundador, Presidente do Loomio Board, Diretor Executivo da UNICEF Nova Zelândia"
+    advisors:
+      heading: Conselheiros
+      introduction: Somos apoiados por um Conselho Consultivo com algumas das mentes mais brilhantes da democracia e da tecnologia a nível internacional.
+      sascha: "Fundador do X-Lab & Open Technology Institute"
+      katherine: "Ex-vice-presidente sênior da AOL, vice-presidente da Root Capital"
+      joi: "Diretor do MIT Media Lab, Co-fundador da Creative Commons, Conselho da Fundação Mozilla"
+      douglas: "Autor de best-seller, comentarista da CNN, teórico da mídia"
+      matthew_and_brian: "Co-fundador da Inflection, Namaste Foundation"
+    purpose_and_values:
+      heading: "Propósito e Valores"
+      mission_statement: A Cooperativa Loomio existe para criar um mundo onde seja fácil para qualquer pessoa participar das decisões que o afetam.
+      introduction: |
+        Com um processo colaborativo adequado, grupos geram melhores idéias, decisões e ações do que qualquer indivíduo sozinho.
+
+        A Cooperativa Loomio visa romper barreiras à participação na tomada de decisões em todos os níveis: nos bairros, nas organizações comunitárias, nas empresas, nos movimentos sociais e na governança local e nacional.
+      coop_heading: Empreendimento social cooperativo
+      coop_body: |
+        O Loomio é uma empresa social de propriedade coletiva das pessoas que a compõem. Ao contrário de uma empresa tradicional de maximização de lucros, a receita não é um fim em si mesma, mas um meio para alcançar um objetivo social central.
+
+        Uma estrutura cooperativa de trabalhadores é uma poderosa maneira de viver nossos valores de colaboração e propriedade coletiva.
+      independent_heading: Independente e neutro
+      independent_body: A Loomio está empenhada em permanecer independente para que possa fornecer um lugar neutro para qualquer grupo se unir.
+      open_source_heading: Colaboração de software livre
+      open_source_body: O Loomio tem como objetivo desenvolver ferramentas de código aberto que tornem a colaboração acessível a todos.
+      adaptive_heading: "Adaptativo, reflexivo, orientado ao usuário"
+      adaptive_body: "A Loomio tem como objetivo desenvolver ferramentas que sejam iterativas, auto-reflexivas e adaptativas, impulsionadas pela sabedoria coletiva da comunidade de usuários."
+      transparent_heading: Transparência
+      transparent_body: |
+        A Cooperativa Loomio será cercada por uma valiosa comunidade de usuários e colaboradores. Essa comunidade deve estar confiante de que a Cooperativa Loomio está cumprindo o que promete.
+
+        Estamos comprometidos com altos padrões de compartilhamento de informações.
+    postal_address: "Endereço postal:"
+    physical_address: "Endereço físico:"
+  titles:
+    new_tab: Abre em uma nova guia
+    start_group: Formulário para iniciar grupo
+    about_us: Página sobre nós
+    pricing: Página sobre preços
+    contact: Formulário de contato
+    sign_in: Formulário de entrada
+    terms_of_service: Página dos termos de serviço
+    privacy: Página sobre privacidade
+    translation: Guia de tradução
+    home: Início

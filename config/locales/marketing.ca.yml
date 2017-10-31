@@ -1,0 +1,60 @@
+ca:
+  pricing_page:
+    discussions: Discussions
+    decisions: Decissions
+    subgroups: Subgrups
+    slack_integration_html: |
+      integració amb <strong>Slack</strong>
+    usage_statistics: ús de les estadístiques
+    select: Selecciona
+  navigation:
+    blog: Bloc
+    resources: Recursos
+    case_studies: Casos d'estudi
+    help: Ajuda
+    guides_and_tips: "Guies i consells"
+    developers: Desenvolupadors
+    coop_handbook: Cooperació
+    about: Quant a
+    pricing: Preus
+    contact: Contacte
+    login: Entra
+    start_group: Crea un grup
+    home: Inici
+    terms_of_service: Termes del servei
+    privacy: Privacitat
+    translation: Traducció
+    newsletter: Butlletí
+    twitter: Twitter
+    facebook: Facebook
+  marketing:
+    make_a_decision: Pren una decisió
+    start_a_group: Creació d'un grup
+    start_a_proposal: Creació d'una proposta
+    press:
+      boingboing: "Loomio sembla una bona barreja d'intel·ligència política, coneixement tècnic i bon disseny."
+      bbc: Loomio està preparat per a ser el Facebook de la xarxa ciutadana.
+    about_us: Nosaltres
+  about:
+    heading: Nosaltres
+    introduction:
+      first_paragraph: "Loomio és un software de codi obert creat per una cooperativa social. Estem establerts a Aotearoa, Nova Zelanda, i som part de"
+    story:
+      heading: Història
+    people:
+      heading: Gent
+      natalia: "Coordinadora de traduccions, suport a l'usuari i activista"
+    advisors:
+      heading: Consellers
+      introduction: Estem recolzats per un Consell d'Assessors amb algunes de les ments més brillants en democràcia i tecnologia a nivell internacional.
+      sascha: "Fundador de X-Lab i Open Technology Institute"
+      joi: "Director del MIT Media Lab, cofundador de Creative Commons, consell de la Fundació Mozilla"
+      douglas: "Escriptor bestseller, comentarista de la CNN, teòric dels mitjans de comunicació"
+      matthew_and_brian: "Cofundadors de Inflection, Fundació Namaste"
+    purpose_and_values:
+      heading: "Propòsits i valors"
+      coop_heading: Cooperativa i empresa social
+      independent_heading: Independent i neutral
+      open_source_heading: Col·laboració en codi obert
+      adaptive_heading: "Adaptativa, reflexiva i orientada a l'usuari"
+      transparent_heading: Transparència

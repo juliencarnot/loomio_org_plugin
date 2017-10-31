@@ -1,0 +1,28 @@
+da:
+  pricing_page:
+    header: Gruppe abonnements ordninger
+    gift: Gratis
+    plus: Pro
+    get_started_for_free: Kom igang gratis
+    discussions: Diskussioner
+    decisions: Beslutninger
+    subgroups: Undergrupper
+    slack_integration_html: |
+      <strong>Slack</strong> integration
+    standard_price_html: '<strong>$19</strong>/måned'
+    gift_price_html: '<strong>$0</strong>'
+    standard_features: 'Alt i Gratis, plus:'
+    help_with_setup: hjælp til initiel opsætning
+    usage_statistics: brugs statistik
+    plus_price_html: '<strong>$99</strong>/måned'
+  navigation:
+    help: Hjælp
+    start_group: Opret gruppe
+    privacy: Fortrolighed
+  marketing:
+    make_a_decision: Make a decision
+    start_a_group: Opret en gruppe
+    start_a_proposal: Opret et forslag
+  titles:
+    contact: Kontakt formular
+    home: Hjem

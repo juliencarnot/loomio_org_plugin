@@ -1,0 +1,32 @@
+de:
+  pricing_page:
+    header: Gruppenpläne
+    gift: Kostenlos
+    plus: Pro
+    per_month: /Monat
+    get_started_for_free: Starte nun kostenlos
+    discussions: Diskussionen
+    decisions: Entscheidungen
+    subgroups: Untergruppen
+    slack_integration_html: |
+      <strong>Slack</strong> Integration
+    standard_price_html: '<strong>$19</strong>/Monat'
+    gift_price_html: '<strong>$0</strong>'
+    standard_features: 'Alles kostenlos, plus'
+    help_with_setup: Hilfe beim Einrichten
+    usage_statistics: Nutzerstatistiken
+    plus_price_html: '<strong>$99</strong>/Monat'
+    select: Wähle
+  navigation:
+    contact: Kontakt
+    login: Login
+    start_group: Gruppe erstellen
+    privacy: Privatsphäre
+    translation: Übersetzung
+    newsletter: Newsletter
+    twitter: Twitter
+    facebook: Facebook
+  marketing:
+    make_a_decision: Eine Entscheidung treffen
+    start_a_group: Gründe eine Gruppe
+    start_a_proposal: Einen Vorschlag machen
