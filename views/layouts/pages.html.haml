@@ -27,10 +27,10 @@
         %a{href: "/"}
           = image_tag 'lance/images/loomio-logo-40h.png', class: 'nav__logo'
         .nav__spacer
-        %a.nav__link.nav__learn-link{href: "https://www.loomio.school/"} Learn
-        %a.nav__link.nav__features-link{href: "/#features"} Features
-        %a.nav__link.nav__pricing-link{href: "/pricing"} Pricing
-        %a.nav__link.nav__sign-in-link{href: "/users/sign_in/"} Login
+        %a.nav__link.nav__learn-link{href: "https://www.loomio.school/"}= t(:"navigation.learn")
+        %a.nav__link.nav__features-link{href: "/#features"}= t(:"navigation.features")
+        %a.nav__link.nav__pricing-link{href: "/pricing"}= t(:"navigation.pricing")
+        %a.nav__link.nav__sign-in-link{href: "/users/sign_in/"}= t(:"navigation.login")
 
     = yield
 

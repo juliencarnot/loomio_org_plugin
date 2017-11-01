@@ -110,6 +110,7 @@ en:
     upgrade_to_pro: Upgrade to Pro
   navigation:
     blog: Blog
+    features: Features
     resources: Resources
     resources_dropdown: Resources dropdown
     resources_submenu: Resources submenu
@@ -120,6 +121,7 @@ en:
     guides_and_tips: "Guides & tips"
     developers: Developers
     coop_handbook: Co-op handbook
+    learn: Learn
     about: About
     pricing: Pricing
     contact: Contact
