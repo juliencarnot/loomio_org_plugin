@@ -1,0 +1,21 @@
+it:
+  pricing_page:
+    gift: Gratis
+    plus: Pro
+    per_month: /mese
+    get_started_for_free: Inizia gratis
+    discussions: Discussioni
+    decisions: Decisioni
+    subgroups: Sottogruppi
+    usage_statistics: statistiche d'uso
+    select: Seleziona
+  navigation:
+    help: Aiuto
+    login: Entra
+  marketing:
+    make_a_decision: Prendi una decisione
+    start_a_group: Inizia un gruppo
+    start_a_proposal: Lancia una proposta
+  titles:
+    sign_in: Form di autenticazione
+    home: Home page

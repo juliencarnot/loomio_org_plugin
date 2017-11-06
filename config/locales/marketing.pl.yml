@@ -1,0 +1,12 @@
+pl:
+  pricing_page:
+    discussions: Dyskusje
+    decisions: Decyzje
+    subgroups: Podgrupy
+  navigation:
+    help: Pomoc
+    privacy: Prywatność
+  marketing:
+    make_a_decision: Podejmij decyzję
+    start_a_group: Uruchomienie grupy
+    start_a_proposal: Uruchomienie rekomendacji

@@ -22,9 +22,27 @@ es:
     download_group_data_export: Exportar la data grupal
   member_emails_button:
     show_member_emails: Loomio y Slack trabajan agredablemente  justos
+    helptext: Administradores de grupos en plan Dorado podrán ver las direcciones de email de los miembros de su grupo
   slack_page:
+    header: "Loomio y Slack funcionan muy bien juntos."
+    intro: "Estamos contentos de introducir LoomioBot, una ayuda amigable para usar con Slack."
+    description: "LoomioBot puede ayudarte a mejorar la toma de decisiones de tu grupo, combinando la rapidez de Slack en tiempo real, con la fortaleza y sencillez de las herramientas de Loomio.  "
     features: "Características:"
+    from_chat_to_discussion: |
+      El chat en tiempo real de Slack es genial para estar en contacto y recibir respuestas rápidas.
+      Los hilos de discusión de Loomio son el equivalente online de las reuniones.
+      Mantén toda la información sobre un tema en el mismo lugar,
+      permite que las personas participen a su propio tiempo,
+      y alcanza resultados claros con las herramientas para la toma de decisiones de Loomio.
+    grant_access: "Concede acceso a tu grupo"
+    grant_access_subtext: "No es necesario sincronizar listas de contactos, o invitar a las personas a plataformas con las que no son ya familiares. LoomioBot autoriza automáticamente en tu grupo de Loomio a cualquier persona en tu canal de Slack. "
+    start_poll: "Inicia propuestas directamente en Slack"
+    start_poll_subtext: "¿Quieres chequear rápidamente el animo del equipo? Escribe un simple comando y prepararemos una decisión para que compartas con tu equipo instantáneamente"
     receive_updates: "Recibir actualizaciones sobre decisiones en tiempo real"
+    receive_updates_subtext: "Alcanza a las personas donde están. Todos en Slack recibirán actualizaciones sobre eventos importantes a medida que suceden. "
+    vote_instantly: "Vota instantáneamente desde Slack"
+    vote_instantly_subtext: "No hay necesidad de que salgas de tu ventana de chat para tu voz se oiga; simplemente has clic en un botón y estas listo."
+    on_paid_plan: "La integracion LoomioBot esta disponible para grupos en plan Dorado o mayor."
   pricing_page:
     header: 'Planes grupales '
     upgrade_for_premium_features: 'Por favor actualiza tu plan para acceder a las funcionalidades premium '
@@ -33,6 +51,8 @@ es:
     plus: Pro
     per_month: /al mes
     get_started_for_free: 'Comienza gratis '
+    gift_body: 'Para grupos comunitarios y casuales '
+    standard_body_html: 'Para grupos de trabajo y negocios '
     plus_body_html: Para organizaciones con múltiples grupos.
     gift_features: "Funcionalidades incluidas: "
     one_group: Un grupo
@@ -61,7 +81,13 @@ es:
     help_with_setup: Ayuda con la configuración inicial
     ldap_coming_soon: 'Próximamente ActiveDirectory/LDAP '
     custom_subdomain: 'Subdominio personalizado '
+    free_is_for_community_and_evaluation_html: |
+      Nuestro plan Gratis es para usuarios casuales, grupos comunitarios o evaluación.
+      Si quieres el plan Dorado para tu grupo comunitario u organización sin fines de lucro, usa el cupón de descuento NFP5USD para pagar solo us$5/al mes.
     privacy_respected: Respetamos tu privacidad y nunca venderemos tu información a otras empresas, o pondremos publicidad en Loomio.
+    prices_in_us_dollars: 'Precios en dolares US, más impuestos en la venta donde aplique  '
+    need_something_else_html: |
+      ¿Quiéres una instancia privada, consultoría y entrenamiento, personalización, o alguna otra cosa?
     lets_talk_html: <a href="/contact">Hablemos!</a>
     lets_talk: 'Hablemos! '
     custom_subdomain_html: |
@@ -75,6 +101,7 @@ es:
     upgrade_to_pro: Actualizar al plan Pro
   navigation:
     blog: Blog
+    features: Funcionalidades
     resources: 'Recursos '
     resources_dropdown: Menú desplegable de recursos
     resources_submenu: submenú de recursos
@@ -84,6 +111,7 @@ es:
     guides_and_tips: "Guías y consejos "
     developers: ' Desarrolladores '
     coop_handbook: Manual de la cooperativa
+    learn: Aprender
     about: 'Sobre Loomio '
     pricing: 'Precios '
     contact: Contactarnos
@@ -107,6 +135,7 @@ es:
     too_many_emails_and_meetings: ¿Demasiados emails y reuniones tediosas?
     make_decisions_without_meetings: 'Toma decisiones sin reuniones. '
     how_it_works: Cómo funciona
+    inclusive_clear_and_effecient_tools: 'Cuidadosamente diseñado para ser inclusivo, claro y eficiente. '
     too_many_group_emails: ¿Demasiados correos grupales?
     tedious_meetings: ¿Reuniones tediosas?
     off_track_discussions: ¿Discusiones fuera de tema?
@@ -159,6 +188,8 @@ es:
     your_group_will_be_included_automatically: 'Inicia una decisión, tu grupo será incluido automáticamente. '
     watch_the_video_to_see_it: Mira el video para verlo en acción
     make_decisions_in_slack: Toma decisiones en Slack
+    find_out_more_about_slack_integration: Más información sobre nuestra integración con Slack
+    slack_integration_in_standard_plan: La integración con Slack esta incluida en nuestra suscripción Dorada.
     works_on_all_devices: Funciona en todos los dispositivos y plataformas.
     loomio_is_a_web_app: 'Loomio es una plataforma online con gran soporte para ordenadores y móviles. '
     no_passwords_required: No se necesita una contraseña.

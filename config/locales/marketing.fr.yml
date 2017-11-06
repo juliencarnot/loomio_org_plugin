@@ -6,7 +6,7 @@ fr:
     plus: Plus
   current_plan_button:
     upgrade: Changer d'offre
-    gold: Or
+    gold: Gold
     pro: Pro
     plus: Plus
   subscription_success_modal:
@@ -47,7 +47,7 @@ fr:
     header: Offres d'abonnement
     upgrade_for_premium_features: Changez d'offre pour les fonctionnalités premium
     gift: Gratuit
-    standard: Or
+    standard: Gold
     plus: Pro
     per_month: /mois
     get_started_for_free: Commencez gratuitement
@@ -58,7 +58,7 @@ fr:
     one_group: Un groupe
     discussions: Discussions
     decisions: Décisions
-    category_tags: Classement par <i>tags</i>
+    category_tags: Classement par tags
     subgroups: Sous-groupes
     particpate_either_way: Participez par email ou dans l'application
     file_document_storage: Pièces jointes
@@ -70,12 +70,12 @@ fr:
     slack_integration_html: |
       Intégration à <strong>Slack</strong>
     customer_support_html: Assistance utilisateurs
-    standard_price_html: '<strong>$19</strong>/mois'
-    gift_price_html: '<strong>$0</strong>'
-    annual_standard_price_html: 'ou $190 / an'
-    annual_plus_price_html: 'ou $990 / an'
+    standard_price_html: '<strong>19 US$</strong> / mois'
+    gift_price_html: '<strong>0 US$</strong>'
+    annual_standard_price_html: 'ou 190 US$ / an'
+    annual_plus_price_html: 'ou 990 US$ / an'
     plus_features: 'Toutes les fonctionnalités de Gold, plus:'
-    standard_features: 'Tout le gratuit, plus :'
+    standard_features: 'Toutes les fonctionnalités gratuites, plus :'
     multiple_groups: "Jusqu'à 10 groupes"
     premium_support: Assistance prioritaire
     help_with_setup: Aide pour la configuration initiale
@@ -83,7 +83,7 @@ fr:
     custom_subdomain: Sous-domaine personnalisé
     free_is_for_community_and_evaluation_html: |
       Notre offre gratuite est dédiée aux petits groupes et petites communautés, ou à l'essai des fonctionnalités de base.
-      Vous avez besoin de l'offre Gold pour votre communauté ou votre groupe à but non lucratif? Utilisez le code de réduction NFP5USD pour en bénéficier pour $5/mois.
+      Vous avez besoin de l'offre Gold pour votre communauté ou votre groupe à but non lucratif? Utilisez le code de réduction NFP5USD pour en bénéficier pour 5 US$ / mois.
     privacy_respected: Nous respectons votre vie privée et ne vendrons jamais vos donnée à des tiers et ne mettrons jamais de publicité dans Loomio.
     prices_in_us_dollars: Prix pour un groupe, en Dollar US, hors taxes applicables.
     need_something_else_html: |
@@ -93,7 +93,7 @@ fr:
     custom_subdomain_html: |
       Sous-domaine personnalisé (<strong>votregroupe</strong>.loomio.org)
     usage_statistics: statistiques d’utilisation
-    plus_price_html: '<strong>$99</strong>/mois'
+    plus_price_html: '<strong>99 US$</strong> / mois'
     start_group: Créer un groupe
     select: Sélectionner
     your_groups_and_plans: Vos groupes et offres
@@ -101,6 +101,7 @@ fr:
     upgrade_to_pro: Passer à l'offre Pro
   navigation:
     blog: Blog
+    features: Fonctionnalités
     resources: Ressources
     resources_dropdown: Liste des ressources
     resources_submenu: Sous-menu des ressources
@@ -110,8 +111,9 @@ fr:
     guides_and_tips: "Guides & Conseils"
     developers: Développeurs
     coop_handbook: Manuel coopératif
+    learn: Apprendre
     about: À propos
-    pricing: Conditions tarifaires
+    pricing: Offres
     contact: Contact
     login: Connexion
     start_group: Créer un groupe
@@ -123,7 +125,7 @@ fr:
     twitter: Twitter
     facebook: Facebook
     trademark_statement: © 2017 Loomio Cooperative Limited. Tous droits réservés. "Loomio" est une marque déposée de Loomio Cooperative Limited.
-    not_slack: Loomio n''est pas créé par, affilié à, ou soutenu par Slack Technologies, Inc.
+    not_slack: Loomio n’est pas créé par, affilié à, ou soutenu par Slack Technologies, Inc.
     loomio_school: école Loomio
     company_handbook: Manuel d'entreprise
   marketing:
@@ -133,7 +135,7 @@ fr:
     too_many_emails_and_meetings: Trop d'e-mails et de réunions inefficaces?
     make_decisions_without_meetings: N'attendez plus la prochaine réunion pour prendre une décision.
     how_it_works: Comment ça marche?
-    inclusive_clear_and_effecient_tools: Conçu pour être inclusif, clair et efficient
+    inclusive_clear_and_effecient_tools: Conçue pour être inclusive, claire et efficiente
     too_many_group_emails: Trop d'e-mails collectifs?
     tedious_meetings: Réunions inefficaces?
     off_track_discussions: Discussions hors-sujet?
@@ -164,17 +166,17 @@ fr:
     hear_from_everyone: Entendez tout le monde - même les plus discrets, et faites ressortir les enjeux au premier coup d'œil.
     proposals_highlight_agreement: Les propositions permettent de faire émerger le consensus et peuvent révéler des malentendus ou d'autres problèmes qui doivent être traités.
     start_a_proposal: Démarrer une proposition
-    try_demo: Tester un exemple
+    try_demo: Démonstration
     simple_scheduling: Agenda facile
-    time_poll_finds_when_html: <strong>Le sondage de réunion</strong> permet de savoir quand tout le monde peut se rencontrer. Peu importe l'organisation ou le fuseau horaire de vos participants.
-    start_a_time_poll: Commencer un sondage réunion
-    watch_time_poll_video: "Regardez la vidéo: Présentation du sondage de réunion Loomio"
+    time_poll_finds_when_html: <strong>Le sondage horaire</strong> permet de savoir quand tout le monde peut se rencontrer. Peu importe l'organisation ou le fuseau horaire de vos participants.
+    start_a_time_poll: Démarrer un sondage horaire
+    watch_time_poll_video: "Regardez la vidéo: Présentation du sondage horaire Loomio"
     polling_and_prioritising: Sonder et prioriser
     discuss_stratergy_and_prioritise_html: Échangez sur la stratégie et priorisez grâce au <strong>vote à points</strong> ou au <strong>sondage</strong>
     start_a_dot_vote: Démarrer un vote à points
     ask_yes_no_questions: Posez des questions « Oui ou Non »
     when_there_are_tasks_to_be_done_html: Quand il y a des actions à prendre, ou si vous avez juste besoin d'une confirmation, l'outil de <strong>Vérification</strong> clarifie la participation et vous évite de courir après vos participants.
-    start_a_check: Commencer une Vérification
+    start_a_check: Démarrer une vérification
     a_place_for_your: Un lieu pour échanger et décider
     a_loomio_group_is_a_safe_place_html: Un <strong>groupe Loomio</strong> est un espace sûr pour créer des échanges et prendre des décisions, pas un simple réseau social.
     its_secure_and_searchable: C'est aussi une archive sécurisée et consultable de vos échanges, décisions et fichiers.
@@ -289,7 +291,7 @@ fr:
     new_tab: S'ouvre dans un nouvel onglet
     start_group: Formulaire de création de groupe
     about_us: Page à propos de nous
-    pricing: Page des tarifs
+    pricing: Page des offres
     contact: Formulaire de contact
     sign_in: Formulaire de connexion
     terms_of_service: Page sur les conditions d'utilisation

@@ -1,0 +1,68 @@
+sv:
+  pricing_page:
+    discussions: Diskussioner
+    decisions: Beslut
+    lets_talk: Låt oss samtala!
+  navigation:
+    blog: Blog
+    resources: Resurser
+    resources_dropdown: Resursers rullgardinsmeny
+    resources_submenu: Resurser undermeny
+    header_menu_label: Startmeny
+    case_studies: Fallstudier
+    help: Hjälp
+    guides_and_tips: "Beskrivningar och tips"
+    developers: Konstruktörer
+    coop_handbook: Handbok för kooperativ
+    about: Om oss
+    pricing: Priser
+    contact: Kontakt
+    login: Logga in
+    start_group: Startgrupp
+    home: Hem
+    terms_of_service: Servicevillkor
+    privacy: Integritet
+    translation: Översättning
+    newsletter: Nyhetsbrev
+    twitter: Twitter
+    facebook: Facebook
+  marketing:
+    make_a_decision: Fatta ett beslut
+    start_a_group: Starta en grupp
+    start_a_proposal: Starta ett förslag
+    press:
+      fast_company: Skönheten av Loomio är i dess enkelhet. Det gör exakt vad det behöver och inget mer.
+      bbc: Loomio siktar på att vara Facebook för den medborgerliga webben.
+    about_us: Om oss
+  about:
+    heading: Om oss
+    story:
+      heading: Berättelse
+    people:
+      heading: Människor
+    advisors:
+      heading: Rådgivare
+      sascha: "Grundare av X-Lab & Open Technology Institute"
+      joi: "Direktör av MIT Media Lab, Medgrundare av Creative Commons, Styrelsen av Mozilla Foundation"
+      douglas: "Bästsäljande författare, CNN-kommentator, mediateoretiker"
+      matthew_and_brian: "Medgrundare av Inflection, Namaste Foundation"
+    purpose_and_values:
+      heading: "Syfte & Värderingar"
+      coop_heading: Kooperativ socialt företag
+      independent_heading: Oberoende och neutral
+      open_source_heading: öppen kollaboration
+      adaptive_heading: "Adaptiv, reflexiv, användardrivet"
+      transparent_heading: Transparens
+    postal_address: "Postadress:"
+    physical_address: "Fysisk adress:"
+  titles:
+    new_tab: Öppnas i en ny flik
+    start_group: Starta grupp-formulär
+    about_us: Om oss-sida
+    pricing: Sida för prissättning
+    contact: Kontaktformulär
+    sign_in: Inloggningsformulär
+    terms_of_service: Sida för Användarvillkor
+    privacy: Sida om Integritet och Sekretess
+    translation: Översättningsguide
+    home: Hemsida

@@ -102,6 +102,7 @@ zh_TW:
     upgrade_to_pro: 升級至專業
   navigation:
     blog: 部落格
+    features: 特色
     resources: 資源
     resources_dropdown: 資源下拉選單
     resources_submenu: 資源子選單
@@ -111,6 +112,7 @@ zh_TW:
     guides_and_tips: "指南與提示"
     developers: 開發者
     coop_handbook: 協作手冊
+    learn: 學習
     about: 關於
     pricing: 價格
     contact: 聯絡我們

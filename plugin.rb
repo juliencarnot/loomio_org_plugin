@@ -206,7 +206,7 @@ module Plugins
         plugin.use_test_route :setup_group_on_paid_plan  do
           GroupService.create(group: create_group, actor: patrick)
           subscription = create_group.subscription
-          subscription.update_attribute :kind, 'paid'
+          subscription.update(kind: 'paid', payment_method: 'manual', plan: 'standard-loomio-plan')
           sign_in patrick
           redirect_to group_url(create_group)
         end
