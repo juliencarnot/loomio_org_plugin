@@ -1,14 +1,14 @@
 !!!
-%html
+%html{'lang' => I18n.locale}
   %head
     %meta{charset: "UTF-8"}
     = stylesheet_link_tag 'lance'
     %link{href: "https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600", rel:"stylesheet"}
     %link{rel: "stylesheet", href:"https://fonts.googleapis.com/icon?family=Material+Icons"}
-    %title Loomio - Better decisions together
-    %meta{:content => "Loomio helps groups of people make decisions together, online", :name => "description"}/
-    %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}/
-    %meta{:content => "Loomio - Better decisions together", :property => "og:title"}/
+    %title Loomio - t(:"loomio_org_slogan")
+    %meta{:content => t(:"loomio_org_description"), :name => "description"}/
+    %meta{:content => "width=device-width, initial-scale=1, :name => "viewport"}/
+    %meta{:content => "Loomio - t(:"loomio_org_slogan")", :property => "og:title"}/
     %meta{:content => "457851034283863", :property => "fb:app_id"}/
     %script{src: "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"}
     %link{rel: "shortcut icon", href: AppConfig.theme[:icon_src]}
