@@ -1,0 +1,22 @@
+el:
+  pricing_page:
+    gift: Δωρεάν
+    plus: Επαγγελματικό
+    per_month: /μήνα
+    get_started_for_free: Ξεκινήστε δωρεάν
+    discussions: Συζητήσεις
+    decisions: Αποφάσεις
+    subgroups: Υποομάδες
+    community_support: Υποστήριξη κοινότητας
+    lets_talk: Ας μιλήσουμε!
+    usage_statistics: στατιστικά χρήσης
+    select: Επιλογή
+  navigation:
+    help: Βοήθεια
+    start_group: Δημιουργία ομάδας
+  marketing:
+    make_a_decision: Πάτε μια απόφαση
+    start_a_group: Ξεκινήστε μια ομάδα
+    start_a_proposal: Ξεκινήστε μια πρόταση
+  titles:
+    home: Κεντρική σελίδα

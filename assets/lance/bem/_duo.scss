@@ -1,0 +1,52 @@
+.duo {
+  display: flex;
+}
+
+.duo {
+  flex-direction: column;
+  align-items: center;
+}
+
+.duo__image {
+  padding: 0 2em;
+  padding-right: 2em;
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  min-width: 50%;
+  order: 1
+}
+
+.duo__text {
+  // padding: 0 2em;
+  padding: 0 1em;
+  min-width: 50%;
+  order: 2
+}
+
+.duo__cta {
+  line-height: 4em;
+}
+
+
+// medium +
+@media screen and (min-width: $viewport-m) {
+  .duo__cta--intro {
+    display: flex;
+    flex-direction: column;
+  }
+  .duo__cta {
+    flex-direction: row;
+  }
+  .duo {
+    flex-direction: row;
+  }
+  .duo__image {
+    order: 2
+  }
+  .duo__text {
+    order: 1
+  }
+}

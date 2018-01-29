@@ -1,0 +1,40 @@
+// change to toolbox
+.tools {
+}
+
+.tools__cta {
+  margin-top: 2em;
+}
+.tools__break {
+}
+
+.feature__row {
+  align-items: center;
+}
+
+.feature__words {
+  @extend h4
+}
+
+.feature__image-cell {
+  text-align: center;
+  min-height: 17rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.feature__image {
+  width: 100%
+}
+
+.feature__animation {
+  border-radius: 10px;
+  border: 1px solid rgba(0,0,0,0.2);
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+.feature__image-cell-cell {
+  text-align: center;
+}

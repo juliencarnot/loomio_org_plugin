@@ -1,0 +1,65 @@
+ko:
+  pricing_page:
+    gift: 무료
+    get_started_for_free: 무료로 시작하기
+    discussions: 토론
+    decisions: 결정
+    subgroups: 소그룹
+    usage_statistics: 사용량 통계
+    select: 선택
+  navigation:
+    blog: 블로그
+    resources: 자료
+    resources_dropdown: 자료메뉴펼쳐보기
+    resources_submenu: 자료하위메뉴
+    header_menu_label: 상위메뉴
+    case_studies: 운영사례
+    help: 도움말
+    guides_and_tips: "지침&팁"
+    developers: 개발자
+    coop_handbook: 협업핸드북
+    about: 소개
+    pricing: 비용
+    contact: 연락처
+    login: 로그인
+    start_group: 모임시작하기
+    home: 홈
+    terms_of_service: 서비스조건
+    privacy: 개인정보
+    translation: 번역
+    newsletter: 뉴스레터
+    twitter: 트위터
+    facebook: 페이스북
+  marketing:
+    make_a_decision: 의사결정하기
+    start_a_group: 그룹 시작하기
+    start_a_proposal: 제안 시작하기
+    about_us: 소개
+  about:
+    heading: 소개
+    people:
+      robert: "수석개발자, 데브옵스, 건축가"
+      vivien: "공동설립자, 루미오이사회 의장, 유니세프 뉴질랜드 사무총장"
+    advisors:
+      heading: 조언자
+      sascha: "X-Lab과 오픈테크놀로지 연구소 설립자"
+      katherine: "전 수석부사장, AOL, 루트캐피탈 부의장 "
+      joi: "MIT 미디어랩 책임자,  크리에이티브커먼(CC) 공동설립자, 모질라재단 이사"
+      douglas: "베스트셀러작가,CNN 해설가, 매체연구자"
+      matthew_and_brian: "나마스떼 재단 공동설립자"
+    purpose_and_values:
+      heading: "목표&가치"
+      mission_statement: '루미오 협동조합은  어디서나 누구나 영향을 주는 결정에 참여할 수 있는 세계를 만들기 위해 존재한다. '
+    postal_address: "우편주소"
+    physical_address: "직장또는실제주소"
+  titles:
+    new_tab: 새로운 탭 열기
+    start_group: 초보자조직양식
+    about_us: 소개페이지
+    pricing: 비용페이지
+    contact: 연락처양식
+    sign_in: 서명양식
+    terms_of_service: 서비스조건페이지
+    privacy: 개인보호정책소개
+    translation: 번역지침
+    home: 홈페이지

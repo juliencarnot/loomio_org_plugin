@@ -1,0 +1,17 @@
+tr:
+  pricing_page:
+    get_started_for_free: Ücretsiz başlayın
+    discussions: Müzakereler
+    decisions: Kararlar
+    subgroups: Alt gruplar
+    lets_talk: Haydi konu!
+    usage_statistics: kullanım istatistikleri
+    select: Seç
+  navigation:
+    help: Yardım
+  marketing:
+    make_a_decision: Bir karar ver
+    start_a_group: Bir grup başlat
+    start_a_proposal: Bir öneri başlat
+  titles:
+    home: Ana sayfa

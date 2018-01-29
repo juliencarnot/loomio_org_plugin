@@ -1,0 +1,67 @@
+.wrapper.pricing-table__wrapper
+  %h1= t :"pricing_page.header"
+  .grid.grid--medium
+    .pricing-table__option.pricing-table__option--gift
+      %h2= t :"pricing_page.gift"
+      %p.pricing-table__price= t :"pricing_page.gift_price_html"
+      %p.pricing-table__price--annually &nbsp;
+      %p.pricing-table__plan-description= t :"pricing_page.gift_body"
+      %p.pricing-table__plan-includes= t :"pricing_page.gift_features"
+      %ul
+        %li= t :"pricing_page.one_group"
+        %li= t :"pricing_page.discussions"
+        %li= t :"pricing_page.decisions"
+        %li= t :"pricing_page.file_document_storage"
+        %li= t :"pricing_page.particpate_either_way"
+        %li= t :"pricing_page.password_free_secure_login"
+        %li= t :"pricing_page.community_support"
+    .pricing-table__option.pricing-table__option--standard
+      %h2= t :"pricing_page.standard"
+      %p.pricing-table__price= t :"pricing_page.standard_price_html"
+      %p.pricing-table__price--annually= t :"pricing_page.annual_standard_price_html"
+      %p.pricing-table__plan-description= t :"pricing_page.standard_body_html"
+      %p.pricing-table__plan-includes= t :"pricing_page.standard_features"
+      %ul
+        %li= t :"pricing_page.slack_integration_html"
+        %li= t :"pricing_page.subgroups"
+        %li= t :"pricing_page.category_tags"
+        %li= t :"pricing_page.custom_subdomain_html"
+        %li= t :"pricing_page.customer_support_html"
+        %li= t :"pricing_page.data_export"
+    .pricing-table__option.pricing-table__option--plus
+      %h2= t :"pricing_page.plus"
+      %p.pricing-table__price= t :"pricing_page.plus_price_html"
+      %p.pricing-table__price--annually= t :"pricing_page.annual_plus_price_html"
+      %p.pricing-table__plan-description= t :"pricing_page.plus_body_html"
+      %p.pricing-table__plan-includes= t :"pricing_page.plus_features"
+      %ul
+        %li= t :"pricing_page.multiple_groups"
+        %li= t :"pricing_page.analytics_report"
+        %li= t :"pricing_page.premium_support"
+
+  - if current_user.is_logged_in?
+    %h2= t(:"pricing_page.your_groups_and_plans")
+    %table.pricing-table__your-groups-table
+      - current_user.formal_groups.published.parents_only.each do |group|
+        %tr.pricing-table__your-groups-row
+          %td.pricing-table__your-groups-name=group.name
+          %td
+            - if group.subscription&.kind == 'paid'
+              %i.mdi.mdi-star.mdi-24px.loomio-orange
+          %td
+            = t 'subscription_levels.'+(group.subscription&.level || 'free')
+          %td.pricing-table__your-groups-buttons
+            - if group.subscription&.kind != 'paid'
+              %a.btn--primary.pricing-page-btn-gold{href: ChargifyService.standard_plan_url(group, current_user)}= t :'pricing_page.upgrade_to_gold'
+              %a.btn--gray.pricing-page-btn-pro{href: ChargifyService.plus_plan_url(group, current_user)}= t :'pricing_page.upgrade_to_pro'
+  - else
+    %p.pricing-table__get-started
+      %a.btn--accent--raised{href: '/start_group', class: 'btn'}= t :"pricing_page.start_group"
+
+  .pricing-table__contact-us
+    %p= t :"pricing_page.prices_in_us_dollars"
+    %p= t :"pricing_page.free_is_for_community_and_evaluation_html"
+    %p
+      = t :"pricing_page.need_something_else_html"
+      = t :"pricing_page.lets_talk_html"
+    %p= t :"pricing_page.privacy_respected"

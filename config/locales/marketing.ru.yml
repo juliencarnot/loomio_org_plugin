@@ -1,0 +1,16 @@
+ru:
+  pricing_page:
+    discussions: Обсуждения
+    decisions: Решения
+    subgroups: Подгруппы
+    select: Выделить
+  navigation:
+    help: Помощь
+    login: Логин
+    privacy: Конфиденциальность
+  marketing:
+    make_a_decision: Принять решение
+    start_a_group: Создать группу
+    start_a_proposal: Создать голосование
+  titles:
+    home: Домашняя страница

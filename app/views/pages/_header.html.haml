@@ -1,0 +1,35 @@
+%header.header
+  .header__logo
+    %a{href: '/', title: t(:"titles.home")}
+      = image_tag('lance/images/logo-orange.png', alt: 'Loomio logo')
+  %button.header__menu-collapsed-button{'aria-haspopup': 'true', 'aria-expanded': 'false', 'aria-label': t(:"navigation.header_menu_label")}
+    %i.fa.fa-lg.fa-bars
+  %ul.header__menu
+    %li.header__item
+      %a.header__item-block-link{href: 'http://blog.loomio.org', target: '_blank', title: t(:"titles.new_tab")}= t :'navigation.blog'
+    %li.header__item.header__resources-dropdown{'aria-label': t(:"navigation.resources_dropdown"), 'aria-haspopup': 'true', 'aria-expanded': 'false'}
+      %span= t :'navigation.resources'
+      %span.header__item-icon
+        %i.fa.fa-chevron-down{'aria-hidden': 'true'}
+      %ul.header__resources-dropdown-menu{aria_label: t(:"navigation.resources_submenu")}
+        %li
+          %a.header__item-block-link{href: 'http://blog.loomio.org/category/stories', target: '_blank', title: t(:"titles.new_tab")}= t :'navigation.case_studies'
+        %li
+          %a.header__item-block-link{href: 'http://help.loomio.org', target: '_blank', title: t(:"titles.new_tab")}= t :'navigation.help'
+        %li
+          %a.header__item-block-link{href: 'https://github.com/loomio/loomio', target: '_blank', title: t(:"titles.new_tab")}= t :'navigation.developers'
+        %li
+          %a.header__item-block-link{href: 'http://loomio.school/', target: '_blank', title: t(:"titles.new_tab")}= t :'navigation.loomio_school'
+        %li
+          %a.header__item-block-link{href: 'http://loomio.coop/', target: '_blank', title: t(:"titles.new_tab")}= t :'navigation.coop_handbook'
+        %li
+          %a.header__item-block-link{href: '/about', title: t(:"titles.about_us")}= t :'navigation.about'
+    %li.header__item.header__item--pricing
+      %a.header__item-block-link{href: '/pricing', title: t(:"titles.pricing")}= t :'navigation.pricing'
+    %li.header__item
+      %a.header__item-block-link{href: '/contact', title: t(:"titles.contact")}= t :'navigation.contact'
+    %li.header__item
+      %a.header__item-block-link{href: '/users/sign_in', title: t(:"titles.sign_in")}= t :'navigation.login'
+    %li.header__item.header__item--start-button
+      %a.header__button{href: '/start_group?utm_source=loomio_org&utm_medium=front_page&utm_campaign=header', class: 'btn', title: t(:"titles.start_group")}
+        = t :'navigation.start_group'

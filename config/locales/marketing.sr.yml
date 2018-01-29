@@ -1,0 +1,96 @@
+sr:
+  pricing_page:
+    header: Planovi grupe
+    get_started_for_free: Počni besplatno
+    discussions: Diskusije
+    decisions: Odluke
+    subgroups: Podgrupe
+    slack_integration_html: |
+      <strong>Slack</strong> integracija
+    usage_statistics: statistika korišćenja
+    select: Odaberi
+  navigation:
+    blog: Blog
+    resources: Resursi
+    case_studies: Studije slučaja
+    help: Pomoć
+    guides_and_tips: "Smernice i saveti"
+    developers: Programeri
+    about: O nama
+    pricing: Cene
+    contact: Kontakt
+    login: Prijava
+    start_group: Kreiraj grupu
+    home: Početna
+    terms_of_service: Uslovi Korišćenja
+    privacy: Privatnost
+    translation: Prevod
+    newsletter: Bilten
+    twitter: Twitter
+    facebook: Facebook
+  marketing:
+    make_a_decision: Odluči
+    start_a_group: Kreiraj grupu
+    start_a_proposal: Kreiraj predlog
+    press:
+      fast_company: Lepota Lumia je u njegovoj jednostavnosti. On radi tačno ono što je i potrebno bez suvišnosti.
+      boingboing: "Lumio, izgleda, poseduje dobru mešavinu političke mudrosti, tehničkog znanja i osećaja za dizajn."
+      bbc: Lumio je zamišljen kao Facebook građana www mreže.
+    about_us: O nama
+  about:
+    heading: O nama
+    introduction:
+      first_paragraph: "Lumio je softver otvorenog koda, društvena kompanija građena od strane onih koji ga poseduju kroz njihovu saradnju. Sedište nam je u Aotearoai, na Novom Zelandu, čiji smo deo"
+      second_paragraph: "Verujemo da grupe koje praktikuju efikasno donošenje odluka, gde su svi članovi uključeni, mogu da promene organzacionu dinamiku na globalnoj skali. Loomio je tu da svima bude jednostavno i da učestvuju u donošenju odluka koje se tiču njih samih, gde god da se nalaze."
+    story:
+      heading: Priča
+      first_paragraph: |
+        Loomio je nastao 2011., kada su aktivisti grupe Occupy Wall Street i socijalni preduzetnici iz Ensipral Network-a shvatili da imaju potrebu da reše isti problem; brzo i efikasno donošenje odluka u koje su uključeni svi članovi, bez potrebe da organizuju sastanke.
+        2012. smo se udružili i izbačen je prototip (Loomio Beta). Shvatili smo da je potreba za takvim rešenjem globalna.
+      second_paragraph: |
+        2013. smo pokrenuli uspešnu internacionalnu kampanju za prikupljanje sredstava, što nam je omogućilo da radimo na sledećim verzijama aplikacije. Loomio 1.0 je ugledao svetlo dana naredne godine.
+        2015. smo uspešno završili kampanju za dobijanje etičkog kapitala, i nastavili smo da radimo kako bi isporučili alat za kolaborativno donošenje odluka milionima ljudi širom sveta.
+    people:
+      heading: Ljudi
+      introduction: "Mi smo posvećeni tim sa dubokim iskustvom u procesu optimizacije procesa u grupama, socijalnim promenama, preduzetništvu kao i razvoju otvorenih tehnologija."
+      alanna: "Suosnivač, moderator, samostalni geek, Enspiral Foundation direktor, ljubitelj mačaka"
+      babs: "Sekretar kompanije, operacije, aktivist, ljubitelj prirode"
+      ben: "Suosnivač i direktor, oranizator zajednica, istraživač kolektivne inteligencije"
+      hannah: "Software developer, korisnička podrška, ilustrator i uradi sam izdavač, kreativni aktivista"
+      james: "Stariji inženjer softvera, koordinator zajednice otvorenog koda, odvažni megdandžija"
+      mary: "Organizavioni žongler, saradnik, trener tima, domaćin ko-šta-donese večera, posmatrač zvezda"
+      matthew: "Vodi brigu o korisnicima, brojevima i dizajnu"
+      michael: "Direktor, poslovni i korisnički razvoj, koordinator, startup trener, motociklista"
+      mj: "Direktor, strateg iz Sjedinjenih Američkih Država, povezivač tačaka, trener, ponosna mama"
+      natalia: "Koordinator prevoda, korisnička podrška, aktivista"
+      richard: "Suosnivač i inženjer softvera, aktivista, open source haker hardvera"
+      robert: "Stariji inženjer, DevOps, arhitektura. Izmišlja ideje i pretvara ih u softver"
+      vivien: "Suosnivač, Član Lumio Odbora, Izvršni direktor UNICEF-a Novog Zelanda"
+    advisors:
+      heading: Savetnici
+      introduction: Podržava nas Savetodavno Veće sa nekim od najbriljantnijih umova u demokratiji i tehnologiji širom sveta.
+      sascha: "Osnivač X-Lab-a i Instituta Otvorene Tehnologije"
+      katherine: "Nekadašnja Starija Podpredsednica, AOL, podpredsenica Root Capital"
+      joi: "Direktor MIT Media Lab, Suosnivač Creative Commons, Odbora Mozilla Fondacije"
+      douglas: "Najprodavaniji autor, CNN komentator, teoretičar medija"
+      matthew_and_brian: "Suosnivači Inflection, Namaste fondacije"
+    purpose_and_values:
+      heading: "Svrha i Vrednosti"
+      mission_statement: Lumio Saradnici postoje da kreiraju svet u kome je svima lako učestvovati u donošenju odluka koje ih pogađaju.
+      introduction: |
+        Dobar proces saradnje omogućava grupama da donose bolje odluke, da dođu do boljih ideja i akcija nego što bi bilo ko individualno mogao da osmisli ili sprovede.
+        Loomio Co-operative cilja na rušenje prepreka učestvovanju u donešenju odluka na svakom nivou;  u komšiluku, zajednicama, poslu, socijalnim pokretima, kao i lokalnim i nacionalnim vladama.
+      coop_heading: Zajednička socijalna kompanija
+      coop_body: |
+        Lumio je društvena kompanija koju poseduju ljudi koji je i grade. Za razliku od tradicionalnih kompanija koje žele maksimalnu zaradu, prihod nije glavni cilj, nego sredstvo za ostvarenje osnovnih društvenih potreba.
+        Struktura u kojoj radnici poseduju kompaniju je moćan način da oživimo vrednosti saradnje i kolektivne imovine.
+      independent_heading: Nezavisno i neutralno
+      independent_body: Lumio je posvećen da ostane nezavisan kako bi obezbedio neutralno mesto za okupljanje bilo koje grupe.
+      open_source_heading: Transparentna saradnja
+      open_source_body: Lumio nastoji da razvije alate otvorenog koda koji čine saradnju lakšom svima.
+      adaptive_heading: "Prilagodljiv, refleksni, korisnički vođen"
+      adaptive_body: "Lumio pomaže razvoj alata koji su iterativni, samorefleksni i prilagodljivi, a pokreće kolektivna mudrost korisničke zajednice."
+      transparent_heading: Transparentnost
+      transparent_body: |
+        Loomio Co'operative će biti okružen dragocenom zajednicom korisnika i saradnika. Ova zajednica mora biti uverena da Loomio Co-operative radi ono što tvrdi da radi.
+        Privrženi smo visokim standardima deljenja informacija.

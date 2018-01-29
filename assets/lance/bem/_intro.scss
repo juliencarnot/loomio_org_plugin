@@ -1,0 +1,61 @@
+.intro {
+  // max-width: 1000px;
+}
+
+.intro__image-container {
+  order: 2;
+}
+
+.intro__problem-text {
+  padding-right: 1em;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  @extend h2;
+  ul {
+    margin: 0;
+    padding: 0;
+    li {
+      list-style-type: none;
+    }
+  }
+}
+
+.intro__image {
+  height: 400px;
+}
+
+.intro__h2 {
+  @extend h3;
+  padding: 0 0 20px 0;
+}
+
+.intro__h1{
+  @extend h1;
+  padding: 24px 0;
+}
+
+
+.fp-cta-btn {
+  font-size: 1.4em;
+}
+.fp-cta-btn--large {
+  font-size: 1.999rem;
+}
+
+.fp-text-and-cta {
+  height: 100%;
+}
+
+.fp-cta-box {
+  margin-bottom: 3em;
+}
+
+.jumbo-1 {
+  font-size: 3rem;
+}
+
+.jumbo-2 {
+  font-size: 2rem;
+}

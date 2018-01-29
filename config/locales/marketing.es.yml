@@ -1,0 +1,302 @@
+es:
+  subscription_levels:
+    free: 'Gratis '
+    gold: Dorada
+    pro: Pro
+    plus: Plus
+  current_plan_button:
+    upgrade: Actualizar el plan
+    gold: 'Dorada '
+    pro: 'Pro '
+    plus: 'Plus '
+  subscription_success_modal:
+    heading: Gracias por actualizar tu plan!
+    receipt: 'Recibirás un correo electrónico con un enlace de acceso al portal de recibos, desde donde podrás cambiar o cancelar tu suscripción y acceder al historial de pago.  '
+    got_questions_then: 'Si tienes alguna pregunta, necesitas ayuda para comenzar, o quieres configurar un subdominio personalizado para tu grupo, por favor '
+    contact_us: 'contactanos. '
+    sign_off: ❤ de parte del equipo de Loomio
+    ok_got_it: Bien, ¡lo tengo!
+  premium_feature:
+    premium_feature: funcionalidad Dorada
+  export_group_data_link:
+    download_group_data_export: Exportar la data grupal
+  member_emails_button:
+    show_member_emails: Loomio y Slack trabajan agredablemente  justos
+    helptext: Administradores de grupos en plan Dorado podrán ver las direcciones de email de los miembros de su grupo
+  slack_page:
+    header: "Loomio y Slack funcionan muy bien juntos."
+    intro: "Estamos contentos de introducir LoomioBot, una ayuda amigable para usar con Slack."
+    description: "LoomioBot puede ayudarte a mejorar la toma de decisiones de tu grupo, combinando la rapidez de Slack en tiempo real, con la fortaleza y sencillez de las herramientas de Loomio.  "
+    features: "Características:"
+    from_chat_to_discussion: |
+      El chat en tiempo real de Slack es genial para estar en contacto y recibir respuestas rápidas.
+      Los hilos de discusión de Loomio son el equivalente online de las reuniones.
+      Mantén toda la información sobre un tema en el mismo lugar,
+      permite que las personas participen a su propio tiempo,
+      y alcanza resultados claros con las herramientas para la toma de decisiones de Loomio.
+    grant_access: "Concede acceso a tu grupo"
+    grant_access_subtext: "No es necesario sincronizar listas de contactos, o invitar a las personas a plataformas con las que no son ya familiares. LoomioBot autoriza automáticamente en tu grupo de Loomio a cualquier persona en tu canal de Slack. "
+    start_poll: "Inicia propuestas directamente en Slack"
+    start_poll_subtext: "¿Quieres chequear rápidamente el animo del equipo? Escribe un simple comando y prepararemos una decisión para que compartas con tu equipo instantáneamente"
+    receive_updates: "Recibir actualizaciones sobre decisiones en tiempo real"
+    receive_updates_subtext: "Alcanza a las personas donde están. Todos en Slack recibirán actualizaciones sobre eventos importantes a medida que suceden. "
+    vote_instantly: "Vota instantáneamente desde Slack"
+    vote_instantly_subtext: "No hay necesidad de que salgas de tu ventana de chat para tu voz se oiga; simplemente has clic en un botón y estas listo."
+    on_paid_plan: "La integracion LoomioBot esta disponible para grupos en plan Dorado o mayor."
+  pricing_page:
+    header: 'Planes grupales '
+    upgrade_for_premium_features: 'Por favor actualiza tu plan para acceder a las funcionalidades premium '
+    gift: 'Gratis '
+    standard: Dorada
+    plus: Pro
+    per_month: /al mes
+    get_started_for_free: 'Comienza gratis '
+    gift_body: 'Para grupos comunitarios y casuales '
+    standard_body_html: 'Para grupos de trabajo y negocios '
+    plus_body_html: Para organizaciones con múltiples grupos.
+    gift_features: "Funcionalidades incluidas: "
+    one_group: Un grupo
+    discussions: Discusiones
+    decisions: Decisiones
+    category_tags: 'Etiquetas por categorías '
+    subgroups: Subgrupos
+    particpate_either_way: Participa por email o en la plataforma
+    file_document_storage: Adjuntar archivos
+    password_free_secure_login: 'Registro seguro sin contraseña '
+    community_support: 'Apoyo comunitario '
+    coming_soon: 'Próximamente '
+    analytics_report: 'Reporte analítico '
+    data_export: Exportación de datos (CSV o XLS)
+    slack_integration_html: |
+      Integración con <strong>Slack</strong>
+    customer_support_html: Soporte al usuario
+    standard_price_html: '<strong>$19</strong>/al mes'
+    gift_price_html: '<strong>$0</strong>'
+    annual_standard_price_html: 'o $190 / al año'
+    annual_plus_price_html: 'o $990 / al año'
+    plus_features: 'Todo en Dorada, más: '
+    standard_features: 'Todo en Gratis, más: '
+    multiple_groups: "Hasta 10 grupos"
+    premium_support: 'Soporte especial '
+    help_with_setup: Ayuda con la configuración inicial
+    ldap_coming_soon: 'Integración con <strong>ActiveDirectory/LDAP</strong>'
+    custom_subdomain: 'Subdominio personalizado '
+    free_is_for_community_and_evaluation_html: |
+      Nuestro plan Gratis es para usuarios casuales, grupos comunitarios o evaluación.
+      Si quieres el plan Dorado para tu grupo comunitario u organización sin fines de lucro, usa el cupón de descuento NFP5USD para pagar solo us$5/al mes.
+    privacy_respected: Respetamos tu privacidad y nunca venderemos tu información a otras empresas, o pondremos publicidad en Loomio.
+    prices_in_us_dollars: 'Precios en dolares US, más impuestos en la venta donde aplique  '
+    need_something_else_html: |
+      ¿Quiéres una instancia privada, consultoría y entrenamiento, personalización, o alguna otra cosa?
+    lets_talk_html: <a href="/contact">Hablemos!</a>
+    lets_talk: 'Hablemos! '
+    custom_subdomain_html: |
+      Subdominio personalizado (<strong>tugrupo</strong>.loomio.org)
+    usage_statistics: Estadísticas de uso
+    plus_price_html: '<strong>$99</strong>/al mes'
+    start_group: Inicia un grupo
+    select: 'Selecciona '
+    your_groups_and_plans: Tus grupos y planes
+    upgrade_to_gold: Actualizar al plan Dorado
+    upgrade_to_pro: Actualizar al plan Pro
+  navigation:
+    blog: Blog
+    features: Funcionalidades
+    resources: 'Recursos '
+    resources_dropdown: Menú desplegable de recursos
+    resources_submenu: submenú de recursos
+    header_menu_label: 'Menú superior '
+    case_studies: Estudio de casos
+    help: 'Ayuda '
+    guides_and_tips: "Guías y consejos "
+    developers: ' Desarrolladores '
+    coop_handbook: Manual de la cooperativa
+    learn: Aprender
+    about: 'Sobre Loomio '
+    pricing: 'Precios '
+    contact: Contactarnos
+    login: 'Entrar '
+    start_group: 'Crear un grupo '
+    home: 'Página principal '
+    terms_of_service: 'Términos del servicio '
+    privacy: 'Privacidad '
+    translation: 'Traducción  '
+    newsletter: 'Boletín informativo '
+    twitter: 'Twitter '
+    facebook: Facebook
+    trademark_statement: © 2017 Loomio Cooperative Limited. Todos los derechos reservados. "Loomio"es una marca registrada de Loomio Cooperative Limited.
+    not_slack: Loomio no es creado, afiliado o apoyado por Slack Technologies, Inc.
+    loomio_school: 'Loomio Escuela '
+    company_handbook: 'Manual de la compania '
+  marketing:
+    cooperative_groups: Grupos cooperativos
+    make_a_decision: Toma una decisión
+    start_a_group: Empieza un grupo
+    too_many_emails_and_meetings: ¿Demasiados emails y reuniones tediosas?
+    make_decisions_without_meetings: 'Toma decisiones sin reuniones. '
+    how_it_works: Cómo funciona
+    inclusive_clear_and_effecient_tools: 'Cuidadosamente diseñado para ser inclusivo, claro y eficiente. '
+    too_many_group_emails: ¿Demasiados correos grupales?
+    tedious_meetings: ¿Reuniones tediosas?
+    off_track_discussions: ¿Discusiones fuera de tema?
+    loomio_is_the_answer: 'Loomio ahorra tiempo, da resultados claros y mantiene todo en un mismo sitio. '
+    loomio_helps: 'Loomio ayuda '
+    boards_and_committees: 'Juntas Ejecutivas y Comités '
+    make_decisions_between_meetings: 'Toma decisiones entre las reuniones '
+    approve_resolutions: Aprueba resoluciones y minutas
+    everything_in_one_place: 'Mantén todo en un mismo sitio '
+    working_teams: Grupos de trabajo
+    increase_transparency: 'Incrementa la transparencia '
+    more_effecient_meetings: 'Reuniones más eficientes '
+    clear_decisions: 'Decisiones claras '
+    government_and_community: 'Gobierno y Comunidad '
+    give_people_a_voice: 'Dale voz a la gente '
+    increase_accessibility: 'Incremente la accesibilidad y diversidad  '
+    build_empathy: Desarrolla empatía y entendimiento
+    ben_quote: "“Nuestras comunicación es más eficiente y efectiva, y todo está en el mismo sitio.”"
+    ben_attribution: Ben Gleisner, Conscious Consumers
+    teddy_quote: "“La gente aprende a participar útilmente con los otros, y eso se transfiere también al tiempo de trabajo cara a cara.”   "
+    teddy_attribution: Theodore Taptiklis, Human Methods Lab
+    tom_quote: "“Logramos incluir a gente que de otro modo no hubiera participado de la conversación, como partes marginalizadas de la población y jóvenes.”"
+    tom_attribution: Tom MacDiarmid, Statistics New Zealand
+    a_suite_of_decision_tools: Un set de herramientas para decisiones
+    choose_the_tool: Elije la herramienta que necesitas para cada situación.
+    reach_clear_outcomes: Logra resultados claros
+    proposals_bring_conclusion_html: '<strong>Propuestas</strong> son una forma efectiva de alcanzar conclusiones en las discusiones. '
+    hear_from_everyone: Escucha lo que piensan todos - incluso los que menos hablan, y ve la totalidad de las ideas rápidamente.
+    proposals_highlight_agreement: 'Las propuestas resaltan el acuerdo, y ayudan a traer a la superficie los malentendidos o problemas que necesitan ser resueltos.   '
+    start_a_proposal: Inicia una propuesta
+    try_demo: Ver demostración
+    simple_scheduling: Coordina horarios fácilmente
+    time_poll_finds_when_html: '<strong>Coordinación horaria</strong> para encontrar cuando todos se pueden reunir. Funciona a través de diferentes organizaciones y automáticamente convierte las zonas horarias. '
+    start_a_time_poll: Iniciar coordinación horaria
+    watch_time_poll_video: "Ve el video: Introducción a la Coordinación horaria"
+    polling_and_prioritising: 'Encuesta y Prioriza '
+    discuss_stratergy_and_prioritise_html: Dialoga sobre la estrategia y prioriza opciones con<strong>Voto de puntos</strong> y <strong>Encuesta</strong>
+    start_a_dot_vote: Iniciar voto de puntos
+    ask_yes_no_questions: Haz preguntas de Si o No
+    when_there_are_tasks_to_be_done_html: Cuando hay tareas para completar, o solo quieres que la gente de el 'ok', <strong>Comprobación</strong> hace que la participación sea clara y te ahorras tiempo no teniendo que perseguir a la gente.
+    start_a_check: 'Iniciar Comprobación '
+    a_place_for_your: 'Un lugar para tus diálogos y decisiones '
+    a_loomio_group_is_a_safe_place_html: 'El <strong>grupo de Loomio</strong> es un espacio seguro para tener diálogos considerados y tomar decisiones juntos, fuera de las redes sociales. '
+    its_secure_and_searchable: 'Es un  archivo seguro y fácil de encontrar para tus diálogos, decisiones y documentos. '
+    make_a_decision_in_email: Toma una decision en el email, con quien quieras.
+    no_prior_setup_required: No se necesita tener una cuenta con anterioridad. Usalo en cualquier momento.
+    start_a_decision_in_3_steps: "Iniciar una decisión en 3 pasos:"
+    forward_a_group_email_html: 'Reenvía un email grupal a <code>decide@loomio.org</code> '
+    check_your_inbox: Revisa tu bandeja de entrada, encontraras un email de Loomio
+    your_group_will_be_included_automatically: 'Inicia una decisión, tu grupo será incluido automáticamente. '
+    watch_the_video_to_see_it: Mira el video para verlo en acción
+    make_decisions_in_slack: Toma decisiones en Slack
+    find_out_more_about_slack_integration: Más información sobre nuestra integración con Slack
+    slack_integration_in_standard_plan: La integración con Slack esta incluida en nuestra suscripción Dorada.
+    works_on_all_devices: Funciona en todos los dispositivos y plataformas.
+    loomio_is_a_web_app: 'Loomio es una plataforma online con gran soporte para ordenadores y móviles. '
+    no_passwords_required: No se necesita una contraseña.
+    no_thinking_up_or_remembering: No necesitas recordar, pensar o escribir. Inicia sesión solamente con un enlace que enviamos a tu email, o ingresa vía Google o Facebook.
+    easy_to_adopt: Fácil de adoptar
+    we_know_it_can_be_hard: Sabemos que puedes ser difícil empezar a usar una nueva herramienta. Con Loomio puedes participar y mantenerte al día por email.
+    reminders_keep_things_moving: Recordatorios mantienen las cosas en movimiento
+    loomio_has_great_notifications_and_reminders: Loomio tienen muy buenas notificaciones y recordatorios, para que las decisiones sean inclusivas y efectivas.
+    overcome_language_barriers: 'Supera las barreras del idioma  '
+    loomio_can_translate: 'Loomio puede traducir el contenido de un idioma al otro, permitiendo a las personas comunicarse entre varios idiomas. '
+    accessible_by_design: Accesible por diseño
+    loomio_is_accessible: Loomio es accesible para personas con impedimentos visuales
+    secure: 'Seguro '
+    approved_by_nz_government: 'Aprobado para el uso por en gobierno de Nueva Zelanda.  '
+    open_source: Software de código abierto
+    our_code_is_on_github: Nuestro código esta en Github
+    we_respect_your_privacy: 'Respetamos tu privacidad '
+    we_will_never_sell_your_data: Nunca venderemos tu información a otras empresas, o venderemos privacidad en Loomio.
+    in_the_media: En los medios de comunicación
+    press:
+      fast_company: La belleza de Loomio esta en su simplicidad. Hace exactamente lo que tiene que hacer y no más.
+      boingboing: "Loomio parece tener un buena mixtura de inteligencia política, conocimiento técnico y sentido del diseño."
+      bbc: 'Loomio esta preparado para sel el Facebook de la red ciudadana. '
+    a_different_kind_of_company: 'Una empresa diferente '
+    loomio_is_a_social_enterprise: 'Loomio es una empresa social, que es propiedad colectiva de los trabajadores que la construyen.  '
+    loomio_exists_to: Loomio existe para crear un mundo en el que sea fácil para cualquier persona en cualquier lugar el participar en las decisiones que afecten sus vidas.
+    our_company_handbook: Manual de la empresa.
+    about_us: Acerca de Loomio
+    people_not_enjoying_their_meeting: Personas que no disfrutan su reunión
+    people_doing_thumbs_up_or_down: 'Personas mostrando pulgares arriba o abajo indicando su posición '
+    people_finding_a_time_to_meet: Personas alrededor de un calendario encontrando un tiempo para reunirse
+    people_prioritising_options: 'Personas priorizando opciones mediante votos con números '
+    people_reaching_goal: 'Personas levantando la mano si completaron su tarea '
+    loomio_on_laptop_and_phone: 'Loomio en un ordenador y un teléfono '
+    loomio_bot_with_plug: 'Loomio robot (nuestra mascota) enchufado a la siguiente imagen '
+    loomio_in_slack: 'Loomio siendo utilizado dentro de Slack, el app para chats grupales '
+    loomio_team_photo: Una foto nuestra, el equipo que construye Loomio, en nuestro ultimo retiro en NZ
+    feature_image_alt_text: 'Una gran lamparilla eléctrica con el logo de Loomio que forma el filamento, en el medio de cuatro escenas donde la gente está usando Loomio felizmente  '
+  about:
+    heading: Acerca de Loomio
+    introduction:
+      first_paragraph: "Loomio es un software de código abierto, construido por una empresa social y cooperativa que es propiedad de sus trabajadores. Estamos basados en Aotearoa Nueva Zelanda y somos parte de la Red de  "
+      second_paragraph: "Creemos que más grupos practicando la toma de decisiones de forma efectiva e inclusiva, puede cambiar la dinámica de organizaciones a escala global. Loomio existe para facilitar que cualquier persona en cualquier lugar pueda participar en la toma de decisiones que afecta sus vidas.   "
+    story:
+      heading: 'Historia '
+      first_paragraph: |
+        Loomio comenzó en el 2011 cuando activistas del movimiento Occupy y emprendedores sociales de la red Enspiral, se dieron cuenta que necesitaban resolver el mismo problema: la rápida, inclusiva y efectiva toma de decisiones sin reuniones.
+        En el 2012, formamos nuestra cooperativa y lanzamos un prototipo (Loomio Beta). Encontramos que muchos alrededor del mundo necesitaban la misma solución.
+      second_paragraph: |
+        En el 2013 hicimos una campaña de financiamiento colectivo que nos permitió trabajar en una nueva versión del software, Loomio 1.0, que fue lanzado al año siguiente.
+        En el 2015 logramos obtener una una ronda de capital ético y estamos trabajando para proveer la toma de decisiones colaborativas a millones de personas alrededor del mundo.
+    people:
+      heading: Personas
+      introduction: "Somos un equipo apasionado con una gran experiencia en facilitación grupal, cambio social, iniciativa empresarial y desarrollo de tecnologías abiertas. "
+      alanna: "Cofundadora, facilitadora, geek del liderazgo sin jefe, directora del Enspiral Foundation, amante de los gatos "
+      babs: "Secretaria de la empresa, operaciones, activista, amante de la naturaleza"
+      ben: "Cofundador y director, organizador comunitario, investigador de inteligencia colectiva"
+      hannah: "Desarrollador de software, soporte al usuario, ilustrador y publicista DIY, activista creativo"
+      james: "Desarrollador de software, coordinador de comunidades de código abierto, bravucón atrevido"
+      mary: "Wrangler de organizaciones, colaboradora, entrenadora de equipos, anfitriona de cenas compartidas, observadora de estrellas"
+      matthew: "Cuidador de usuarios, números y diseño"
+      michael: "Director, desarrollador de negocios, coordinador, mentor de start-up, motociclista "
+      mj: "Directora, estratega basada en US, conectora de puntos, entrenadora, orgullosa madre "
+      natalia: "Coordinadora de traducciones, soporte al usuario, activista"
+      richard: "Cofundador y desarrollador de software, activista, hacker de hardware libre"
+      robert: "Desarrollador senior, DevOps, arquitectura. Piensa ideas y las escribe en software "
+      vivien: "Cofundadora, miembro de la junta directiva de Loomio, directora ejecutiva de UNICEF Nueva Zelanda"
+    advisors:
+      heading: 'Consejeros  '
+      introduction: Nos respalda un Consejo de Asesores con algunas de las mentes más brillantes en democracia y tecnología a nivel internacional.
+      sascha: "Fundador de X-lab y Instituto de Tecnologías Abiertas"
+      katherine: "Previamente Vicepresidente Senior, AOL, Vice Chair of Root Capital "
+      joi: "Director del MIT Media Lab, Cofundador Creative Commons, Junta de la Fundación Mozilla"
+      douglas: "Autor de bestsellers, comentarista de la CNN, teórico de medios"
+      matthew_and_brian: "Cofundadores de Inflection, Fundación Namaste "
+    purpose_and_values:
+      heading: "Propósito y Valores "
+      mission_statement: La cooperativa de Loomio existe para crear un mundo en el que es fácil para todos participar en las decisiones que les afectan.
+      introduction: |
+        Con el proceso colaborativo indicado los grupos generan mejores ideas, decisiones y acciones de las que cualquier individuo puede generar solo.
+        La Cooperativa de Loomio intenta romper las barreras para participar en la toma de decisiones en todo nivel: en los barrios, organizaciones comunitarias, negocios, movimientos sociales, gobiernos locales y nacionales.
+      coop_heading: Cooperativa y empresa social
+      coop_body: |
+        Loomio es una empresa social que le pertenece, de forma colectiva, a la gente que trabaja en ella. A diferencia de una empresa tradicional enfocada en maximizar el capital, los ingresos no son el fin en si mismo, sino los medios para alcanzar el propósito social central.
+        La estructura de una cooperativa de trabajadores es una forma poderosa de vivir nuestros valores de colaboración y propiedad colectiva.
+      independent_heading: Independiente y neutral
+      independent_body: 'Loomio se compromete a permanecer independiente para poder proveer un lugar neutral para que cualquier grupo pueda juntarse. '
+      open_source_heading: Colaboración de código abierto
+      open_source_body: Loomio pretende desarrollar herramientas de código abierto que hagan la colaboración accesible a cualquier persona.
+      adaptive_heading: "Adaptativa, reflexiva, orientada para los usuarios"
+      adaptive_body: "Loomio pretende desarrollar herramientas que sean iterativas, reflexivas y adaptativas, orientadas por la sabiduría colectiva de la comunidad de usuarios."
+      transparent_heading: 'Transparencia '
+      transparent_body: |
+        La Cooperativa de Loomio estara rodeada de una valorada comunidad de usuarios y colaboradores. Esta comunidad debe confiar que la Cooperativa de Loomio hará lo que dice que hará.
+        Estamos comprometidos a altos estándares para compartir información.
+    postal_address: "Dirección postal "
+    physical_address: "Dirección física "
+  titles:
+    new_tab: Abre en nueva ventana
+    start_group: Formulario para crear grupo
+    about_us: Página acerca de
+    pricing: Página de precio
+    contact: Formulario de contacto.
+    sign_in: Formulario de entrada
+    terms_of_service: 'Página de términos del servicio '
+    privacy: Página de privacidad
+    translation: 'guía de traducción '
+    home: Página principal
+  loomio_org:
+    golden_feature: 'funcionalidad Dorada '

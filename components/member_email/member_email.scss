@@ -1,0 +1,4 @@
+.member-email a {
+  color: $primary-text-color;
+  &:hover { text-decoration: underline; }
+}

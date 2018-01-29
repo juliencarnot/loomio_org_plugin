@@ -1,0 +1,303 @@
+zh_TW:
+  subscription_levels:
+    free: 免費
+    gold: 黃金
+    pro: 專業
+    plus: 增強
+  current_plan_button:
+    upgrade: 升級
+    gold: 黃金
+    pro: 專業
+    plus: 增強
+  subscription_success_modal:
+    heading: 感謝升級！
+    receipt: 您將會收到一封帶有付費入口連結的電子郵件，您可以在那裡變更、升級或是取消您的訂閱，以及存取帳單歷史。
+    got_questions_then: 若您有任何問題，需要協助開始使用，或是想要設定供您的群組使用的自訂子網域，請
+    contact_us: 聯絡我們。
+    sign_off: 來自 Loomio 團隊的 ❤️。
+    ok_got_it: 好的，知道了！
+  premium_feature:
+    premium_feature: 黃金功能
+  export_group_data_link:
+    download_group_data_export: 匯出群組資料
+  member_emails_button:
+    show_member_emails: 顯示成員電子郵件
+    helptext: 黃金計畫或是更高階的群組管理員可以看到他們群組成員的電子郵件
+  slack_page:
+    header: "Loomio 與 Slack 合作無間！"
+    intro: "我們很高興介紹 LoomioBot，這是一個友善的 Slack 協助機器人。"
+    description: "LoomioBot 可以協助您的團隊透過閃電般迅速的 Slack 即時通訊與 Loomio 簡單可靠的工具相結合獲得極大的助益。"
+    features: "功能："
+    from_chat_to_discussion: |
+      Slack 的即時聊天非常易於保持聯繫並得到快速的回覆。
+      Loomio 的討論串則是線上版的會議。
+      讓每樣與主題相關的東西都在同一個地方，
+      讓夥伴們都能在他們有空的時間參與，
+      並使用 Loomio 的決策工具來得到清晰的結果。
+    grant_access: "授予您群組的存取權限"
+    grant_access_subtext: "群組不需要同步聯絡人清單，或是邀請夥伴使用他們不熟悉的工具。LoomioBot 無縫驗證您 Slack 頻道中的任何人到您的 Loomio 群組中。"
+    start_poll: "直接在 Slack 上提出建議"
+    start_poll_subtext: "想要取得房間裡的夥伴們的快速熱情程度檢查嗎？輸入簡單的指令，我們就會為您準備一個決策並立刻與您的團隊分享"
+    receive_updates: "即時收到關於決策的更新"
+    receive_updates_subtext: "接觸任何地方的夥伴。每個在 Slack 的人都會收到關於重要事件發生的更新。"
+    vote_instantly: "從 Slack 快速投票"
+    vote_instantly_subtext: "不需要離開您的聊天視窗就可以讓您的聲音被聽到；僅需點選一個按鈕然後就完成了！"
+    on_paid_plan: "LoomioBot 整合提供給黃金計畫或更高的群組使用"
+  pricing_page:
+    header: 群組計畫
+    upgrade_for_premium_features: 請升級至專業功能
+    gift: 免費
+    standard: 黃金
+    plus: 專業
+    per_month: ／月
+    get_started_for_free: 免費開始
+    gift_body: '適用於臨時使用者與社群組織。 '
+    standard_body_html: 給工作小組與公司。
+    plus_body_html: 適用於有多個群組的組織。
+    gift_features: "功能包含了："
+    one_group: 一個群組
+    discussions: 討論
+    decisions: 決策
+    category_tags: 分類標籤
+    subgroups: 子群組
+    particpate_either_way: 透過電子郵件或是在應用程式中參與。
+    file_document_storage: 附加檔案
+    password_free_secure_login: 不需密碼，安全登入
+    community_support: 社群支援
+    coming_soon: 即將到來
+    analytics_report: 分析回報
+    data_export: 資料匯出（CSV 或 XLS）
+    slack_integration_html: |+
+      <strong>Slack</strong> 整合
+
+    customer_support_html: 客戶支援
+    standard_price_html: '<strong>$19</strong>／月'
+    gift_price_html: '<strong>$0</strong>'
+    annual_standard_price_html: '或 $190 / 年'
+    annual_plus_price_html: '或 $990 / 年'
+    plus_features: '在黃金方案中的每樣東西，再加上：'
+    standard_features: '在免費方案中的每樣東西，再加上：'
+    multiple_groups: "多達 10 個群組"
+    premium_support: 進階支援
+    help_with_setup: 初始設定協助
+    ldap_coming_soon: '<strong>ActiveDirectory/LDAP</strong> 整合'
+    custom_subdomain: 自訂子網域
+    free_is_for_community_and_evaluation_html: |
+      我們的免費方案是給臨時使用者與社群組織使用的，您也可以用來評估您的組織是否適合使用 Loomio。
+      想要讓您的社群或非營利組織使用黃金方案？請使用 NFP5USD 來取得每月 5 美元的價格。
+    privacy_respected: 我們尊重您的隱私，所以永遠不會將您的資料賣給第三方，或是在 Loomio 上放廣告。
+    prices_in_us_dollars: 價格是每個群組以美元計價，再加上銷售稅（若適用）。
+    need_something_else_html: |
+      需要私人託管、諮詢與培訓、自訂品牌或是其他東西？
+    lets_talk_html: <a href="/contact">我們來談談吧！</a>
+    lets_talk: 讓我們說說話！
+    custom_subdomain_html: |
+      自訂子網域 (<strong>yourgroup</strong>.loomio.org)
+    usage_statistics: 使用統計
+    plus_price_html: '<strong>$99</strong>／月'
+    start_group: 啟動群組
+    select: 選取
+    your_groups_and_plans: 您的群組與計畫
+    upgrade_to_gold: 升級至黃金
+    upgrade_to_pro: 升級至專業
+  navigation:
+    blog: 部落格
+    features: 特色
+    resources: 資源
+    resources_dropdown: 資源下拉選單
+    resources_submenu: 資源子選單
+    header_menu_label: 標題選單
+    case_studies: 案例探討
+    help: 教學文件
+    guides_and_tips: "指南與提示"
+    developers: 開發者
+    coop_handbook: 協作手冊
+    learn: 學習
+    about: 關於
+    pricing: 價格
+    contact: 聯絡我們
+    login: 登入
+    start_group: 啟動群組
+    home: 主畫面
+    terms_of_service: 服務條款
+    privacy: 隱私權
+    translation: 翻譯
+    newsletter: 電子報
+    twitter: Twitter
+    facebook: Facebook
+    trademark_statement: © 2017 Loomio 有限公司。保留所有權利。“Loomio” 是 Loomio 有限公司的註冊商標。
+    not_slack: Loomio 並不是由 Slack 科技公司建立或是其關係企業，也並非由其支援。
+    loomio_school: Loomio 學院
+    company_handbook: 公司手冊
+  marketing:
+    cooperative_groups: 合作群組
+    make_a_decision: 作出決策
+    start_a_group: 啟動群組
+    too_many_emails_and_meetings: 電子郵件和繁瑣的會議太多了嗎？
+    make_decisions_without_meetings: 不需要開會就可以做出決策。
+    how_it_works: 如何運作
+    inclusive_clear_and_effecient_tools: 設計為包容、清晰且有效率。
+    too_many_group_emails: 太多群組電子郵件了？
+    tedious_meetings: 繁複的會議？
+    off_track_discussions: 偏離主題的討論？
+    loomio_is_the_answer: Loomio 節省時間，並有清楚的結論，且將每樣東西保持在同一個地方。
+    loomio_helps: Loomio 說明
+    boards_and_committees: 董事會與委員會
+    make_decisions_between_meetings: 在會議間做出決策
+    approve_resolutions: 確認決議與紀錄
+    everything_in_one_place: 讓每樣東西保持在同一個地方
+    working_teams: 工作小組
+    increase_transparency: 增加透明度
+    more_effecient_meetings: 更有效率的會議
+    clear_decisions: 清晰的決策
+    government_and_community: 政府與社群
+    give_people_a_voice: 給夥伴發聲的機會
+    increase_accessibility: 增加無障礙程度與多樣性
+    build_empathy: 建立同情心與相互理解
+    ben_quote: "「我們的溝通更有效率，而且每樣東西都在同一個地方。」"
+    ben_attribution: Ben Gleisner，有自覺的消費者
+    teddy_quote: "「人們學習到如何更有效率地面對彼此，以及更有效地面對面工作。」"
+    teddy_attribution: Theodore Taptiklis, Human Methods Lab
+    tom_quote: "「我們接觸到了通常不會對溝通產生貢獻的人們，包含了被邊緣化的人們與青年。」"
+    tom_attribution: Tom MacDiarmid，紐西蘭統計局
+    a_suite_of_decision_tools: 一套決策的工具
+    choose_the_tool: 選擇適合您的環境的工具。
+    reach_clear_outcomes: 做出清楚的結論
+    proposals_bring_conclusion_html: <strong>提案</strong> 是將討論帶到結論的有效方法。
+    hear_from_everyone: 聽見每個人的聲音，即使是較安靜的聲音，並有一目了然的大圖。
+    proposals_highlight_agreement: 提案突顯了同意的部份，並可讓那些需要被解決的誤解或問題浮出水面。
+    start_a_proposal: 啟動提案
+    try_demo: 嘗試範例
+    simple_scheduling: 簡單規劃
+    time_poll_finds_when_html: <strong>時間投票</strong> 尋找所有人何時能開會。它可以橫跨整個組織運作，並會自動轉換時區。
+    start_a_time_poll: 啟動時間投票
+    watch_time_poll_video: "看看影片：介紹 Loomio 時間投票"
+    polling_and_prioritising: 投票與優先順序
+    discuss_stratergy_and_prioritise_html: 討論策略並使用 <strong>點投票</strong> 與 <strong>一般投票</strong>排序
+    start_a_dot_vote: 啟動點投票
+    ask_yes_no_questions: 詢問是／否問題
+    when_there_are_tasks_to_be_done_html: 當有工作待完成時，或是您只是想要取得夥伴的「OK」，<strong>勾選</strong> 讓參與更清楚，且節省您追問夥伴的時間。
+    start_a_check: 啟動勾選
+    a_place_for_your: 供您討論與決策的地方
+    a_loomio_group_is_a_safe_place_html: <strong>Loomio 群組</strong>是一個討論與遠離社群媒體做出決策的安全處。
+    its_secure_and_searchable: 您的討論、決策與檔案都有安全且可搜尋的封存。
+    make_a_decision_in_email: 在電子郵件中與任何人一起做出決策，
+    no_prior_setup_required: 不需事先設定。任何時間皆可用。
+    start_a_decision_in_3_steps: "三步啟動討論："
+    forward_a_group_email_html: 將群組郵件轉發到 <code>decide@loomio.org</code>
+    check_your_inbox: 檢查您的收件匣是否有一封來自 Loomio 的電子郵件
+    your_group_will_be_included_automatically: 啟動討論，您的群組將會自動被包含在內。
+    watch_the_video_to_see_it: 觀看影片來看看它在行動中的作用！
+    make_decisions_in_slack: 在 Slack 中做決策！
+    find_out_more_about_slack_integration: 了解更多關於我們的 Slack 整合的資訊
+    slack_integration_in_standard_plan: Slack 整合已包含在我們的黃金方案中。
+    works_on_all_devices: 在所有的裝置與平臺上工作。
+    loomio_is_a_web_app: Loomio 是一個對桌面與行動裝置有良好支援的 Web App。
+    no_passwords_required: 不需要密碼
+    no_thinking_up_or_remembering: 不需要思考、記住或是打字！只要使用寄送到您電子郵件信箱中的連結，或是透過 Google 或 Facebook 登入。
+    easy_to_adopt: 易於採用
+    we_know_it_can_be_hard: 我們知到開始使用新工具可能是很困難的。使用 Loomio，您可以透過電子郵件參與並保持更新。
+    reminders_keep_things_moving: 提醒讓事情不斷前進
+    loomio_has_great_notifications_and_reminders: Loomio 有良好的通知與提醒，所以決策既包容且有效。
+    overcome_language_barriers: 跨越語言圍籬
+    loomio_can_translate: Loomio 可以將內容從一種語言翻譯成另一種，讓說不同語言的夥伴可以互相溝通。
+    accessible_by_design: 無障礙設計
+    loomio_is_accessible: Loomio 對有視覺障礙的夥伴來說是無障礙的。
+    secure: 安全
+    approved_by_nz_government: 我們被紐西蘭政府核准使用。
+    open_source: 開放原始碼
+    our_code_is_on_github: 我們的程式碼在 GitHub 上
+    we_respect_your_privacy: 我們尊重您的隱私
+    we_will_never_sell_your_data: 我們永遠不會將您的資料賣給第三方，或是在 Loomio 上放廣告。
+    in_the_media: 在媒體中
+    press:
+      fast_company: Loomio 之美在於它的簡潔。它只做它需要做的事，並無更多。
+      boingboing: "Loomio 似乎是政治頭腦、技術知識與設計感的絕佳組合。"
+      bbc: Loomio 被設定為公民網路界的 Facebook。
+    a_different_kind_of_company: 不一樣的公司
+    loomio_is_a_social_enterprise: Loomio 是一個由建立它的夥伴們共同擁有的公司。
+    loomio_exists_to: Loomio 讓任何人都可以容易地隨時隨地參與影響他們的生活的決定。
+    our_company_handbook: 我們的公司手冊
+    about_us: 關於我們
+    people_not_enjoying_their_meeting: 不會享受他們會議的夥伴
+    people_doing_thumbs_up_or_down: 夥伴將大姆指朝上或朝下來展現他們的立場
+    people_finding_a_time_to_meet: 夥伴們在行事曆中找尋開會時間
+    people_prioritising_options: 透過數量投票排序選項
+    people_reaching_goal: 如果夥伴們完成了他們的工作就會舉起手
+    loomio_on_laptop_and_phone: Loomio 在筆記型電腦上，同時也在手機上
+    loomio_bot_with_plug: Loomio 機器人（我們的吉祥物）會插入下一張圖片
+    loomio_in_slack: Loomio 可以在 Slack 這個團隊聊天應用程式中使用。
+    loomio_team_photo: 我們的照片，建立 Loomio 的團隊，在紐西蘭的住所
+    feature_image_alt_text: 一個大燈泡，有一個 Loomio 標誌形狀的燈絲，在四個場景的中間，人們在幸福的生活中使用 Loomio。
+  about:
+    heading: 關於我們
+    introduction:
+      first_paragraph: "Loomio 是開放原始碼軟體，其由合作社（worker-owned cooperative）式的社會企業所建造。我們位於 Aotearoa（毛利語中的紐西蘭之意），且是它的一部份："
+      second_paragraph: "我們相信多個群組實踐有效率、包容性的決策能改變全球性的組織動態。Loomio 的存在讓任何人都可以在任何地方參與會影響他們的生活的討論。"
+    story:
+      heading: 故事
+      first_paragraph: |
+        Loomio 開始於2011年，當佔領華爾街的活動家與 Enspiral 網路的企業家意識到，他們需要解決同樣的問題：快速、包容、不需會議的有效率決策。
+        2012年，我們成立了我們的合作社，並釋出了原型 (Loomio Beta)。我們發現在這世界上也有許多其他的人需要同樣的解決方案。
+      second_paragraph: |
+        2013年，我們執行了一個成功的國際募款活動，讓我們能夠在接下來的幾年內釋出軟體的新版本，Loomio 1.0。
+        2015年，我們得到了一輪道德融資，並正努力將共同做出決策帶給世界各地的數百萬人。
+    people:
+      heading: 夥伴
+      introduction: "我們是一個充滿熱情的團隊，在促進小組發展、社會變動、創業以及開放技術發展方面有深厚的專業素養。"
+      alanna: "共同創辦人、促進者、無老闆領導專家、Enspiral 基金會董事、貓奴"
+      babs: "公司秘書、營運、社運活動家、自然愛好者"
+      ben: "共同創辦人暨董事、社群組織者、群眾智慧研究員"
+      hannah: "軟體開發者、使用者支援、插畫師與 DIY 發佈者、創意活動家"
+      james: "資深軟體開發者、開放原始碼社群協調者、勇敢的劍客"
+      mary: "組織指導員、協作者、團隊教練、pot luck 主持人、天文愛好者"
+      matthew: "看顧客戶、數字與設計"
+      michael: "董事、商業與客戶開發、協調者、啟動教練、摩托車手"
+      mj: "董事、美國戰略家、點連接者、教練、感到驕傲的媽媽"
+      natalia: "翻譯協調者、使用者支援、社運活動家"
+      richard: "共同創辦人暨軟體開發者、活動家、開放硬體駭客"
+      robert: "資深開發者、DevOps、架構。設計想法並將其寫入軟體內"
+      vivien: "共同創辦人、Loomio 董事會主席、聯合國兒童基金會紐西蘭委員會執行總監"
+    advisors:
+      heading: 顧問
+      introduction: 國際上關心民主與科技的絕頂聰明人士組成在背後支持我們的顧問委員會。
+      sascha: "X-Lab 與開放科技研究所的創辦人"
+      katherine: "美國線上前資深副總裁、Root Captial 副主席"
+      joi: "MIT 媒體實驗室董事、Creative Commons 共同創辦人、Mozilla 基金會董事會"
+      douglas: "暢銷書作家、CNN 評論員、媒體理論學家"
+      matthew_and_brian: "Namaste 基金會，Inflection 創辦人"
+    purpose_and_values:
+      heading: "宗旨與價值"
+      mission_statement: Loomio 合作社的存在是為了建立一個讓任何人都能輕易的參與可能會影響他們的討論。
+      introduction: |
+        有了正確的協作過程，群體可以產生比裡面的每個單獨個體更好的想法、決策與行動。
+        Loomio 合作社的目標是打破不同階層間參與決策的藩籬：像是鄰居間、社群組織、商業、社會運動、以及地方與中央政府。
+      coop_heading: 合作社式社會企業
+      coop_body: |
+        Loomio 是一個由建立它的人們所擁有的社會企業。不像傳統的以追求利潤最大化為優先的公司，對我們來說，收入本身不是最終目的，而是實現核心社會目的的手段。
+        合作社式 (worker-owned cooperative) 的結構是活絡我們的協作與集體所有權的強而有力的方式。
+      independent_heading: 獨立並且中立
+      independent_body: Loomio 致力於保持獨立以提供任何團體都可以前來使用的中立區域。
+      open_source_heading: 開放原始碼協作
+      open_source_body: Loomio 的目標是開發開放原始碼的工具，來讓每個人都很輕易的就能夠協作。
+      adaptive_heading: "高適應性、反省、使用者驅動"
+      adaptive_body: "Loomio 的目標是開發迭代、自我反省、高適應性的工具，由使用者社群的集體智慧所驅動。"
+      transparent_heading: 透明
+      transparent_body: |
+        Loomio 合作社由重要的使用者與貢獻者社群所環繞。這個社群必須相信 Loomio 合作社言行一致。
+        我們致力於高標準的資訊共享。
+    postal_address: "郵寄位置："
+    physical_address: "實際位置："
+  titles:
+    new_tab: 在新分頁中開啟
+    start_group: 建立新群組表單
+    about_us: 「關於我們」頁面
+    pricing: 「價格」頁面
+    contact: 聯絡表單
+    sign_in: 登入表單
+    terms_of_service: 「服務條款」頁面
+    privacy: 「隱私權」頁面
+    translation: 翻譯指南
+    home: 首頁
+  loomio_org:
+    golden_feature: 黃金功能

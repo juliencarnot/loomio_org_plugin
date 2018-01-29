@@ -1,0 +1,5 @@
+%md-menu-item{ng-if: "ability().canAdministerGroup(group) && group.isParent()"}
+  %md-button{ng-if: "group.subscriptionKind == 'paid'", ng-click: "downloadExport()"}
+    %span{translate: "export_group_data_link.download_group_data_export"}
+  %md-button{ng-if: "group.subscriptionKind != 'paid'", ng-click: "choosePlan()"}
+    %span{translate: "export_group_data_link.download_group_data_export"}

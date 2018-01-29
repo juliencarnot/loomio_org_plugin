@@ -1,0 +1,23 @@
+.quotes {
+  padding: 0 2em;
+}
+
+.quotes__quote {
+  @extend h3;
+  font-style: italic;
+}
+
+.quotes__author {
+}
+
+@media screen and (min-width: $viewport-m) {
+  .quotes {
+    padding: 0 4em;
+  }
+  .quotes__wrapper {
+    margin: 4em;
+  }
+  .quotes__quote {
+    font-size: 2.18rem;
+  }
+}

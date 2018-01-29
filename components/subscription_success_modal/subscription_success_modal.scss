@@ -1,0 +1,18 @@
+.subscription-success-modal {
+  max-width: 500px;
+}
+
+.subscription-success-modal .modal-body {
+  display: flex;
+}
+
+.subscription-success-modal__mascot {
+  height: 150px;
+  padding: 0 25px 0 0;
+  @media (max-width: 450px) { display: none; }
+}
+
+.subscription-success-modal__contact-link {
+  @include lmoBtnLink;
+  color: $link-color;
+}

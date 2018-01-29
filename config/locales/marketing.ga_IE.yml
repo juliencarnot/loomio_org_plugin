@@ -1,0 +1,19 @@
+ga_IE:
+  pricing_page:
+    gift: Saor in aisce
+    plus: Pro
+    per_month: /mí
+    discussions: Pléití
+    decisions: Cinntí
+    subgroups: Fobhaiclí
+    lets_talk: B
+    select: Roghnaigh seo
+  navigation:
+    login: Síniú isteach
+    start_group: Cuir baicle ar bun
+  marketing:
+    make_a_decision: Déan cinneadh
+    start_a_group: Cuir baicle ar bun
+    start_a_proposal: Tosaigh togra
+  titles:
+    home: An clár cinn

@@ -1,0 +1,22 @@
+.helps {
+}
+
+.helps__flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 2em;
+}
+
+@media screen and (min-width: $viewport-m) {
+  .helps__flex{
+    flex-direction: row;
+  }
+}
+
+
+.helps__group {
+  ul {
+    padding-left: 24px;
+  }
+}

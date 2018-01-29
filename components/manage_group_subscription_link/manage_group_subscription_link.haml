@@ -1,0 +1,5 @@
+%md-menu-item{ng-if: "canManageGroupSubscription()"}
+  %md-button{ng-if: "group.subscriptionKind == 'paid'", ng-click: "manageSubscriptions()"}
+    %span{translate: "group_page.options.manage_subscription"}
+  %md-button{ng-if: "group.subscriptionKind == 'gift'", ng-click: "choosePlan()"}
+    %span{translate: "group_page.options.manage_subscription"}

@@ -1,0 +1,152 @@
+%main.about__content
+  .wrapper
+    %h1.about__content-header= t :'about.heading'
+    %section.about__section.grid.grid--medium
+      %div
+        %p
+          = t :'about.introduction.first_paragraph'
+          %span
+            %a{href: 'http://enspiral.com/', target: '_blank'} Enspiral Network.
+        %p= t :'about.introduction.second_paragraph'
+      .about__video-container
+        <iframe width="426" height="239" src="//www.youtube.com/embed/wSj81OxhdBg" frameborder="0" allowfullscreen></iframe>
+    %section.about__section
+      %h2= t :'about.story.heading'
+      %p= t :'about.story.first_paragraph'
+      %p= t :'about.story.second_paragraph'
+    %section.about__section
+      %h2= t :'about.people.heading'
+      %p= t :'about.people.introduction'
+      .grid.grid--medium
+        .about__person.grid
+          .about__image-container
+            = image_tag "lance/images/hannah.png"
+          %div
+            %strong Hannah Salmon
+            %p= t :'about.people.hannah'
+        .about__person.grid
+          .about__image-container
+            = image_tag "lance/images/james.png"
+          %div
+            %strong James Kiesel
+            %p= t :'about.people.james'
+      .grid.grid--medium
+        .about__person.grid
+          .about__image-container
+            = image_tag "lance/images/mary.png"
+          %div
+            %strong Mary O'Keeffe
+            %p= t :'about.people.mary'
+        .about__person.grid
+          .about__image-container
+            = image_tag "lance/images/matthew.png"
+          %div
+            %strong Matthew Bartlett
+            %p= t :'about.people.matthew'
+      .grid.grid--medium
+        .about__person.grid
+          .about__image-container
+            = image_tag "lance/images/michael.png"
+          %div
+            %strong Michael Elwood-Smith
+            %p= t :'about.people.michael'
+        .about__person.grid
+          .about__image-container
+            = image_tag "lance/images/mj.png"
+          %div
+            %strong MJ Kaplan
+            %p= t :'about.people.mj'
+      .grid.grid--medium
+        .about__person.grid
+          .about__image-container
+            = image_tag "lance/images/nati.png"
+          %div
+            %strong Natalia Lombardo
+            %p= t :'about.people.natalia'
+        .about__person.grid
+          .about__image-container
+            = image_tag "lance/images/rich.png"
+          %div
+            %strong Richard Bartlett
+            %p= t :'about.people.richard'
+      .grid.grid--medium
+        .about__person.about__person--last.grid
+          .about__image-container
+            = image_tag "lance/images/rob.png"
+          %div
+            %strong Robert Guthrie
+            %p= t :'about.people.robert'
+    %section.about__section
+      %h2= t :'about.advisors.heading'
+      %p= t :'about.advisors.introduction'
+      .grid.grid--medium
+        .about__person.grid
+          .about__image-container
+            = image_tag "lance/images/round-sascha.png"
+          %div
+            %strong Sascha Meinrath
+            %p= t :'about.advisors.sascha'
+        .about__person.grid
+          .about__image-container
+            = image_tag "lance/images/round-katherine.png"
+          %div
+            %strong Katherine Borsecnik
+            %p= t :'about.advisors.katherine'
+      .grid.grid--medium
+        .about__person.grid
+          .about__image-container
+            = image_tag "lance/images/round-joi.png"
+          %div
+            %strong Joi Ito
+            %p= t :'about.advisors.joi'
+        .about__person.grid
+          .about__image-container
+            = image_tag "lance/images/round-rushkoff.png"
+          %div
+            %strong Douglas Rushkoff
+            %p= t :'about.advisors.douglas'
+      .grid.grid--medium
+        .about__person.about__person--last.grid
+          .about__image-container
+            = image_tag "lance/images/round-monahans.png"
+          %div
+            %strong Matthew & Brian Monahan
+            %p= t :'about.advisors.matthew_and_brian'
+    .section.about__section
+      %h2= t :'about.purpose_and_values.heading'
+      %p
+        %strong= t :'about.purpose_and_values.mission_statement'
+      %p= t :'about.purpose_and_values.introduction'
+
+      %strong= t :'about.purpose_and_values.coop_heading'
+      %p= t :'about.purpose_and_values.coop_body'
+
+      %strong= t :'about.purpose_and_values.independent_heading'
+      %p= t :'about.purpose_and_values.independent_body'
+
+      %strong= t :'about.purpose_and_values.open_source_heading'
+      %p= t :'about.purpose_and_values.open_source_body'
+
+      %strong= t :'about.purpose_and_values.adaptive_heading'
+      %p= t :'about.purpose_and_values.adaptive_body'
+
+      %strong= t :'about.purpose_and_values.transparent_heading'
+      %p= t :'about.purpose_and_values.transparent_body'
+
+  %section.about__footer
+    .wrapper
+      %strong Loomio Co-operative Limited
+      %p a New Zealand registered company
+
+      %p
+        %strong= t :'about.postal_address'
+        %span.about__address Loomio Cooperative Ltd
+        %span.about__address P.O. Box 27-529
+        %span.about__address Marion Square
+        %span.about__address Wellington 6141
+      %p
+        %strong= t :'about.physical_address'
+        %span.about__address Level 2, 17 Garrett Street
+        %span.about__address Te Aro
+        %span.about__address Wellington 6011
+        %span.about__address Aotearoa / New Zealand

@@ -1,0 +1,25 @@
+@import "furtive/all";
+@import "cutestrap/components/grid";
+@import "footer";
+@import "slack";
+@import "about";
+@import "bem/all";
+
+html>body .full-screen {
+  height:auto;
+}
+
+html,body {
+  height:100%;
+  margin:0;
+}
+
+section {
+  max-width: $content-max-width;
+  margin: 0 auto;
+}
+
+.full-screen {
+  height:100%;
+  min-height:100%;
+}

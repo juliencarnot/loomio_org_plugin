@@ -1,0 +1,80 @@
+!!!
+%html
+  %head
+    %meta{charset: "UTF-8"}
+    = stylesheet_link_tag 'lance'
+    %link{href: "https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600", rel:"stylesheet"}
+    %link{rel: "stylesheet", href:"https://fonts.googleapis.com/icon?family=Material+Icons"}
+    %title Loomio - Better decisions together
+    %meta{:content => "Loomio helps groups of people make decisions together, online", :name => "description"}/
+    %meta{:content => "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0", :name => "viewport"}/
+    %meta{:content => "Loomio - Better decisions together", :property => "og:title"}/
+    %meta{:content => "457851034283863", :property => "fb:app_id"}/
+    %script{src: "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"}
+    %link{rel: "shortcut icon", href: AppConfig.theme[:icon_src]}
+
+    = javascript_include_tag 'lance/ahoy'
+    :javascript
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-T2R2NW');
+
+  %body
+    %section.intro
+      %nav.nav
+        %a{href: "/"}
+          = image_tag 'lance/images/loomio-logo-80h.png', class: 'nav__logo'
+        .nav__spacer
+        %a.nav__link.nav__learn-link{href: "https://www.loomio.school/"}= t(:"navigation.learn")
+        %a.nav__link.nav__features-link{href: "/#features"}= t(:"navigation.features")
+        %a.nav__link.nav__pricing-link{href: "/pricing"}= t(:"navigation.pricing")
+        %a.nav__link.nav__sign-in-link{href: "/users/sign_in/"}= t(:"navigation.login")
+
+    = yield
+
+    %footer.footer
+      .wrapper
+        %section.footer__section.grid
+          %ul.footer__list
+            %li.footer__item.footer__sign-in-link
+              %a{href: '/dashboard', title: t(:"titles.sign_in")}= t :'navigation.login'
+            %li.footer__item.footer__start-group-link
+              %a{href: '/start_group?utm_source=loomio_org&utm_medium=front_page&utm_campaign=footer', title: t(:"titles.start_group")}= t :'navigation.start_group'
+            %li.footer__item.footer__contact-link
+              %a{href: '/contact', title: t(:"titles.contact")}= t :'navigation.contact'
+            %li.footer__item.footer__about-link
+              %a{href: '/about', title: t(:"titles.about_us")}= t :'navigation.about'
+            %li.footer__item.footer__pricing-link
+              %a{href: '/pricing', target: '_blank', title: t(:"titles.new_tab")}= t :'navigation.pricing'
+          %ul.footer__list
+            %li.footer__item.footer__case-studies-link
+              %a{href: @blog_link, target: '_blank', title: t(:"titles.new_tab")}= t :'navigation.case_studies'
+            %li.footer__item.footer__help-link
+              %a{href: @help_link, target: '_blank', title: t(:"titles.new_tab")}= t :'navigation.help'
+            %li.footer__item.footer__guides-link
+              %a{href: 'http://blog.loomio.org/category/guides', target: '_blank', title: t(:"titles.new_tab")}= t :'navigation.guides_and_tips'
+            %li.footer__item.footer__github-link
+              %a{href: 'https://github.com/loomio/loomio', target: '_blank', title: t(:"titles.new_tab")}= t :'navigation.developers'
+            %li.footer__item.footer__tos-link
+              %a{href: 'https://loomio.gitbooks.io/manual/content/en/terms_of_service.html', target: '_blank', title: t(:"titles.new_tab")}= t :'navigation.terms_of_service'
+            %li.footer__item.footer__privacy-policy-link
+              %a{href: 'https://loomio.gitbooks.io/manual/content/en/privacy_policy.html', target: '_blank', title: t(:"titles.new_tab")}= t :'navigation.privacy'
+          %ul.footer__list
+            %li.footer__item.footer__loomio-school-link
+              %a{href: 'https://loomio.school', target: '_blank', title: t(:"titles.new_tab")}= t :'navigation.loomio_school'
+            %li.footer__item.footer__handbook-link
+              %a{href: 'https://loomio.coop/', target: '_blank', title: t(:"titles.new_tab")}= t :'navigation.company_handbook'
+            %li.footer__item.footer__blog-link
+              %a{href: 'http://blog.loomio.org', target: '_blank', title: t(:"titles.new_tab")}= t :'navigation.blog'
+            %li.footer__item.footer__mailing-list-link
+              %a{href: 'http://eepurl.com/b51x_b', target: '_blank', title: t(:"titles.new_tab")}= t :'navigation.newsletter'
+            %li.footer__item.footer__twitter-link
+              %a{href: 'https://twitter.com/Loomio', target: '_blank', title: t(:"titles.new_tab")}= t :'navigation.twitter'
+            %li.footer__item.footer__facebook-link
+              %a{href: 'https://www.facebook.com/Loomio/', target: '_blank', title: t(:"titles.new_tab")}= t :'navigation.facebook'
+        .footer__trademark-statement.fs-small
+          = t :'navigation.trademark_statement'
+        .footer__trademark-statement.fs-small
+          = t :'navigation.not_slack'

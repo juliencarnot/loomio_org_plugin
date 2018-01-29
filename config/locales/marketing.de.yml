@@ -1,0 +1,80 @@
+de:
+  subscription_levels:
+    free: Basis
+    gold: Gold
+  current_plan_button:
+    gold: Gold
+  premium_feature:
+    premium_feature: Gold-Feature
+  slack_page:
+    features: "Leistungen:"
+  pricing_page:
+    header: Gruppenpläne
+    upgrade_for_premium_features: Für Premium-Funktionen bitte ein Upgrade durchführen
+    gift: Basis
+    standard: Gold
+    plus: Pro
+    per_month: /Monat
+    get_started_for_free: Starte nun kostenlos
+    gift_body: Für hobbymäßige oder ehrenamtliche Gruppen
+    standard_body_html: Für Arbeitsgemeinschaften und Unternehmen
+    plus_body_html: Für Organisationen und Unternehmen mit mehreren Gruppen
+    gift_features: "Leistungsumfang:"
+    one_group: 1 Gruppe
+    discussions: Diskussionen
+    decisions: Abstimmungen
+    category_tags: Tags für Kategorien
+    subgroups: Untergruppen
+    particpate_either_way: Teilnahme per E-Mail oder App
+    file_document_storage: Anhängen von Dateien
+    password_free_secure_login: Sicherer Login ohne Passwort
+    community_support: Community-Support
+    analytics_report: Analytics-Bericht
+    data_export: Exportmöglichkeit (CSV oder XLS)
+    slack_integration_html: |
+      <strong>Slack</strong>-Integration
+    customer_support_html: Support
+    standard_price_html: '<strong>$19</strong>/Monat'
+    gift_price_html: '<strong>$0</strong>'
+    annual_standard_price_html: 'oder $190/Jahr'
+    annual_plus_price_html: 'oder $990/Jahr'
+    plus_features: 'Alle Leistungen aus dem Tarif Gold, plus zusätzlich:'
+    standard_features: 'Alle Funktionen aus dem Tarif Basis, plus zusätzlich:'
+    multiple_groups: "Bis zu 10 Gruppen"
+    premium_support: Premium-Support
+    help_with_setup: Hilfe beim Einrichten
+    custom_subdomain: Eigene Subdomain
+    free_is_for_community_and_evaluation_html: |
+      Unsere Basis-Mitgliedschaft eignet sich für hobbymäßig oder ehrenamtlich tätige Gruppen oder allgemein zum Ausprobieren der Software.
+      Möchtest du unser Gold-Angebot für deine Arbeitsgemeinschaft oder eine ehrenamtlich tätige Gruppe nutzen? Verwende hierzu den Gutscheincode NFP5USD und erhalte unser Gold-Angebot  zum Preis von $5/Monat.
+    privacy_respected: Wir respektieren deine Privatsphäre und versichern dir hiermit, dass wir unter keinen Umständen deine Daten an Drittanbieter verkaufen oder Werbung auf Loomio schalten werden.
+    prices_in_us_dollars: Preise verstehen sich pro Loomio-Gruppe und in US-Dollar sowie abhängig vom betreffenden Land zuzüglich Umsatzsteuer.
+    need_something_else_html: |
+      Du benötigst Unterstützung bei deinem privaten Hosting bzw. Beratungsdienstleistungen, Schulungen oder sonstige Angebote?
+    lets_talk_html: <a href="/contact">Kontaktiere uns jederzeit gerne!</a>
+    custom_subdomain_html: |
+      Eigene Subdomain (<strong>yourgroup</strong>.loomio.org)
+    usage_statistics: Nutzerstatistiken
+    plus_price_html: '<strong>$99</strong>/Monat'
+    start_group: Gruppe erstellen
+    select: Auswählen
+    upgrade_to_gold: Upgrade zum Tarif Gold durchführen
+  navigation:
+    resources: Arbeitsmaterialien
+    help: Hilfe
+    contact: Kontakt
+    login: Login
+    start_group: Gruppe erstellen
+    privacy: Privatsphäre
+    translation: Übersetzung
+    newsletter: Newsletter
+    twitter: Twitter
+    facebook: Facebook
+  marketing:
+    make_a_decision: Eine Entscheidung treffen
+    start_a_group: Gründe eine Gruppe
+    start_a_proposal: Einen Vorschlag machen
+    start_a_check: Bestätigung starten
+    slack_integration_in_standard_plan: Slack-Integration ist in unserem Tarif Gold enthalten.
+  loomio_org:
+    golden_feature: Gold-Feature
