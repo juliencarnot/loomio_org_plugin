@@ -60,12 +60,12 @@ a:visited { color: #4076D4; }
   order: -1;
 }
 
-.marketing__section {
+.marketing__header, .marketing__section {
   align-items: center;
   justify-content: center;
 }
 
-.marketing__section--margin {
+.marketing__header--margin, .marketing__section--margin {
   align-items: center;
   justify-content: center;
   margin: 0 0 50px;

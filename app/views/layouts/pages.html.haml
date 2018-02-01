@@ -7,7 +7,7 @@
     %link{rel: "stylesheet", href:"https://fonts.googleapis.com/icon?family=Material+Icons"}
     %title Loomio - Better decisions together
     %meta{:content => "Loomio helps groups of people make decisions together, online", :name => "description"}/
-    %meta{:content => "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0", :name => "viewport"}/
+    %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}/
     %meta{:content => "Loomio - Better decisions together", :property => "og:title"}/
     %meta{:content => "457851034283863", :property => "fb:app_id"}/
     %script{src: "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"}
@@ -22,8 +22,8 @@
       })(window,document,'script','dataLayer','GTM-T2R2NW');
 
   %body
-    %section.intro
-      %nav.nav
+    %header.intro
+      %nav.nav{role: 'navigation'}
         %a{href: "/"}
           = image_tag 'lance/images/loomio-logo-80h.png', class: 'nav__logo'
         .nav__spacer
