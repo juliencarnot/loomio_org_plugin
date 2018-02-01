@@ -1,4 +1,4 @@
-%main.about__content
+%main.about__content{role: "main"}
   .wrapper
     %h1.about__content-header= t :'about.heading'
     %section.about__section.grid.grid--medium
@@ -9,7 +9,7 @@
             %a{href: 'http://enspiral.com/', target: '_blank'} Enspiral Network.
         %p= t :'about.introduction.second_paragraph'
       .about__video-container
-        <iframe width="426" height="239" src="//www.youtube.com/embed/wSj81OxhdBg" frameborder="0" allowfullscreen></iframe>
+        <iframe width="426" height="239" src="//www.youtube.com/embed/wSj81OxhdBg" frameborder="0" allowfullscreen title="t(:'about.introduction.second_paragraph')"></iframe>
     %section.about__section
       %h2= t :'about.story.heading'
       %p= t :'about.story.first_paragraph'

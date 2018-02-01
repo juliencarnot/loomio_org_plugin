@@ -1,246 +1,246 @@
-%section.hero
-  .duo
-    .duo__image
-      = image_tag 'lance/images/lance/badmeeting.png', class: 'intro__image', alt: t(:'marketing.people_not_enjoying_their_meeting')
-    .duo__text.intro__problem-text
-      %p.h2= t(:'marketing.too_many_emails_and_meetings')
-      %h1.h3= t(:'marketing.make_decisions_without_meetings')
-      %p.h3= t(:'marketing.loomio_is_the_answer')
+%main{role: "main"}
+  %section.hero
+    .duo
+      .duo__image
+        = image_tag 'lance/images/lance/badmeeting.png', class: 'intro__image', alt: t(:'marketing.people_not_enjoying_their_meeting')
+      .duo__text.intro__problem-text
+        %p.h2= t(:'marketing.too_many_emails_and_meetings')
+        %h1.h3= t(:'marketing.make_decisions_without_meetings')
+        %p.h3= t(:'marketing.loomio_is_the_answer')
 
-      %p
-        %a.btn.btn--primary.h3.hero__start-group{href: "/g/new"}= t(:'marketing.start_a_group')
-      .duo__cta.duo__cta--intro
-        .duo__cta--first
-        .duo__cta--second
-  %hr.break__long-orange
-
-%section.video.txt-center
-  %header
-    %h2.txt--center= t(:'marketing.how_it_works')
-  .video__iframe
-    <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/fuWfEwlWFlw?rel=0&amp;controls=0" frameborder="0" allowfullscreen></iframe>
-  %hr.break__long-orange
-
-%section.helps
-  %header
-    %h2.txt--center= t(:'marketing.loomio_helps')
-  .helps__flex
-    .helps__group
-      %h3= t(:'marketing.boards_and_committees')
-      %ul
-        %li= t(:'marketing.make_decisions_between_meetings')
-        %li= t(:'marketing.approve_resolutions')
-        %li= t(:'marketing.everything_in_one_place')
-    .helps__group
-      %h3= t(:'marketing.cooperative_groups')
-      %ul
-        %li= t(:'marketing.increase_transparency')
-        %li= t(:'marketing.more_effecient_meetings')
-        %li= t(:'marketing.clear_decisions')
-    .helps__group
-      %h3= t(:'marketing.government_and_community')
-      %ul
-        %li= t(:'marketing.give_people_a_voice')
-        %li= t(:'marketing.increase_accessibility')
-        %li= t(:'marketing.build_empathy')
-  %hr.break__long-orange
-
-%section.group-home
-  %header
-    %h2.txt--center= t(:'marketing.a_place_for_your')
-
-  .duo
-    .duo__text
-      %p= t(:'marketing.a_loomio_group_is_a_safe_place_html')
-      %p= t(:'marketing.its_secure_and_searchable')
-
-      .duo__cta
-        %a.btn.btn--primary.tools__group-start{href: "/g/new", target: "_blank"}= t(:'marketing.start_a_group')
-
-    .duo__image
-      = image_tag 'lance/images/lance/group.png', class: 'feature__image', alt: t(:'marketing.loomio_on_laptop_and_phone')
-
-  %hr.break__long-orange
-
-%section.tools#features
-  %header
-    %h2.txt--center= t(:'marketing.a_suite_of_decision_tools')
-    .txt--center= t(:'marketing.inclusive_clear_and_effecient_tools')
-
-  .duo
-    .duo__text
-      %h3= t(:'marketing.reach_clear_outcomes')
-
-      %p= t(:'marketing.proposals_bring_conclusion_html')
-      %p= t(:'marketing.hear_from_everyone')
-      %p= t(:'marketing.proposals_highlight_agreement')
-
-      .duo__cta
-        %a.btn.btn--accent--raised.tools__proposal-demo{href: "/p/example/proposal", target: "_blank"}= t(:'marketing.try_demo')
-        %a.btn.btn--primary.tools__proposal-start{href: "/p/new/proposal"}= t(:'marketing.start_a_proposal')
-    .duo__image
-      = image_tag 'lance/images/lance/proposal.png', class: 'feature__image', alt: t(:'marketing.people_doing_thumbs_up_or_down')
-
-  %hr.break__long-blue
-
-  .duo
-    .duo__text
-      %h3= t(:'marketing.simple_scheduling')
-
-      %p= t(:'marketing.time_poll_finds_when_html')
-
-      .duo__cta
-        %a.btn.btn--accent--raised.tools__meeting-demo{href: "/p/example/meeting", target: "_blank"}= t(:'marketing.try_demo')
-        %a.btn.btn--primary.tools__meeting-start{href: "/p/new/meeting"}= t(:'marketing.start_a_time_poll')
-      %p
-        %a{href: 'https://www.youtube.com/watch?v=QTqCauE-b9k', target: "_blank"}
-          = t(:'marketing.watch_time_poll_video')
-
-
-    .duo__image
-      = image_tag 'lance/images/lance/time-poll.png', class: 'feature__image', alt: t(:'marketing.people_finding_a_time_to_meet')
-
-  %hr.break__long-blue
-  .duo
-    .duo__text
-      %h3= t(:'marketing.polling_and_prioritising')
-      %p= t(:'marketing.discuss_stratergy_and_prioritise_html')
-      .duo__cta
-        %a.btn.btn--accent--raised.tools__dot-vote-demo{href: "/p/example/dot_vote", target: "_blank"}= t(:'marketing.try_demo')
-        %a.btn.btn--primary.tools__dot-vote-start{href: "/p/new/dot_vote"}= t(:'marketing.start_a_dot_vote')
-
-    .duo__image
-      = image_tag 'lance/images/lance/prioritise.png', class: 'feature__image', alt: t(:'marketing.people_prioritising_options')
-
-  %hr.break__long-orange
-
--# %section.email
--#   %header
--#     %h2.txt--center= t(:'marketing.make_a_decision_in_email')
--#     %p= t(:'marketing.no_prior_setup_required')
--#
--#   .duo
--#     .duo__text
--#       %p= t(:'marketing.start_a_decision_in_3_steps')
--#       %ol.p
--#         %li= t(:'marketing.forward_a_group_email_html')
--#         %li= t(:'marketing.check_your_inbox')
--#         %li= t(:'marketing.your_group_will_be_included_automatically')
--#
--#       %p= t(:'marketing.watch_the_video_to_see_it')
--#
--#     .duo__image
--#       %iframe{:allowfullscreen => "", :frameborder => "0", :height => "315", :src => "https://www.youtube-nocookie.com/embed/6HimtpxWmHo?rel=0&amp;controls=0", :width => "560"}
--#       -# = image_tag 'lance/images/email_time_poll.gif', class: 'feature__image'
--#
--#   %hr.break__long-orange
-
-%section.slack
-  %header
-    %h2.txt--center= t('marketing.make_decisions_in_slack')
-
-  .slack__flex
-    .feature__image-cell
-      = image_tag 'lance/images/lance/slackbot.png', class: 'feature__image', alt: t(:'marketing.loomio_bot_with_plug')
-    .feature__image-cell
-      = image_tag 'lance/images/slack_proposal.gif', class: 'feature__image', alt: t(:'marketing.loomio_in_slack')
-
-  .txt--center.m1
-    %p= link_to t(:'marketing.find_out_more_about_slack_integration'), '/slack'
-    
-    -# %a.slack__button{href: "/slack/install", title: "Add to slack"}
-    -#   = image_tag 'lance/images/add-to-slack-button.png'
-
-  %hr.break__long-orange
-
-%section.quotes
-  .quotes__wrapper
-    .quotes__quote= t(:'marketing.ben_quote')
-    .quotes__author= t(:'marketing.ben_attribution')
-
-  .quotes__wrapper
-    .quotes__quote= t(:'marketing.teddy_quote')
-    .quotes__author= t(:'marketing.teddy_attribution')
-
-  .quotes__wrapper
-    .quotes__quote= t(:'marketing.tom_quote')
-    .quotes__author= t(:'marketing.tom_attribution')
-  %hr.break__long-orange
-
-
-%section.features.my2
-  .grd
-    .grd-row
-      .grd-row-col-2-6--md.p1
-        %h4= t(:'marketing.works_on_all_devices')
-        %p= t(:'marketing.loomio_is_a_web_app')
-      .grd-row-col-2-6--md.p1
-        %h4= t(:'marketing.no_passwords_required')
-        %p= t(:'marketing.no_thinking_up_or_remembering')
-      .grd-row-col-2-6--md.p1
-        %h4= t(:'marketing.easy_to_adopt')
-        %p= t(:'marketing.we_know_it_can_be_hard')
-
-    .grd-row
-      .grd-row-col-2-6--md.p1
-        %h4=t(:'marketing.reminders_keep_things_moving')
-        %p=t(:'marketing.loomio_has_great_notifications_and_reminders')
-      .grd-row-col-2-6--md.p1
-        %h4= t(:'marketing.overcome_language_barriers')
-        %p= t(:'marketing.loomio_can_translate')
-      .grd-row-col-2-6--md.p1
-        %h4= t(:'marketing.accessible_by_design')
-        %p= t(:'marketing.loomio_is_accessible')
-
-    .grd-row
-      .grd-row-col-2-6--md.p1
-        %h4= t(:'marketing.secure')
-        %p= t(:'marketing.approved_by_nz_government')
-      .grd-row-col-2-6--md.p1
-        %h4= t(:'marketing.open_source')
         %p
-          %a.features__github-link{href: "https://github.com/loomio/loomio"}= t(:'marketing.our_code_is_on_github')
-      .grd-row-col-2-6--md.p1
-        %h4= t(:'marketing.we_respect_your_privacy')
-        %p= t(:'marketing.we_will_never_sell_your_data')
+          %a.btn.btn--primary.h3.hero__start-group{href: "/g/new"}= t(:'marketing.start_a_group')
+        .duo__cta.duo__cta--intro
+          .duo__cta--first
+          .duo__cta--second
+    %hr.break__long-orange
 
-  %hr.break__long-orange
+  %section.video.txt-center
+    %header
+      %h2.txt--center= t(:'marketing.how_it_works')
+    .video__iframe
+      <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/fuWfEwlWFlw?rel=0&amp;controls=0" frameborder="0" allowfullscreen  title="t(:'marketing.how_it_works')"></iframe>
+    %hr.break__long-orange
 
-%section
-  %h2.txt--center= t(:'marketing.in_the_media')
-  .media__flex
-    .media__group
-      = image_tag 'lance/images/fastcompany.png', class: 'fp-drop-in__image'
-      %a.media__fast-company-link{href: "https://www.fastcompany.com/3029132/fund-this/an-occupy-inspired-app-that-helps-groups-make-actual-group-decisions", target: "_blank"}= t(:'marketing.press.fast_company')
-      — Jay Cassano, Fast Company
-    .media__group
-      = image_tag 'lance/images/boingboing.png', class: 'fp-drop-in__image'
-      %a.media__boing-boing-list{href: "http://boingboing.net/2014/03/19/loomio-democratic-decision-ma.html", target: "_blank"}= t(:'marketing.press.boingboing')
-      — Cory Doctorow, Boing Boing
-    .media__group
-      = image_tag 'lance/images/bbc.png', class: 'fp-drop-in__image'
-      %a.media__bbc-link{href: "http://www.bbc.co.uk/programmes/b04md5b0", target: "_blank"}= t(:'marketing.press.bbc')
-      — Jon Alexander, BBC Radio 4
+  %section.helps
+    %header
+      %h2.txt--center= t(:'marketing.loomio_helps')
+    .helps__flex
+      .helps__group
+        %h3= t(:'marketing.boards_and_committees')
+        %ul
+          %li= t(:'marketing.make_decisions_between_meetings')
+          %li= t(:'marketing.approve_resolutions')
+          %li= t(:'marketing.everything_in_one_place')
+      .helps__group
+        %h3= t(:'marketing.cooperative_groups')
+        %ul
+          %li= t(:'marketing.increase_transparency')
+          %li= t(:'marketing.more_effecient_meetings')
+          %li= t(:'marketing.clear_decisions')
+      .helps__group
+        %h3= t(:'marketing.government_and_community')
+        %ul
+          %li= t(:'marketing.give_people_a_voice')
+          %li= t(:'marketing.increase_accessibility')
+          %li= t(:'marketing.build_empathy')
+    %hr.break__long-orange
 
-  %hr.break__long-orange
+  %section.group-home
+    %header
+      %h2.txt--center= t(:'marketing.a_place_for_your')
 
-%section.liner.py2.about
-  %h2.txt--center= t(:'marketing.a_different_kind_of_company')
-  .duo
-    .duo__text
-      %p= t(:'marketing.loomio_is_a_social_enterprise')
-      %p= t(:'marketing.loomio_exists_to')
-      %p
-        %a.about__company-handbook-link{href: "https://loomio.coop"}= t(:'marketing.our_company_handbook')
-      %p
-        %a.about__about-us-link{href: "/about"}= t(:'marketing.about_us')
-    .duo__image
-      = image_tag 'lance/images/teamphoto.jpg', alt: t(:'marketing.loomio_team_photo')
+    .duo
+      .duo__text
+        %p= t(:'marketing.a_loomio_group_is_a_safe_place_html')
+        %p= t(:'marketing.its_secure_and_searchable')
 
-  %hr.break__long-orange
+        .duo__cta
+          %a.btn.btn--primary.tools__group-start{href: "/g/new", target: "_blank"}= t(:'marketing.start_a_group')
 
-%section.loomio-land
-  .grd
-    .grd-row
-      .grd-row-col-6-6
-        = image_tag "lance/images/lance/using_loomio.png", class: 'feature__image', alt: t(:'marketing.feature_image_alt_text')
+      .duo__image
+        = image_tag 'lance/images/lance/group.png', class: 'feature__image', alt: t(:'marketing.loomio_on_laptop_and_phone')
+
+    %hr.break__long-orange
+
+  %section.tools#features
+    %header
+      %h2.txt--center= t(:'marketing.a_suite_of_decision_tools')
+      .txt--center= t(:'marketing.inclusive_clear_and_effecient_tools')
+
+    .duo
+      .duo__text
+        %h3= t(:'marketing.reach_clear_outcomes')
+
+        %p= t(:'marketing.proposals_bring_conclusion_html')
+        %p= t(:'marketing.hear_from_everyone')
+        %p= t(:'marketing.proposals_highlight_agreement')
+
+        .duo__cta
+          %a.btn.btn--accent--raised.tools__proposal-demo{href: "/p/example/proposal", target: "_blank"}= t(:'marketing.try_demo')
+          %a.btn.btn--primary.tools__proposal-start{href: "/p/new/proposal"}= t(:'marketing.start_a_proposal')
+      .duo__image
+        = image_tag 'lance/images/lance/proposal.png', class: 'feature__image', alt: t(:'marketing.people_doing_thumbs_up_or_down')
+
+    %hr.break__long-blue
+
+    .duo
+      .duo__text
+        %h3= t(:'marketing.simple_scheduling')
+
+        %p= t(:'marketing.time_poll_finds_when_html')
+
+        .duo__cta
+          %a.btn.btn--accent--raised.tools__meeting-demo{href: "/p/example/meeting", target: "_blank"}= t(:'marketing.try_demo')
+          %a.btn.btn--primary.tools__meeting-start{href: "/p/new/meeting"}= t(:'marketing.start_a_time_poll')
+        %p
+          %a{href: 'https://www.youtube.com/watch?v=QTqCauE-b9k', target: "_blank"}
+            = t(:'marketing.watch_time_poll_video')
+
+
+      .duo__image
+        = image_tag 'lance/images/lance/time-poll.png', class: 'feature__image', alt: t(:'marketing.people_finding_a_time_to_meet')
+
+    %hr.break__long-blue
+    .duo
+      .duo__text
+        %h3= t(:'marketing.polling_and_prioritising')
+        %p= t(:'marketing.discuss_stratergy_and_prioritise_html')
+        .duo__cta
+          %a.btn.btn--accent--raised.tools__dot-vote-demo{href: "/p/example/dot_vote", target: "_blank"}= t(:'marketing.try_demo')
+          %a.btn.btn--primary.tools__dot-vote-start{href: "/p/new/dot_vote"}= t(:'marketing.start_a_dot_vote')
+
+      .duo__image
+        = image_tag 'lance/images/lance/prioritise.png', class: 'feature__image', alt: t(:'marketing.people_prioritising_options')
+
+    %hr.break__long-orange
+
+  -# %section.email
+  -#   %header
+  -#     %h2.txt--center= t(:'marketing.make_a_decision_in_email')
+  -#     %p= t(:'marketing.no_prior_setup_required')
+  -#
+  -#   .duo
+  -#     .duo__text
+  -#       %p= t(:'marketing.start_a_decision_in_3_steps')
+  -#       %ol.p
+  -#         %li= t(:'marketing.forward_a_group_email_html')
+  -#         %li= t(:'marketing.check_your_inbox')
+  -#         %li= t(:'marketing.your_group_will_be_included_automatically')
+  -#
+  -#       %p= t(:'marketing.watch_the_video_to_see_it')
+  -#
+  -#     .duo__image
+  -#       %iframe{:allowfullscreen => "", :frameborder => "0", :height => "315", :src => "https://www.youtube-nocookie.com/embed/6HimtpxWmHo?rel=0&amp;controls=0", :width => "560"}
+  -#       -# = image_tag 'lance/images/email_time_poll.gif', class: 'feature__image'
+  -#
+  -#   %hr.break__long-orange
+
+  %section.slack
+    %header
+      %h2.txt--center= t('marketing.make_decisions_in_slack')
+
+    .slack__flex
+      .feature__image-cell
+        = image_tag 'lance/images/lance/slackbot.png', class: 'feature__image', alt: t(:'marketing.loomio_bot_with_plug')
+      .feature__image-cell
+        = image_tag 'lance/images/slack_proposal.gif', class: 'feature__image', alt: t(:'marketing.loomio_in_slack')
+
+    .txt--center.m1
+      %p= link_to t(:'marketing.find_out_more_about_slack_integration'), '/slack'
+      -# %a.slack__button{href: "/slack/install", title: "Add to slack"}
+      -#   = image_tag 'lance/images/add-to-slack-button.png'
+
+    %hr.break__long-orange
+
+  %section.quotes
+    .quotes__wrapper
+      .quotes__quote= t(:'marketing.ben_quote')
+      .quotes__author= t(:'marketing.ben_attribution')
+
+    .quotes__wrapper
+      .quotes__quote= t(:'marketing.teddy_quote')
+      .quotes__author= t(:'marketing.teddy_attribution')
+
+    .quotes__wrapper
+      .quotes__quote= t(:'marketing.tom_quote')
+      .quotes__author= t(:'marketing.tom_attribution')
+    %hr.break__long-orange
+
+
+  %section.features.my2
+    .grd
+      .grd-row
+        .grd-row-col-2-6--md.p1
+          %h4= t(:'marketing.works_on_all_devices')
+          %p= t(:'marketing.loomio_is_a_web_app')
+        .grd-row-col-2-6--md.p1
+          %h4= t(:'marketing.no_passwords_required')
+          %p= t(:'marketing.no_thinking_up_or_remembering')
+        .grd-row-col-2-6--md.p1
+          %h4= t(:'marketing.easy_to_adopt')
+          %p= t(:'marketing.we_know_it_can_be_hard')
+
+      .grd-row
+        .grd-row-col-2-6--md.p1
+          %h4=t(:'marketing.reminders_keep_things_moving')
+          %p=t(:'marketing.loomio_has_great_notifications_and_reminders')
+        .grd-row-col-2-6--md.p1
+          %h4= t(:'marketing.overcome_language_barriers')
+          %p= t(:'marketing.loomio_can_translate')
+        .grd-row-col-2-6--md.p1
+          %h4= t(:'marketing.accessible_by_design')
+          %p= t(:'marketing.loomio_is_accessible')
+
+      .grd-row
+        .grd-row-col-2-6--md.p1
+          %h4= t(:'marketing.secure')
+          %p= t(:'marketing.approved_by_nz_government')
+        .grd-row-col-2-6--md.p1
+          %h4= t(:'marketing.open_source')
+          %p
+            %a.features__github-link{href: "https://github.com/loomio/loomio"}= t(:'marketing.our_code_is_on_github')
+        .grd-row-col-2-6--md.p1
+          %h4= t(:'marketing.we_respect_your_privacy')
+          %p= t(:'marketing.we_will_never_sell_your_data')
+
+    %hr.break__long-orange
+
+  %section
+    %h2.txt--center= t(:'marketing.in_the_media')
+    .media__flex
+      .media__group
+        = image_tag 'lance/images/fastcompany.png', class: 'fp-drop-in__image'
+        %a.media__fast-company-link{href: "https://www.fastcompany.com/3029132/fund-this/an-occupy-inspired-app-that-helps-groups-make-actual-group-decisions", target: "_blank"}= t(:'marketing.press.fast_company')
+        — Jay Cassano, Fast Company
+      .media__group
+        = image_tag 'lance/images/boingboing.png', class: 'fp-drop-in__image'
+        %a.media__boing-boing-list{href: "http://boingboing.net/2014/03/19/loomio-democratic-decision-ma.html", target: "_blank"}= t(:'marketing.press.boingboing')
+        — Cory Doctorow, Boing Boing
+      .media__group
+        = image_tag 'lance/images/bbc.png', class: 'fp-drop-in__image'
+        %a.media__bbc-link{href: "http://www.bbc.co.uk/programmes/b04md5b0", target: "_blank"}= t(:'marketing.press.bbc')
+        — Jon Alexander, BBC Radio 4
+
+    %hr.break__long-orange
+
+  %section.liner.py2.about
+    %h2.txt--center= t(:'marketing.a_different_kind_of_company')
+    .duo
+      .duo__text
+        %p= t(:'marketing.loomio_is_a_social_enterprise')
+        %p= t(:'marketing.loomio_exists_to')
+        %p
+          %a.about__company-handbook-link{href: "https://loomio.coop"}= t(:'marketing.our_company_handbook')
+        %p
+          %a.about__about-us-link{href: "/about"}= t(:'marketing.about_us')
+      .duo__image
+        = image_tag 'lance/images/teamphoto.jpg', alt: t(:'marketing.loomio_team_photo')
+
+    %hr.break__long-orange
+
+  %section.loomio-land
+    .grd
+      .grd-row
+        .grd-row-col-6-6
+          = image_tag "lance/images/lance/using_loomio.png", class: 'feature__image', alt: t(:'marketing.feature_image_alt_text')
