@@ -4,14 +4,15 @@
       %h1.lmo-h1{translate: "subscription_success_modal.heading" }
       %material_modal_header_cancel_button
   .md-dialog-content.md-body-1
-    %img.subscription-success-modal__mascot{src: "/img/mascot.png"}
-    .subscription-success-modal__message
-      %p{translate: "subscription_success_modal.receipt"}
-      %p
-        %span{translate: "subscription_success_modal.got_questions_then"}
-        %span
-          %button.subscription-success-modal__contact-link{translate: "subscription_success_modal.contact_us", ng-click: "openIntercom()"}
-      %p{translate: "subscription_success_modal.sign_off"}
+    .lmo-flex--row
+      %img.subscription-success-modal__mascot{src: "/img/mascot.png"}
+      .subscription-success-modal__message
+        %p{translate: "subscription_success_modal.receipt"}
+        %p
+          %span{translate: "subscription_success_modal.got_questions_then"}>
+          %span
+            %button.subscription-success-modal__contact-link{translate: "subscription_success_modal.contact_us", ng-click: "openIntercom()"}
+        %p{translate: "subscription_success_modal.sign_off"}
 
     .lmo-md-action
-      %button.lmo-btn--submit{type: "button", ng-click: "dismiss()", translate: "subscription_success_modal.ok_got_it"}
+      %md-button.md-primary.md-raised{type: "button", ng-click: "dismiss()", translate: "common.ok_got_it"}
