@@ -49,6 +49,7 @@ en:
     receive_updates_subtext: "Reach people where they are. Everyone on slack will receive updates about important events as they happen."
     vote_instantly: "Vote instantly from Slack"
     vote_instantly_subtext: "No need to leave your chat window to make your voice heard; simply click a button and you're done!"
+    get_started: Get started
     on_paid_plan: "The LoomioBot integration is available for groups on a Gold plan or higher"
 
   pricing_page:
